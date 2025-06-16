@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#HCP-28] 1.10 Pre-Auth Claim Intimation - Update Pharmacy Charges (if available)</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://heintra.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://heintra.atlassian.net/browse/HCP-19">Cashless Pre-Auth Initial Intimation flow: Non-Medico</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://heintra.atlassian.net/browse/HCP-19">HCP-19</a>)</span>
+                <h3 class="formtitle"><img src="https://heintra.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [HCP-28]&nbsp;<a href="https://heintra.atlassian.net/browse/HCP-28">1.10 Pre-Auth Claim Intimation - Update Pharmacy Charges (if available)</a>
+            <span class="subText">
+               Created: 21/May/25                   &nbsp;Updated: 10/Jun/25
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Review</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://heintra.atlassian.net/secure/BrowseProject.jspa?id=10662">Health Claims Platform</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://heintra.atlassian.net/browse/HCP-19">Cashless Pre-Auth Initial Intimation flow: Non-Medico</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                id="word_reporter_712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5">
+                    Rama Swamy Mallarapu
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                id="word_assignee_712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5">
+                    Rama Swamy Mallarapu
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-161029-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+                    </td>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Time Spent:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Original Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+            <tr><td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sub-tasks:</b></td>
+    <td bgcolor="#ffffff" valign="top">
+        <table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tr bgcolor="#f0f0f0">
+                <td>
+                    <b>Key</b><br/>
+                </td>
+                <td>
+                    <b>Summary</b><br/>
+                </td>
+                <td>
+                    <b>Type</b><br/>
+                </td>
+                <td>
+                    <b>Status</b><br/>
+                </td>
+                <td>
+                    <b>Assignee</b><br/>
+                </td>
+            </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-322">HCP-322</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-322">QA | HCP -28  | Testing Activities </a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Sahana.Marathe  &nbsp;
+                                            </td>
+                </tr>
+                    </table>
+    </td>
+</tr>
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-161029-value" class="value" bgcolor="#ffffff" width="80%"></td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Team:</b></td>
+                <td id="customfield_10001-161029-value" class="value" bgcolor="#ffffff" width="80%"><div class="shorten" id="customfield_10001-field">
+    <span></span>
+</div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Board Name:</b></td>
+                <td id="customfield_10632-161029-value" class="value" bgcolor="#ffffff" width="80%">    POD1
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Issue Type:</b></td>
+                <td id="customfield_10634-161029-value" class="value" bgcolor="#ffffff" width="80%">    Functional
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Pre-requisites:</b></td>
+                <td id="customfield_10637-161029-value" class="value" bgcolor="#ffffff" width="80%">      <ul>
+	<li>Pre-auth claim intimation user has access to the claim registration page.</li>
+	<li>Pre-auth claim intimation page has valid search results and pre-auth claim intimation user has initiated a new claim registration on one of the members.</li>
+	<li>Pre-auth claim intimation user has access to the claim intimation page to proceed with adding pharmacy charges.</li>
+</ul>
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>User Actions:</b></td>
+                <td id="customfield_10638-161029-value" class="value" bgcolor="#ffffff" width="80%">      <p><b>As a pre-auth claim intimation user,</b></p>
+
+<ol>
+	<li>I should be able to navigate to the claim registration page "Pharmacy Charges" section based on the user role and permissions.</li>
+	<li>I should be able to enter the below pharmacy charges if they are available.</li>
+	<li>There will be two sections in the pharmacy charges section as Bill level details and medicine level details where bill level details will be common for a single bill and medicine level details will have details of medicines under the respective bill.</li>
+	<li>Below listed fields should be common fields for a single bill:
+	<ol>
+		<li><b>Pharmacy Name (Mandatory):</b> Enter the name of the pharmacy. <font color="#006644">In case if the pharmacy name is same as the selected N/W hospital, then user should have an option to select a checkbox with label of “Select to add the N/W Hospital as Pharmacy Name” and on selection of this checkbox the respective N/W hospital name should be auto filled with the name of N/W hospital and user should be able to change/update it if required. </font></li>
+		<li><b>Address:</b> Enter the address of the pharmacy as a free text.</li>
+		<li><b>GST Number:</b> Enter the GST number of the pharmacy.</li>
+		<li><b>Drug License Number:</b> Enter the drug license number.</li>
+		<li><b>Validity Period of Drug License:</b> Enter the Start Date and End Date.</li>
+		<li><b>Bill Number (Mandatory):</b> The user should be able to enter the bill number manually from the bill provided by the hospital/customer. <font color="#006644"><b>Validation:</b></font><font color="#006644"> An error message should be displayed if there is an existing bill with below identifiers combination. This validation should be done against all the types of claims and not only restricted to cashless claim, i.e. need to be validated against reimbursement claims, reimbursement supplementary claims, cashless supplementary claims, and Pre/Post hospitalization claims. The error message should be configurable and it should be “Bill number xxxxxxx (full bill number) has been claimed under previous claim number XXXXXXXXX for an amount of Rs. xxxxxx. Please recheck the bill number”.</font>
+		<ol>
+			<li><font color="#006644"> Pharmacy Name</font></li>
+			<li><font color="#006644">Bill Number</font></li>
+			<li><font color="#006644">Bill Date</font></li>
+			<li><font color="#006644">Policy Number</font></li>
+			<li><font color="#006644">Insured i.e HDFC ERGO ID/ HEGIC Card No.</font></li>
+		</ol>
+		</li>
+		<li><b>Bill Date (Mandatory):</b> The user should be able to enter the bill date manually from the bill provided by the hospital/customer or select from date picker dropdown.</li>
+	</ol>
+	</li>
+</ol>
+
+
+<p><span class="image-wrap" style=""><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfmxj1DEm_MxQMUjShSMgb2RacNwdNp1ukmZJVqOZu-EDaEJUUtUTJXQQ9gubH-WGYLsF_35uspLeysia8Xj-xGve4xz5av4bEqRWqr6tJJKuq3PZ1rtdENG831arIKUWl6vuQf2w?key=HL3ojGYr59m1BC3lHbuxlg" height="88" width="1181" style="border: 0px solid black" /></span></p>
+
+<ol>
+	<li>User should be able to enter below listed fields for each medicine in a single bill:
+	<ol>
+		<li><b>Medicine/Item Name:</b> Enter the name of the medicine/item.</li>
+		<li><b>Units:</b> Enter the number of units.</li>
+		<li><b>Price Per Unit:</b> Enter the price per unit or user will enter total claimed amount and units, then price per unit should be auto calculated as total claimed amount divided by units.</li>
+		<li><b>Claimed Amount:</b> Enter the claimed amount or the user will enter the units and price per unit, then the claimed amount should be auto calculated as units multiplied by price per unit. <b>Validation:</b> Maximum 7 digits are allowed up to 9999999.</li>
+		<li><b>GST:</b> User should be able to enter the GST amount manually.</li>
+		<li><b>Deduction Amount:</b> Enter the deduction amount, if any, manually.</li>
+		<li><b>Deduction</b> <b>Remarks:</b> Enter relevant remarks if deduction amount is entered.</li>
+		<li><b>Discount Amount:</b> Enter the discount amount, if any, as per bill.</li>
+		<li><b>Approved Amount:</b> This should be auto calculated as the <b>Claimed Amount</b> - (minus) <b>Deduction Amount</b> (if any) - (minus) <b>Discount Amount</b> (if any). <b>Validation:</b> Maximum 7 digits are allowed up to 9999999.</li>
+		<li><b>Bill Category:</b> User should be able to select the category from the existing master list of bill categories. <b>HE to share the master list of bill categories including non-payable items</b> and based on the selection of the bill category the respective medicine/item should be excluded from calculation if the item category is non-payable. If user selects a non-payable category, then changes it to a payable one, or vice-versa, calculations should be updated correctly.</li>
+		<li><b>Bill Remarks:</b> User should be able to select the remarks from the master list.  <b>Business Rule:</b> If any nonpayable items are entered by the user, then the item should be auto deducted from the total bill amount (<b>Need to get list of nonpayable items from HE and those items should be deducted from pharmacy charges</b>).</li>
+		<li><b>Overcharged?:</b> There should be an integration with CIMS and based on the integration response
+		<ol>
+			<li>If the medicine/item is overcharged then “Overcharged” should be shown in Red color font.</li>
+			<li><font color="#006644">If the medicine/item is undercharged then “Undercharged” should be shown in black color font.</font></li>
+			<li>If the medicine/item is charged with correct price then “N/A” should be shown in black color font.</li>
+		</ol>
+		</li>
+		<li><b>Overcharged Amount/Undercharged Amount:</b> The label should be dynamically changed based on the scenario.
+		<ol>
+			<li>If the medicine/item is overcharged then the label should be changed to “Overcharged Amount” and show overcharged amount in Red color font.</li>
+			<li><font color="#006644">If the medicine/item is undercharged then the label should be changed to “Undercharged Amount” and show undercharged amount in black color font.</font></li>
+			<li>If the medicine/item is charged with correct price then the label should be “<b>Overcharged Amount/Undercharged Amount</b>” and show N/A in black color font.</li>
+		</ol>
+		</li>
+		<li><b>Add New Row for Data Entry of Medicine Details:</b>
+		<ol>
+			<li>By default, there should be only one row for all of the above fields wherein the user can enter details.</li>
+			<li>If the user wants to add multiple rows, then there should be a button to “<b>Add Medicine Details</b>” and on click of the button there should be a row added for all the fields listed above so that the user can enter medicine details in the next row.</li>
+			<li>Alternatively, on “Tab” out option on the keyboard in any of the cells in the current row, a new row should be added.</li>
+			<li>User should be able to add up to 100 rows (this should be configurable) for adding medicine details under each bill.</li>
+			<li>User should be able to add a new row only if all mandatory fields are filled in the last row of the medicine details section.</li>
+			<li>Details entered in the screen should be saved and if the user is logged out due to technical issues, the user should be able to continue from the status before logging out instead of entering all the details again.</li>
+		</ol>
+		</li>
+		<li><b>Delete Rows:</b> User should be able to delete row(s) as required even if there are medicine details are entered in a row.</li>
+		<li><b>Bill Total:</b> There should be a row for showing the totals of each of the column that is being entered in the medicine details section which should move down dynamically based on the number of rows added by the user for medicine details entry. Total should show values as per below logic for the respective column header.
+		<ol>
+			<li><b>Medicine/Item Name:</b> “Total” should be shown in this column as per below.</li>
+			<li><b>Units:</b> Should show sum of all the values entered under respective column.</li>
+			<li><b>Price Per Unit:</b> Should show sum of all the values entered under respective column.</li>
+			<li><b>Claimed Amount:</b> Should show sum of all the values entered under respective column. <b>Validation:</b> Maximum 7 digits are allowed up to 9999999.</li>
+			<li><b>GST:</b> User should be able to enter the GST amount manually here. Amount entered in this field should not considered in any of the calculations as this is a <b>placeholder for now</b>.</li>
+			<li><b>Deduction Amount:</b> Should show sum of all the values entered under respective column.</li>
+			<li><b>Deduction Remarks:</b> N/A</li>
+			<li><b>Discount Amount:</b> Should show sum of all the values entered under respective column.</li>
+			<li><b>Approved Amount:</b> Should show sum of all the values entered under respective column. <b>Validation:</b> Maximum 7 digits are allowed up to 9999999.</li>
+			<li><b>Bill Category:</b> N/A</li>
+			<li><b>Bill Remarks:</b> N/A</li>
+		</ol>
+		</li>
+		<li>Additionally there should be below listed fields for each bill as per below:
+		<ol>
+			<li><b>GST (Bill Level):</b> User should be able to enter overall GST charged on the respective bill. This will be used when the GST is charge at bill level rather than medicine/item level.</li>
+			<li><b>Return/Refund Amount:</b> User should be able to enter Return/Refund Amount on the respective bill. This will be used when some of the medicines from the respective bill have been returned and pharmacy has refunded the amount accordingly.</li>
+			<li><b>Discount on Bill:</b> User should be able to enter discount provided at overall bill level on the respective bill. This discount provided could be over and above the discount provided at individual medicine/item level discount.</li>
+			<li><font color="#006644"><b>Tariff Discount:</b></font><font color="#006644"> Currently, this should be a placeholder. In future if there are tariff discounts available from pharmacy/hospital pharmacy, then the tariff discount percentage should be auto-calculated as (“Approved Amount” (bill level) + (plus) “GST (Bill Level)” - (minus) Return/Refund Amount“- (minus) “Discount on Bill”) multiplied by tariff discount percentage. </font></li>
+			<li><b>Total Approved Bill Amount:</b> This should be auto calculated as <b>Total Approved Amount</b> + (plus) <b>GST (Bill Level)</b> - (minus) <b>Return/Refund Amount</b> - (minus) <b>Discount on Bill</b> - (minus) <b>Tariff Discount. Validation:</b> Maximum 7 digits are allowed up to 9999999.</li>
+		</ol>
+		</li>
+		<li><b>Save</b>: User should be able to click on this button to save all the details entered for the respective bill.</li>
+	</ol>
+	</li>
+</ol>
+
+
+<p><span class="image-wrap" style=""><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdgHb8CFfbw0jYnzptE91N-tsg1uKVm137mocQhcTfYsaC3GezRB88apUJ5HYz8CiQagsF8hT30lKaT1kYh02k9NqtAktIwwxilo0NrKgCFKfxYHaZX4LgCsjaGy_0eTsgCzhmnUw?key=HL3ojGYr59m1BC3lHbuxlg" height="223" width="1296" style="border: 0px solid black" /></span></p>
+
+<ol>
+	<li><b>Add Pharmacy Bill:</b> User should be able to click on this button to add a new record for entering next bill details.</li>
+	<li>User should be able to enter multiple pharmacy bills by following <b>Points #3 and #4</b>.</li>
+	<li><b>Delete Pharmacy Bill:</b> User should be able to delete a pharmacy bill as required even if there are bill details entered.</li>
+</ol>
+
+
+<p><b>Consolidated Pharmacy Charges:</b> Below listed auto calculated fields should be there as a separate section after all the bill entries and this should be dynamically moved to the end of Pharmacy Charges section.</p>
+
+<ol>
+	<li><b>Total Claimed Amount:</b> Auto calculated as sum of “Claimed Amount” of all the individual pharmacy bills. <b>Validation:</b> Maximum 7 digits are allowed up to 9999999.</li>
+	<li><b>Total GST:</b> Auto calculated as sum of “Total GST” and “GST (Bill Level)” of all the individual pharmacy bills.</li>
+	<li><b>Total Deduction:</b> Auto calculated as sum of “Deduction Amount” of all the individual pharmacy bills.</li>
+	<li><b>Total Discount:</b> Auto calculated as sum of “Discount Amount” of all the individual pharmacy bills.</li>
+	<li><b>Total Return/Refund Amount:</b> Auto calculated as sum of “Return/Refund Amount” of all the individual pharmacy bills.</li>
+	<li><b>Total Pharmacy Bill Approved Amount:</b> Auto calculated as sum of “Total Approved Bill Amount” of all the individual pharmacy bills. <b>Validation:</b> Maximum 7 digits are allowed up to 9999999.</li>
+</ol>
+
+
+<p><span class="image-wrap" style=""><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfDkH_TOkLyVauK13gSHlY3sHg4-OAeoD8OOqFzI_bsGMxYWWX-0OyiNpQ_cltHTgfi61i-pEtzN4EFh4UPB7HSZIKgG0LcoZfwNQG-Z_DZS2zDmTRwwQOfdhk4nqk_YEY5W2o2yA?key=HL3ojGYr59m1BC3lHbuxlg" height="104" width="796" style="border: 0px solid black" /></span></p>
+
+<ol>
+	<li>If a large number of medicine line items are being entered, the system should not timeout. Testing should be for scalability and pagination if needed.</li>
+	<li>If the user lands on a claim pre-filled with previously submitted pharmacy details (in case of abruptly closed screen due to some technical reasons), the pharmacy section should load in edit mode wherein the user should be able to continue entering details in the further fields.</li>
+	<li>If the user leaves optional fields as blank (e.g., GST/Discount), then the system should allow save/submit with blank values, but must not affect calculations.</li>
+	<li>After entering all the details, user should have option for below actions:
+	<ol>
+		<li>Back</li>
+		<li>Save</li>
+	</ol>
+	</li>
+	<li>On click of “Back” button, the user should be presented with a message that “All unsaved data will be lost” and on confirmation the user should be presented with the previous screen.</li>
+	<li>On click of “Save” button, calculations in “Consolidated Pharmacy Charges” should be retriggered and the pharmacy charges should be saved with the calculated amount for applicable fields.</li>
+</ol>
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Data Specifications &amp; Validation Rules:</b></td>
+                <td id="customfield_10639-161029-value" class="value" bgcolor="#ffffff" width="80%">      <p><b>Note:</b> Mandatory validation applicable only in case if pharmacy bill entry is initiated.</p>
+
+<!-- ADF macro (type = 'table') -->
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Acceptance Criteria:</b></td>
+                <td id="customfield_10044-161029-value" class="value" bgcolor="#ffffff" width="80%">      &nbsp;&nbsp;&nbsp;&nbsp;• Pre-auth claim intimation user with appropriate role and permissions should be able to view and access &quot;Pharmacy Charges&quot; section and and perform data entry.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• There should be two sections in the pharmacy charges section as Bill Level Details and Medicine Level Details where bill level details will be common for a single bill and medicine level details will have details of medicines under the respective bill.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• When the &quot;Pharmacy Charges&quot; section is accessed, then &quot;Bill level details&quot; and &quot;Medicine level details&quot; sections are clearly presented for each pharmacy bill.<br/>
+&nbsp;&nbsp;• Pre-auth claim intimation user should be able to enter the below pharmacy charges if they are available.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;◦ Pharmacy Name: Enter alphanumeric characters. If the user wants the Pharmacy Name as the selected N/W hospital name, then user should be able to select the checkbox available next to this field and on selection the respective N/W hospital name should be auto filled with the name of N/W hospital and user should be able to change/update it if required. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• Address: Enter free text (alphanumeric characters and special symbols).<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• GST Number: Enter alphanumeric characters.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• Drug License Number: Enter alphanumeric characters.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• Validity Period - Start Date: User can select a date from a date picker or manually enter a valid date format (e.g., DD/MM/YYYY). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• Validity Period – End Date: User can select a date from a date picker or manually enter a valid date format (e.g., DD/MM/YYYY).  When the &quot;End Date&quot; is earlier than the &quot;Start Date&quot;, then a validation error message is displayed. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ Bill Number: User can enter alphanumeric characters. When a &quot;Bill Number&quot; is entered that already exists for the same &quot;Bill Date&quot; and &quot;Pharmacy Name&quot; under any other claim for the same insured, then a configurable error message should be displayed as &quot;Bill number XXXXXXXXX (full bill number) has been claimed under previous claim number XXXXXXXXX for an amount of Rs. xxxxxx. Please recheck the bill number&quot;. (Special charachter should allow)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ Bill Date: User can select a date from a date picker dropdown or manually enter a valid date format (e.g., DD/MM/YYYY). When a future date is selected/entered as &quot;Bill Date&quot;, then a validation warning or error message is displayed. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• When a new pharmacy bill is added or the page loads, then a single default row for medicine details entry is displayed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• Medicine/Item Name: User can enter alphanumeric characters and special symbols (free text ).<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• Units: User can enter numeric values (integers).<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• Price Per Unit: User can enter numeric values upto 2 decimals. When &quot;Total Claimed Amount&quot; and &quot;Units&quot; are entered, then &quot;Price Per Unit&quot; is auto-calculated as “Total Claimed Amount / Units”.  When Price Per Unit is manually entered, then the system accepts the input and does not override it based on &quot;Claimed Amount&quot; or &quot;Units&quot; unless one of them is modified. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ Claimed Amount: User can enter numeric values. When &quot;Units&quot; and &quot;Price Per Unit&quot; are entered, then &quot;Claimed Amount&quot; is auto-calculated as “Units * Price Per Unit”. When &quot;Claimed Amount&quot; is manually entered, then the system accepts the input and does not override it based on &quot;Units&quot; or &quot;Price Per Unit&quot; unless one of them is modified. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• GST field: User can enter numeric values manually.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• Deduction Amount: User can enter numeric values manually.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ Deduction Remarks: User can enter free text. When &quot;Deduction Amount&quot; is entered with a value greater than zero, then &quot;Deduction Remarks&quot; becomes mandatory and a validation error message is displayed if left blank. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• Discount Amount: User can enter numeric values manually. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• Approved Amount: When &quot;Claimed Amount&quot;, &quot;Deduction Amount&quot;, and &quot;Discount Amount&quot; are entered for a medicine item, then &quot;Approved Amount&quot; is auto-calculated as Claimed Amount - Deduction Amount - Discount Amount. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ Bill Category: User can select a category from a predefined master list. When a non-payable item category is selected from the master list, then the respective medicine/item&#39;s &quot;Approved Amount&quot; is automatically excluded from the &quot;Total Approved Bill Amount&quot; calculation for that bill. If user selects a non-payable category, then changes it to a payable one, or vice-versa, ensure calculations update correctly. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• Bill Remarks: User can select a remark from a predefined master list. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ Add Medicine Details: When the user clicks on the button, a new blank row for medicine details (all fields as per above list) is appended below the existing rows. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ The focus should shift to the first editable field of the newly added row. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• Additionally, when the user tabs out of any cell in the last visible row of medicine details, then a new blank row for medicine details is automatically appended below the current row. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ When the user attempts to add a new row and the number of rows reaches the configured maximum (e.g., 100), then the &quot;Add Medicine Details&quot; button is disabled and an informative message is displayed preventing further row addition.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ Details entered in the screen should be saved for each row of medicine details and if the user is logged out due to technical issues, the user should be able to continue from the status before logging out instead of entering all the details again.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• When the user enters or modifies data in the pharmacy charges section, then the system automatically saves the entered details upon adding a row without explicit user action.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• When medicine details are entered, then a &quot;Bill Total&quot; row is displayed below the last medicine details row. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• When new medicine detail rows are added, then the &quot;Bill Total&quot; row dynamically moves down, always remaining at the bottom of the &quot;Medicine level details&quot; section for that bill as displays values as per below. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ The &quot;Medicine/Item Name&quot; column displays &quot;Bill Total&quot;. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ The &quot;Units&quot; column displays the sum of all values entered in the &quot;Units&quot; column for that bill.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ The &quot;Price Per Unit&quot; column displays the sum of all values entered/calculated in the &quot;Price Per Unit&quot; column for that bill.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ The &quot;Claimed Amount&quot; column displays the sum of all values entered/calculated in the &quot;Claimed Amount&quot; column for that bill.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ The &quot;GST&quot; column allows the user to manually enter a GST amount.  The value entered in this field does not affect any other calculations (e.g., Approved Amount).<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ The &quot;Deduction Amount&quot; column displays the sum of all values entered in the &quot;Deduction Amount&quot; column for that bill.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ The &quot;Deduction Remarks&quot; column is left blank.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ The &quot;Discount Amount&quot; column displays the sum of all values entered in the &quot;Discount Amount&quot; column for that bill.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ The &quot;Approved Amount&quot; column displays the sum of all values calculated in the &quot;Approved Amount&quot; column for that bill.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ The &quot;Bill Category&quot; column is left blank.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ The &quot;Bill Remarks&quot; column is left blank.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ Additionally there should be below listed fields for each bill as per below:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ GST (Bill Level): User can enter GST at bill level.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ Return/Refund Amount: User can enter Return/Refund amount in case any medicines are returned and refund amount has been processed on that bill.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ Discount on Bill: User can enter discount provided at bill level apart from medicine level discount.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ Tariff Discount: Auto-calculated as (“Approved Amount” (bill level) + (plus) “GST (Bill Level)” - (minus) Return/Refund Amount“- (minus) “Discount on Bill”) multiplied by tariff discount percentage. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ Total Approved Bill Amount: When the values for &quot;Approved Amount&quot; (sum from medicine details), &quot;GST (Bill Level)&quot;, &quot;Return/Refund Amount&quot;, and &quot;Discount on Bill&quot; are present, then &quot;Total Approved Bill Amount&quot; is auto-calculated as Approved Amount (sum from medicine details) + GST (Bill Level) - Return/Refund Amount - Discount on Bill - Tariff Discount.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ Save Button: User should be able to click on this button to save all the details entered for the respective bill.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ The &quot;Save&quot; button is visible and enabled when a bill has valid data entered. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• When the user clicks the &quot;Save&quot; button after entering valid bill details all the entered data for that specific bill is successfully saved, and a success message is displayed (e.g., &quot;Bill saved successfully&quot;). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• When the user clicks the &quot;Save&quot; button and there are mandatory fields missing or invalid data, then appropriate validation error messages are displayed, and the bill is not saved until errors are resolved.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• Add Pharmacy Bill: When the user clicks the &quot;Add Pharmacy Bill&quot; button, then a new, blank set of &quot;Bill level details&quot; and &quot;Medicine level details&quot; sections is displayed for a new pharmacy bill, allowing for entry of a separate bill. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• The user can repeat the process of entering bill-level details and multiple medicine-level details for each newly added pharmacy bill. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• Each pharmacy bill entry (including its medicine details and totals) remains independent of other pharmacy bills.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• Consolidated Pharmacy Charges: Below listed auto calculated fields should be there as a separate section after all the bill entries and this should be dynamically moved to the end of Pharmacy Charges section.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ Total Claimed Amount: Auto-calculated as the sum of all &quot;Claimed Amount&quot; values from all individual pharmacy bills.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ Total GST: Auto-calculated as the sum of all &quot;GST (Medicine Level)&quot; values from medicine totals and &quot;GST (Bill Level)&quot; values from all individual pharmacy bills.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ Total Deduction: Auto-calculated as the sum of all &quot;Deduction Amount&quot; values from all individual pharmacy bills.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ Total Discount: Auto-calculated as the sum of all &quot;Discount Amount&quot; values (medicine level) and &quot;Discount on Bill&quot; values from all individual pharmacy bills.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ Total Return/Refund Amount: Auto-calculated as the sum of all &quot;Return/Refund Amount&quot; values from all individual pharmacy bills.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ Total Pharmacy Bill Approved Amount: Auto-calculated as the sum of all &quot;Total Approved Bill Amount&quot; values from all individual pharmacy bills. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• When new pharmacy bills are added, then the &quot;Consolidated Pharmacy Charges&quot; section dynamically moves down, always remaining at the bottom of the entire &quot;Pharmacy Charges&quot; section.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• Given a large number of medicine line items (e.g., 50, 100, or a specified stress test number) are entered across multiple bills, then the system does not timeout during data entry, saving, or calculation.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• The user interface remains responsive and fluid even with a large number of line items, without noticeable lag during scrolling or data entry.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• If pagination is implemented for medicine details, then the user can navigate through pages seamlessly and all data is correctly loaded/saved across pages.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• If there was a claim with previously saved pharmacy details (e.g., after a system crash or intentional logout), when the user accesses the &quot;Pharmacy Charges&quot; section for that claim, all previously saved data is pre-filled, and the section is in an editable state.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• The user can continue entering new medicine details, adding new bills, or modifying existing details from the point of interruption.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• When optional fields (e.g., Address, GST Number, Drug License Number, Validity Period, Medicine GST, Deduction Amount, Discount Amount, Bill Level GST, Return/Refund Amount, Discount on Bill) are left blank, then the system allows the user to successfully save the pharmacy charges.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• When optional numeric fields are left blank, then their values are treated as zero (0) in all calculations (e.g., Approved Amount, Bill Totals, Consolidated Totals), ensuring calculations remain accurate.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• After entering all the details, user should have option for actions of “Back” and “Save”.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ &quot;Back&quot; button: When the user clicks the &quot;Back&quot; button, if there are unsaved changes in the pharmacy charges section, then a confirmation message &quot;All unsaved data will be lost&quot; is displayed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ When the user confirms (e.g., clicks &quot;Yes&quot; or &quot;Proceed&quot;), then the unsaved data is discarded, and the user is navigated to the previous screen. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ When the user cancels (e.g., clicks &quot;No&quot; or &quot;Cancel&quot;), then the user remains on the current screen, and unsaved data is retained. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ If there are no unsaved changes, the user navigates directly to the previous screen without a confirmation message.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ &quot;Save&quot; button: When the user clicks the &quot;Save&quot; button after making changes,<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ The calculations in the &quot;Consolidated Pharmacy Charges&quot; section are immediately re-triggered and updated based on the latest saved data.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ All pharmacy charges for the current claim are saved successfully. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▪ A success message is displayed (e.g., &quot;Pharmacy charges saved successfully&quot;). 
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Definition of Done:</b></td>
+                <td id="customfield_10048-161029-value" class="value" bgcolor="#ffffff" width="80%">      User should be able to view the “Pharmacy Charges” section and enter pharmacy details, if available, and save on pre-auth claim intimation.
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Edge Cases:</b></td>
+                <td id="customfield_10640-161029-value" class="value" bgcolor="#ffffff" width="80%">      <ul>
+	<li>If the Pharmacy Details section is conditionally rendered but data service is down, then the section should display a user-friendly error message instead of breaking the form layout.</li>
+	<li>If the user navigates to Pharmacy Details while another tab is updating claim data, then the pharmacy section should reflect the latest saved data only, not uncommitted edits from the other tab.</li>
+	<li>Handling of different units of measurement (e.g., tablets, capsules, ml).</li>
+	<li>Entering a future date as the bill date.</li>
+	<li>Saving a medicine with zero units or zero amount.</li>
+	<li>Entering negative values in fields where they are not expected.</li>
+	<li>System fails to save the data.</li>
+	<li>Bill remarks exceeding character limit.</li>
+	<li>Approved amount is greater than the claimed amount.</li>
+	<li><b>Names:</b> Entering a very long name (e.g., exceeding 255 characters) or name with only special characters (e.g., !@#$%^&amp;*).</li>
+	<li><b>Address:</b> Entering an extremely long address or with many line breaks or unusual formatting or only numbers or special characters.</li>
+	<li><b>GST Number / Drug License Number:</b> Entering invalid formats (e.g., too few/many characters, incorrect character types for a specific format) or entering all zeros or all nines.</li>
+	<li><b>Bill Number: Validation should be triggered in below scenarios</b>
+	<ul>
+		<li><b>Case Sensitivity:</b> Entering "BILL123" when "bill123" already exists (should trigger error as validation should not be case sensitive).</li>
+		<li><b>Leading/Trailing Spaces:</b> Entering " BILL123 " (with spaces) when "BILL123" exists.</li>
+		<li><b>Special Characters:</b> Bill number contains characters that might interfere with database lookups (e.g., ', ", &#41;.</li>
+		<li><b>Bill Number duplicacy check with Zeroes:</b> "000123" vs "123" should be considered as duplicate.</li>
+	</ul>
+	</li>
+	<li><b>Units:</b> Entering 0 units, decimal units (e.g., 0.5 units), or negative units should be prevented.</li>
+	<li><b>Conflicting Manual Entry:</b> User enters Units and Price Per Unit (auto-calculates Claimed Amount), then manually changes Claimed Amount. In this scenario, Price Per Unit should be recalculated based on new Claimed Amount and Units.</li>
+	<li><b>Deleting Bills:</b> Adding multiple bills, then deleting some (especially non-last ones). Ensure consolidated totals update correctly.</li>
+	<li><b>No Bills Entered:</b> The consolidated section should display all zeros or N/A if no pharmacy bills have been added.</li>
+	<li><b>Only One Bill:</b> Ensure consolidated totals correctly reflect the single bill's totals.</li>
+	<li><b>All Zero Bills:</b> All entered bills have zero amounts for all fields. Consolidated totals should be zero.</li>
+	<li><b>Extreme Data Entry:</b> Entering the maximum number of bills, each with the maximum number of medicine line items (stress test).</li>
+	<li><b>Browser Compatibility:</b> Testing with various browsers and devices (especially mobile) to ensure responsiveness and performance.</li>
+	<li><b>"Back" with No Changes:</b> Clicking "Back" immediately after landing on the page or after saving all changes. The "unsaved data will be lost" message should <em>not</em> appear.</li>
+	<li><b>"Back" with Validation Errors:</b> Clicking "Back" when there are active validation errors on the screen.</li>
+	<li><b>"Save" with No Changes:</b> Clicking "Save" when no data has been modified since the last save or page load.</li>
+	<li><b>"Save" and Immediate Navigation:</b> Clicking "Save" and then immediately trying to navigate away or close the tab.</li>
+</ul>
+
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>As a pre-auth claim intimation user, I should be able to enter medicine details based on pharmacy bills available including pharmacy information, bill details, and medicine details, so that pharmacy charges are captured accurately.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-154850"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:4f800449-a18b-4476-ba73-82f48d715cd2"
+                id="word_commented_712020:4f800449-a18b-4476-ba73-82f48d715cd2"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4f800449-a18b-4476-ba73-82f48d715cd2">
+                    ajay Kumar Rai
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">28/May/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-154850"><td bgcolor="#ffffff">
+            <ol>
+	<li><b>Pharmacy Name (Mandatory):</b> Enter the name of the pharmacy.  User should have provision to auto select tagged hospital as pharmacy and Hospital name and add will get populate in pharmacy name and add field <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A06b67419-13af-427c-b2c0-f22631cefefd" class="user-hover" rel="712020:06b67419-13af-427c-b2c0-f22631cefefd" data-account-id="712020:06b67419-13af-427c-b2c0-f22631cefefd" accountid="712020:06b67419-13af-427c-b2c0-f22631cefefd" rel="noreferrer">Ajay Khajuria</a> <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=63c7b62cd579d7c68754dbec" class="user-hover" rel="63c7b62cd579d7c68754dbec" data-account-id="63c7b62cd579d7c68754dbec" accountid="63c7b62cd579d7c68754dbec" rel="noreferrer">basant kumar</a></li>
+</ol>
+
+
+<p>2 -tariff discount place holder require </p>
+
+<ol>
+	<li>Only overcharged items value should be highlight in red. remaining equal or less then entry value no color coding required.  </li>
+</ol>
+
+        </td></tr>
+                <tr id="comment-header-156467"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                id="word_commented_712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5">
+                    Rama Swamy Mallarapu
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">05/Jun/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-156467"><td bgcolor="#ffffff">
+            <p>Updated the story as per below feedback</p>
+        </td></tr>
+                <tr id="comment-header-156666"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:4f800449-a18b-4476-ba73-82f48d715cd2"
+                id="word_commented_712020:4f800449-a18b-4476-ba73-82f48d715cd2"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4f800449-a18b-4476-ba73-82f48d715cd2">
+                    ajay Kumar Rai
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">07/Jun/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-156666"><td bgcolor="#ffffff">
+            <p><a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5" class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" data-account-id="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" accountid="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" rel="noreferrer">Rama Swamy Mallarapu</a> Going forward, please do not remove HE remarks after updating US, we may write out remarks with prefix HE:_______ while correcting you may correct the US keeping HE remarks intact so that while further reviewing we can identify where we have requested changes.  .<a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A06b67419-13af-427c-b2c0-f22631cefefd" class="user-hover" rel="712020:06b67419-13af-427c-b2c0-f22631cefefd" data-account-id="712020:06b67419-13af-427c-b2c0-f22631cefefd" accountid="712020:06b67419-13af-427c-b2c0-f22631cefefd" rel="noreferrer">Ajay Khajuria</a> <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=63367a269b32cfef9327afa0" class="user-hover" rel="63367a269b32cfef9327afa0" data-account-id="63367a269b32cfef9327afa0" accountid="63367a269b32cfef9327afa0" rel="noreferrer">Amit Bhagat</a> <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ade15db23-60be-4328-b2ce-06822b90f9a5" class="user-hover" rel="712020:de15db23-60be-4328-b2ce-06822b90f9a5" data-account-id="712020:de15db23-60be-4328-b2ce-06822b90f9a5" accountid="712020:de15db23-60be-4328-b2ce-06822b90f9a5" rel="noreferrer">Mansi Latwal</a> @Basant.kumar@hdfcergo.com</p>
+        </td></tr>
+                <tr id="comment-header-156699"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                id="word_commented_712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5">
+                    Rama Swamy Mallarapu
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">09/Jun/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-156699"><td bgcolor="#ffffff">
+            <p><a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4f800449-a18b-4476-ba73-82f48d715cd2" class="user-hover" rel="712020:4f800449-a18b-4476-ba73-82f48d715cd2" data-account-id="712020:4f800449-a18b-4476-ba73-82f48d715cd2" accountid="712020:4f800449-a18b-4476-ba73-82f48d715cd2" rel="noreferrer">ajay Kumar Rai</a> I have highlighted the changes in <font color="#006644">green color</font> as discussed. Please review and provide your feedback</p>
+        </td></tr>
+                <tr id="comment-header-156973"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:4f800449-a18b-4476-ba73-82f48d715cd2"
+                id="word_commented_712020:4f800449-a18b-4476-ba73-82f48d715cd2"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4f800449-a18b-4476-ba73-82f48d715cd2">
+                    ajay Kumar Rai
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">10/Jun/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-156973"><td bgcolor="#ffffff">
+            <p>ok</p>
+        </td></tr>
+            </table>
+Generated at Mon Jun 16 06:09:26 UTC 2025 by Sahana.Marathe using Jira 1001.0.0-SNAPSHOT#100283-rev:6fa229d2fa3e2d6a8c6255d341c61c2906efbf35.
+
+</body>
+</html>
