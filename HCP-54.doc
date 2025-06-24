@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#HCP-54] 1.13 Pre-Auth Adjudication: Validate/Update Intimation Details - Medico</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://heintra.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://heintra.atlassian.net/browse/HCP-31">PreAuth - Medico Flow - Adjudication</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://heintra.atlassian.net/browse/HCP-31">HCP-31</a>)</span>
+                <h3 class="formtitle"><img src="https://heintra.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [HCP-54]&nbsp;<a href="https://heintra.atlassian.net/browse/HCP-54">1.13 Pre-Auth Adjudication: Validate/Update Intimation Details - Medico</a>
+            <span class="subText">
+               Created: 28/May/25                   &nbsp;Updated: 16/Jun/25
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Review</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://heintra.atlassian.net/secure/BrowseProject.jspa?id=10662">Health Claims Platform</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://heintra.atlassian.net/browse/HCP-31">PreAuth - Medico Flow - Adjudication</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                id="word_reporter_712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5">
+                    Rama Swamy Mallarapu
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                id="word_assignee_712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5">
+                    Rama Swamy Mallarapu
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-161943-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+                    </td>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Time Spent:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Original Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+            <tr><td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sub-tasks:</b></td>
+    <td bgcolor="#ffffff" valign="top">
+        <table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tr bgcolor="#f0f0f0">
+                <td>
+                    <b>Key</b><br/>
+                </td>
+                <td>
+                    <b>Summary</b><br/>
+                </td>
+                <td>
+                    <b>Type</b><br/>
+                </td>
+                <td>
+                    <b>Status</b><br/>
+                </td>
+                <td>
+                    <b>Assignee</b><br/>
+                </td>
+            </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-304">HCP-304</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-304">QA | HCP-54 | Testing Activities</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Sahana.Marathe  &nbsp;
+                                            </td>
+                </tr>
+                    </table>
+    </td>
+</tr>
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-161943-value" class="value" bgcolor="#ffffff" width="80%"></td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Team:</b></td>
+                <td id="customfield_10001-161943-value" class="value" bgcolor="#ffffff" width="80%"><div class="shorten" id="customfield_10001-field">
+    <span></span>
+</div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Board Name:</b></td>
+                <td id="customfield_10632-161943-value" class="value" bgcolor="#ffffff" width="80%">    POD1
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Issue Type:</b></td>
+                <td id="customfield_10634-161943-value" class="value" bgcolor="#ffffff" width="80%">    Functional
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Pre-requisites:</b></td>
+                <td id="customfield_10637-161943-value" class="value" bgcolor="#ffffff" width="80%">      <ul>
+	<li>Medico user has access to UCP portal.</li>
+	<li>Pre-auth claim intimation user has intimated a new claim on one of the members and the claim is ready for Adjudication.</li>
+	<li>Medico user is having access to Generic Search page and able to see valid claims results in search results section.</li>
+	<li>Medico user is able to select a claim to adjudicate from the search results section.<font color="#ff5630"> <b>In production, Dashboard needed to process the claim. Else, How medico will know about pending claim.</b></font><font color="#006644"> Yes, this functionality will be enabled once the dashboard epics are developed.</font></li>
+</ul>
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>User Actions:</b></td>
+                <td id="customfield_10638-161943-value" class="value" bgcolor="#ffffff" width="80%">      <p>As a medico user,</p>
+
+<ul>
+	<li>I should be able to search with a valid claim number in generic claims search page.</li>
+	<li>I should have an option to start adjudication if the claim status is pre-auth claim intimated.</li>
+	<li>I should be able to view all the details entered in the below sections of existing claim and update them if required for allowed fields similar to functionality available for non-medico user. (Refer to  stories for details on functionality <a href="https://heintra.atlassian.net/browse/HCP-20" title="smart-link" class="external-link" rel="nofollow noreferrer">https://heintra.atlassian.net/browse/HCP-20</a> , <a href="https://heintra.atlassian.net/browse/HCP-21" title="smart-link" class="external-link" rel="nofollow noreferrer">https://heintra.atlassian.net/browse/HCP-21</a> , <a href="https://heintra.atlassian.net/browse/HCP-22" title="smart-link" class="external-link" rel="nofollow noreferrer">https://heintra.atlassian.net/browse/HCP-22</a> , <a href="https://heintra.atlassian.net/browse/HCP-23" title="smart-link" class="external-link" rel="nofollow noreferrer">https://heintra.atlassian.net/browse/HCP-23</a> , <a href="https://heintra.atlassian.net/browse/HCP-24" title="smart-link" class="external-link" rel="nofollow noreferrer">https://heintra.atlassian.net/browse/HCP-24</a> , <a href="https://heintra.atlassian.net/browse/HCP-26" title="smart-link" class="external-link" rel="nofollow noreferrer">https://heintra.atlassian.net/browse/HCP-26</a> , <a href="https://heintra.atlassian.net/browse/HCP-27" title="smart-link" class="external-link" rel="nofollow noreferrer">https://heintra.atlassian.net/browse/HCP-27</a> , <a href="https://heintra.atlassian.net/browse/HCP-28" title="smart-link" class="external-link" rel="nofollow noreferrer">https://heintra.atlassian.net/browse/HCP-28</a>  )
+	<ul>
+		<li>Member Details</li>
+		<li>Policy Details</li>
+		<li>Previous Claims</li>
+		<li>Admission Details</li>
+		<li>Hospital Details</li>
+		<li>Participation Doctor Details</li>
+		<li>Estimated Billing Details</li>
+		<li>Pharmacy Charges Details</li>
+	</ul>
+	</li>
+</ul>
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Data Specifications &amp; Validation Rules:</b></td>
+                <td id="customfield_10639-161943-value" class="value" bgcolor="#ffffff" width="80%">      <p>Refer to  stories  <a href="https://heintra.atlassian.net/browse/HCP-20" title="smart-link" class="external-link" rel="nofollow noreferrer">https://heintra.atlassian.net/browse/HCP-20</a> , <a href="https://heintra.atlassian.net/browse/HCP-21" title="smart-link" class="external-link" rel="nofollow noreferrer">https://heintra.atlassian.net/browse/HCP-21</a> , <a href="https://heintra.atlassian.net/browse/HCP-22" title="smart-link" class="external-link" rel="nofollow noreferrer">https://heintra.atlassian.net/browse/HCP-22</a> , <a href="https://heintra.atlassian.net/browse/HCP-23" title="smart-link" class="external-link" rel="nofollow noreferrer">https://heintra.atlassian.net/browse/HCP-23</a> , <a href="https://heintra.atlassian.net/browse/HCP-24" title="smart-link" class="external-link" rel="nofollow noreferrer">https://heintra.atlassian.net/browse/HCP-24</a> , <a href="https://heintra.atlassian.net/browse/HCP-26" title="smart-link" class="external-link" rel="nofollow noreferrer">https://heintra.atlassian.net/browse/HCP-26</a> , <a href="https://heintra.atlassian.net/browse/HCP-27" title="smart-link" class="external-link" rel="nofollow noreferrer">https://heintra.atlassian.net/browse/HCP-27</a> , <a href="https://heintra.atlassian.net/browse/HCP-28" title="smart-link" class="external-link" rel="nofollow noreferrer">https://heintra.atlassian.net/browse/HCP-28</a>  and the data specifications and validation rules should remain the same.</p>
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Acceptance Criteria:</b></td>
+                <td id="customfield_10044-161943-value" class="value" bgcolor="#ffffff" width="80%">      - I should be able to view/update details in the below listed screens as per functionalities mentioned in <a href="https://heintra.atlassian.net/browse/HCP-20">https://heintra.atlassian.net/browse/HCP-20</a> , <a href="https://heintra.atlassian.net/browse/HCP-21">https://heintra.atlassian.net/browse/HCP-21</a> , <a href="https://heintra.atlassian.net/browse/HCP-22">https://heintra.atlassian.net/browse/HCP-22</a> , <a href="https://heintra.atlassian.net/browse/HCP-23">https://heintra.atlassian.net/browse/HCP-23</a> , <a href="https://heintra.atlassian.net/browse/HCP-24">https://heintra.atlassian.net/browse/HCP-24</a> , <a href="https://heintra.atlassian.net/browse/HCP-26">https://heintra.atlassian.net/browse/HCP-26</a> , <a href="https://heintra.atlassian.net/browse/HCP-27">https://heintra.atlassian.net/browse/HCP-27</a> , <a href="https://heintra.atlassian.net/browse/HCP-28">https://heintra.atlassian.net/browse/HCP-28</a> .<br/>
+&nbsp;- Member Details<br/>
+&nbsp;- Policy Details<br/>
+&nbsp;- Previous Claims<br/>
+&nbsp;- Admission Details<br/>
+&nbsp;- Hospital Details<br/>
+&nbsp;- Participation Doctor Details<br/>
+&nbsp;- Estimated Billing Details<br/>
+&nbsp;- Pharmacy Charges Details
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Definition of Done:</b></td>
+                <td id="customfield_10048-161943-value" class="value" bgcolor="#ffffff" width="80%">      As a medico user, I should be able to view and update details entered in a pre-auth claim intimation request.
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Edge Cases:</b></td>
+                <td id="customfield_10640-161943-value" class="value" bgcolor="#ffffff" width="80%">      <p>Refer to  stories  <a href="https://heintra.atlassian.net/browse/HCP-20" title="smart-link" class="external-link" rel="nofollow noreferrer">https://heintra.atlassian.net/browse/HCP-20</a> , <a href="https://heintra.atlassian.net/browse/HCP-21" title="smart-link" class="external-link" rel="nofollow noreferrer">https://heintra.atlassian.net/browse/HCP-21</a> , <a href="https://heintra.atlassian.net/browse/HCP-22" title="smart-link" class="external-link" rel="nofollow noreferrer">https://heintra.atlassian.net/browse/HCP-22</a> , <a href="https://heintra.atlassian.net/browse/HCP-23" title="smart-link" class="external-link" rel="nofollow noreferrer">https://heintra.atlassian.net/browse/HCP-23</a> , <a href="https://heintra.atlassian.net/browse/HCP-24" title="smart-link" class="external-link" rel="nofollow noreferrer">https://heintra.atlassian.net/browse/HCP-24</a> , <a href="https://heintra.atlassian.net/browse/HCP-26" title="smart-link" class="external-link" rel="nofollow noreferrer">https://heintra.atlassian.net/browse/HCP-26</a> , <a href="https://heintra.atlassian.net/browse/HCP-27" title="smart-link" class="external-link" rel="nofollow noreferrer">https://heintra.atlassian.net/browse/HCP-27</a> , <a href="https://heintra.atlassian.net/browse/HCP-28" title="smart-link" class="external-link" rel="nofollow noreferrer">https://heintra.atlassian.net/browse/HCP-28</a>  and the edge cases should remain the same.</p>
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>As a Medico user, I should be able to search for a claim using Generic Search feature and have option to view/update details on pre-auth claim intimation request to perform adjudication. </p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-156764"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                id="word_commented_712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5">
+                    Rama Swamy Mallarapu
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">09/Jun/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-156764"><td bgcolor="#ffffff">
+            <p><a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4f800449-a18b-4476-ba73-82f48d715cd2" class="user-hover" rel="712020:4f800449-a18b-4476-ba73-82f48d715cd2" data-account-id="712020:4f800449-a18b-4476-ba73-82f48d715cd2" accountid="712020:4f800449-a18b-4476-ba73-82f48d715cd2" rel="noreferrer">ajay Kumar Rai</a> updated the user story as per feedback. Please review and provide sign off.</p>
+        </td></tr>
+                <tr id="comment-header-156921"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:4f800449-a18b-4476-ba73-82f48d715cd2"
+                id="word_commented_712020:4f800449-a18b-4476-ba73-82f48d715cd2"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4f800449-a18b-4476-ba73-82f48d715cd2">
+                    ajay Kumar Rai
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">10/Jun/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-156921"><td bgcolor="#ffffff">
+            <p><b>Catastrophic field require @ medical stage so that we identify such claim, If this is added in any other user story, please refer to us.</b></p>
+        </td></tr>
+                <tr id="comment-header-156922"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:4f800449-a18b-4476-ba73-82f48d715cd2"
+                id="word_commented_712020:4f800449-a18b-4476-ba73-82f48d715cd2"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4f800449-a18b-4476-ba73-82f48d715cd2">
+                    ajay Kumar Rai
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">10/Jun/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-156922"><td bgcolor="#ffffff">
+            <p>apart of catastrophic  , This is okay  </p>
+        </td></tr>
+                <tr id="comment-header-158257"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                id="word_commented_712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5">
+                    Rama Swamy Mallarapu
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">16/Jun/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-158257"><td bgcolor="#ffffff">
+            <p>I have updated catastrophe field in <a href="https://heintra.atlassian.net/browse/HCP-55" title="smart-link" class="external-link" rel="nofollow noreferrer">https://heintra.atlassian.net/browse/HCP-55</a> </p>
+        </td></tr>
+            </table>
+Generated at Tue Jun 24 12:27:59 UTC 2025 by Sahana.Marathe using Jira 1001.0.0-SNAPSHOT#100285-rev:33225797f070b9bb5b78800e00e6eb0a1f95eeb1.
+
+</body>
+</html>
