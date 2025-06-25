@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#HCP-26] 1.8 Pre-Auth Claim: Participating Doctor Details</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://heintra.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://heintra.atlassian.net/browse/HCP-19">Cashless Pre-Auth Initial Intimation flow: Non-Medico</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://heintra.atlassian.net/browse/HCP-19">HCP-19</a>)</span>
+                <h3 class="formtitle"><img src="https://heintra.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [HCP-26]&nbsp;<a href="https://heintra.atlassian.net/browse/HCP-26">1.8 Pre-Auth Claim: Participating Doctor Details</a>
+            <span class="subText">
+               Created: 21/May/25                   &nbsp;Updated: 10/Jun/25
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Review</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://heintra.atlassian.net/secure/BrowseProject.jspa?id=10662">Health Claims Platform</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://heintra.atlassian.net/browse/HCP-19">Cashless Pre-Auth Initial Intimation flow: Non-Medico</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                id="word_reporter_712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5">
+                    Rama Swamy Mallarapu
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                    Unassigned
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-161019-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+                    </td>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Time Spent:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Original Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+            <tr><td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sub-tasks:</b></td>
+    <td bgcolor="#ffffff" valign="top">
+        <table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tr bgcolor="#f0f0f0">
+                <td>
+                    <b>Key</b><br/>
+                </td>
+                <td>
+                    <b>Summary</b><br/>
+                </td>
+                <td>
+                    <b>Type</b><br/>
+                </td>
+                <td>
+                    <b>Status</b><br/>
+                </td>
+                <td>
+                    <b>Assignee</b><br/>
+                </td>
+            </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-126">HCP-126</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-126">FE - UI, validations and responsiveness</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        In QA
+                    </td>
+                    <td>
+                                                     Dhanush RM  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-127">HCP-127</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-127">FE - Mock data integration and unit t...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        In QA
+                    </td>
+                    <td>
+                                                     Dhanush RM  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-267">HCP-267</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-267">QA | HCP-26  | Testing Activities </a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Sahana.Marathe  &nbsp;
+                                            </td>
+                </tr>
+                    </table>
+    </td>
+</tr>
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-161019-value" class="value" bgcolor="#ffffff" width="80%">Product Sprint 2</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Team:</b></td>
+                <td id="customfield_10001-161019-value" class="value" bgcolor="#ffffff" width="80%"><div class="shorten" id="customfield_10001-field">
+    <span></span>
+</div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Board Name:</b></td>
+                <td id="customfield_10632-161019-value" class="value" bgcolor="#ffffff" width="80%">    POD1
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Issue Type:</b></td>
+                <td id="customfield_10634-161019-value" class="value" bgcolor="#ffffff" width="80%">    Functional
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Pre-requisites:</b></td>
+                <td id="customfield_10637-161019-value" class="value" bgcolor="#ffffff" width="80%">      <ul>
+	<li>Pre-Auth Claim Intimation User has access to UCP portal.</li>
+	<li>Pre-auth claim intimation page has valid search on hospital details.</li>
+	<li>Pre-auth Claim Intimation users treating doctor details as per hospital bill.</li>
+</ul>
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>User Actions:</b></td>
+                <td id="customfield_10638-161019-value" class="value" bgcolor="#ffffff" width="80%">      <p>As an User on the Unified claim portal login page,</p>
+
+<ul>
+	<li>I should select the <b>Medical Speciality</b> under the treating doctor section.
+	<ul>
+		<li>Master drop down given by HE Team.</li>
+		<li>First to search for doctor name under doctor search using doctor name / registration number / email ID / Pan card number / mobile number.</li>
+		<li>Users will search for the correct doctor &amp; select the particular record.</li>
+		<li>If a doctor entry is not found, the user can click on add doctor while using the <b>Add Doctor button”</b>.</li>
+		<li>User will add below details,
+		<ul>
+			<li>Doctor Name (Mandatory)</li>
+			<li>Registration Number (Non Mandatory)</li>
+			<li>HPR Code (Non Mandatory)</li>
+			<li>Qualification (Non Mandatory)</li>
+			<li>Mobile Number (Non Mandatory)</li>
+			<li>PAN Number (Non Mandatory)</li>
+			<li>Email ID (Non Mandatory)</li>
+			<li>Longitude (Non Mandatory)</li>
+			<li>Latitude (Non Mandatory)</li>
+		</ul>
+		</li>
+		<li>Users will click on <b>“Add new record”</b> then &amp; save / submit button.</li>
+		<li>Qualification master to be pending from HE.</li>
+	</ul>
+	</li>
+	<li>Users can add multiple medical specialities in the same screen as per details on the bill by clicking on <b>“Add Medical Specialities”</b>.</li>
+	<li>User should be able to update existing doctor details if required in case if some of the details or missing or some of the details are to be changed as needed.</li>
+</ul>
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Data Specifications &amp; Validation Rules:</b></td>
+                <td id="customfield_10639-161019-value" class="value" bgcolor="#ffffff" width="80%">      <div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'><b>Field Name</b></td>
+<td class='confluenceTd'><b>Data Type</b></td>
+<td class='confluenceTd'><b>Validation Rules / Format</b></td>
+<td class='confluenceTd'><b>Auto-fetched</b></td>
+<td class='confluenceTd'><b>Notes / Restrictions</b></td>
+</tr>
+<tr>
+<td class='confluenceTd'>Medical Speciality</td>
+<td class='confluenceTd'>Drop Down</td>
+<td class='confluenceTd'><ol>
+	<li>Users should be able to select medical speciality as required from the master list.</li>
+	<li>Master list to have all the medical specialities (HE to provide the list). For Ex: Neurology, Gastroenterology, Radiology, Pathology, etc.</li>
+	<li>Users should be able to add multiple doctor details by selecting medical specialities as required. Please refer to the mentioned Speciality. Master List (should be configurable):
+	<ol>
+		<li>General Practitioner (GP)</li>
+		<li>Pediatrician</li>
+		<li>Dermatologist</li>
+		<li>Cardiologist</li>
+		<li>Ophthalmologist</li>
+		<li>Orthopaedic Surgeon</li>
+		<li>Neurologist</li>
+		<li>Psychiatrist</li>
+		<li>OBS/GYN</li>
+		<li>Anesthesiologist</li>
+		<li>Radiologist</li>
+		<li>ENT Specialist</li>
+		<li>Urologist</li>
+		<li>Endocrinologist</li>
+		<li>Gastroenterologist</li>
+		<li>Pulmonologist</li>
+		<li>Nephrologist</li>
+		<li>Oncologist</li>
+		<li>Rheumatologist</li>
+		<li>Allergist/Immunologist</li>
+		<li>Emergency Medicine Physician</li>
+		<li>Pathologist</li>
+		<li>Infectious Disease Specialist</li>
+		<li>Sports Medicine Physician</li>
+		<li>Geriatrician</li>
+		<li>Plastic Surgeon</li>
+		<li>Neonatologist</li>
+		<li>Pain Management Specialist</li>
+		<li>Hematologist</li>
+		<li>Sleep Medicine Specialist</li>
+		<li>Geneticist</li>
+		<li>Nephrologist</li>
+		<li>Interventional Radiologist</li>
+		<li>Hepatologist</li>
+		<li>Hematopathologist</li>
+		<li>Neurosurgeon.</li>
+		<li>Palliative Care Physician</li>
+		<li>Critical Care Physician</li>
+		<li>Podiatrist</li>
+		<li>Addiction Medicine Specialist</li>
+		<li>Forensic Pathologist</li>
+		<li>Thoracic Surgeon</li>
+		<li>Intensivist</li>
+		<li>Clinical Geneticist</li>
+		<li>Geriatric Psychiatrist</li>
+		<li>Medical Geneticist</li>
+		<li>Neuropsychiatrist</li>
+		<li>Vascular Surgeon</li>
+		<li>Bariatric Surgeon</li>
+		<li>Reproductive Endocrinologist</li>
+		<li>Microbiologist.</li>
+	</ol>
+	</li>
+</ol>
+</td>
+<td class='confluenceTd'>No</td>
+<td class='confluenceTd'>Mandatory data for claim intimation - Non medico user</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Name of Doctor</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Character length 30 </td>
+<td class='confluenceTd'>No</td>
+<td class='confluenceTd'>Mandatory - Doctor details API trigger to fetch data from HCS DB</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Registration Number</td>
+<td class='confluenceTd'>String</td>
+<td class='confluenceTd'>Auto populated basis above tag match or user can enter manually - 12345ABCD12</td>
+<td class='confluenceTd'>No</td>
+<td class='confluenceTd'>Non mandatory - Details as per bill form - Non medico user</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Healthcare Prof code (HPR)</td>
+<td class='confluenceTd'>String</td>
+<td class='confluenceTd'>Format - ABCD12345566</td>
+<td class='confluenceTd'>No</td>
+<td class='confluenceTd'>Non mandatory - Manual entry from bill form</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Qualification </td>
+<td class='confluenceTd'>String</td>
+<td class='confluenceTd'>MBBS / BHMS etc - Master data come from HE</td>
+<td class='confluenceTd'>No</td>
+<td class='confluenceTd'>Non mandatory - Manual entry from bill form - Master data driven if suggestive master</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Mobile number</td>
+<td class='confluenceTd'>Numeric</td>
+<td class='confluenceTd'>Digit - minimum 10 digit code</td>
+<td class='confluenceTd'>No</td>
+<td class='confluenceTd'>Non mandatory </td>
+</tr>
+<tr>
+<td class='confluenceTd'>Treating doctor Pan card</td>
+<td class='confluenceTd'>Alphanumeric</td>
+<td class='confluenceTd'>Standard format<br/>
+E.g. ASRPK1111K</td>
+<td class='confluenceTd'>No</td>
+<td class='confluenceTd'>Non mandatory for the search criteria and Non - mandatory for the new doctor creation.</td>
+</tr>
+</tbody></table>
+</div>
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Acceptance Criteria:</b></td>
+                <td id="customfield_10044-161019-value" class="value" bgcolor="#ffffff" width="80%">      User will select Medical speciality under the treating doctor section.<br/>
+<br/>
+Users will select speciality from drop down and click on Add button.<br/>
+<br/>
+On click of add, a window should open wherein user can enter below details and search for doctor details.<br/>
+<br/>
+Doctor Name<br/>
+<br/>
+Registration Number<br/>
+<br/>
+Email ID<br/>
+<br/>
+PAN<br/>
+<br/>
+Mobile Number<br/>
+<br/>
+Doctor details should be fetched from backend based on the search parameters entered.<br/>
+<br/>
+User should be able to select doctor by clicking on add button.<br/>
+<br/>
+Users can also add doctor details if no record is found, by clicking “Add New Record”.<br/>
+<br/>
+User will enter below details to add the doctor,<br/>
+<br/>
+Medical Speciality<br/>
+<br/>
+Doctor Name (Mandatory)<br/>
+<br/>
+Registration Number (Non Mandatory)<br/>
+<br/>
+HPR Code (Non Mandatory)<br/>
+<br/>
+Qualification (Non Mandatory)<br/>
+<br/>
+Mobile Number (Non Mandatory)<br/>
+<br/>
+PAN Number (Non Mandatory)<br/>
+<br/>
+Email ID (Non Mandatory)<br/>
+<br/>
+Longitude (Non Mandatory)<br/>
+<br/>
+Latitude (Non Mandatory)<br/>
+<br/>
+User will enter and add more than one doctor details on the same screen as per preauth form details.<br/>
+<br/>
+User will add more Medical Specialties than one entry if required.
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Definition of Done:</b></td>
+                <td id="customfield_10048-161019-value" class="value" bgcolor="#ffffff" width="80%">      As a pre-auth claim intimation user I should be able to enter participating doctor/physician/radiologist details
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Edge Cases:</b></td>
+                <td id="customfield_10640-161019-value" class="value" bgcolor="#ffffff" width="80%">      <ul>
+	<li>HCS DB did not respond to the doctor name, registration number, or Health care prof code search.</li>
+	<li>User will enter all details manually if OCR does not capture data from images. </li>
+	<li>Portal session times out while filling form: system saves all the data entered temporarily, allows restore post-log in from the cache/temporary memory.</li>
+</ul>
+
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>As a pre-auth claim intimation user, I should be able to navigate to the claim registration page and record / Capture information related to Participating Doctor(s).</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-156813"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:c259451f-7bea-4a06-9948-079a03020367"
+                id="word_commented_712020:c259451f-7bea-4a06-9948-079a03020367"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ac259451f-7bea-4a06-9948-079a03020367">
+                    Sahana.Marathe
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">10/Jun/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-156813"><td bgcolor="#ffffff">
+            <p><a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5" class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" data-account-id="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" accountid="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" rel="noreferrer">Rama Swamy Mallarapu</a> / <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A5d67ad0d-6360-46a2-aa5e-fe4c190e903e" class="user-hover" rel="712020:5d67ad0d-6360-46a2-aa5e-fe4c190e903e" data-account-id="712020:5d67ad0d-6360-46a2-aa5e-fe4c190e903e" accountid="712020:5d67ad0d-6360-46a2-aa5e-fe4c190e903e" rel="noreferrer">Ajay Jagadish</a>  – As per the recent demo, Edit and Delete functionalities are not available in this user story. But in the demo, those have been conveyed as a part of the demo. </p>
+
+<p>Please refer the Demo feedback for reference. </p>
+
+<p> client demo 6-6-2025<br/>
+---------------------------<br/>
+POD 2<br/>
+NT ID to ARM ID <br/>
+extra feilds are added<br/>
+(For more than 24 hrs ) -&gt; (For more than 24 hrs)      space to be removed<br/>
+change the error message -&gt; cannot be same as primary number<br/>
+Role must be mandetory<br/>
+approval recived feild - &gt; message must be changes and capital letters must  be taken care<br/>
+number to be blocked in name feilds<br/>
+email error message in email feild to be changed<br/>
+when error is displayed line must not move<br/>
+NT ID error message -&gt; NT ID is available for creation... Shekhar to update<br/>
+All grid headers to be center aligned<br/>
+display 500 char and also how to display in table<br/>
+block special char.. in remark<br/>
+existing word to be added in error message</p>
+
+<p><b>POD 1</b><br/>
+Intemation search page  #change the page name<br/>
+when searching results must have all details including date of intimation    # not sure just a suggestion<br/>
+can search directly with DOA and additional seach  # not sure just a suggestion<br/>
+if pehachan is updated then remark bypass &amp; remark must be hidden<br/>
+policy holder communication address city state to be displayed in basic details page<br/>
+benifit name to be added in the previous claim section<br/>
+back to dashboard can be changed to OK button and move to previous page<br/>
+NSP ID hospital search place holder need to be fixed UI<br/>
+<b>in edit screen change name to update insted to add</b></p>
+
+<p>---------------------<br/>
+need confirmation<br/>
+---------------------<br/>
+There must be some kind of filter to search docter<br/>
+if docter data is coming from DB then must not be deleted<br/>
+Qualification in docter edit must be multiselect<br/>
+if we update the docter data -&gt; future claim will update but old will remain same<br/>
+if data is from DB then only blank feild to be editied</p>
+        </td></tr>
+            </table>
+Generated at Tue Jun 10 10:12:07 UTC 2025 by Sahana.Marathe using Jira 1001.0.0-SNAPSHOT#100283-rev:eea116ea89e9748a3e91ca991e396303e1ecd106.
+
+</body>
+</html>
