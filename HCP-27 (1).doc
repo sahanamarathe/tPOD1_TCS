@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#HCP-27] 1.9 Pre-Auth Claim: Billing details - Estimated bills</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://heintra.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://heintra.atlassian.net/browse/HCP-19">Cashless Pre-Auth Initial Intimation flow: Non-Medico</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://heintra.atlassian.net/browse/HCP-19">HCP-19</a>)</span>
+                <h3 class="formtitle"><img src="https://heintra.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [HCP-27]&nbsp;<a href="https://heintra.atlassian.net/browse/HCP-27">1.9 Pre-Auth Claim: Billing details - Estimated bills</a>
+            <span class="subText">
+               Created: 21/May/25                   &nbsp;Updated: 20/Jun/25
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Review</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://heintra.atlassian.net/secure/BrowseProject.jspa?id=10662">Health Claims Platform</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://heintra.atlassian.net/browse/HCP-19">Cashless Pre-Auth Initial Intimation flow: Non-Medico</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                id="word_reporter_712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5">
+                    Rama Swamy Mallarapu
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                id="word_assignee_712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5">
+                    Rama Swamy Mallarapu
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-161027-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+                    </td>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Time Spent:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Original Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+            <tr><td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sub-tasks:</b></td>
+    <td bgcolor="#ffffff" valign="top">
+        <table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tr bgcolor="#f0f0f0">
+                <td>
+                    <b>Key</b><br/>
+                </td>
+                <td>
+                    <b>Summary</b><br/>
+                </td>
+                <td>
+                    <b>Type</b><br/>
+                </td>
+                <td>
+                    <b>Status</b><br/>
+                </td>
+                <td>
+                    <b>Assignee</b><br/>
+                </td>
+            </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-321">HCP-321</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-321">QA | HCP -27  | Testing Activities </a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Srijith Nayak  &nbsp;
+                                            </td>
+                </tr>
+                    </table>
+    </td>
+</tr>
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-161027-value" class="value" bgcolor="#ffffff" width="80%"></td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Team:</b></td>
+                <td id="customfield_10001-161027-value" class="value" bgcolor="#ffffff" width="80%"><div class="shorten" id="customfield_10001-field">
+    <span></span>
+</div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Board Name:</b></td>
+                <td id="customfield_10632-161027-value" class="value" bgcolor="#ffffff" width="80%">    POD1
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Issue Type:</b></td>
+                <td id="customfield_10634-161027-value" class="value" bgcolor="#ffffff" width="80%">    Functional
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Pre-requisites:</b></td>
+                <td id="customfield_10637-161027-value" class="value" bgcolor="#ffffff" width="80%">      <ul>
+	<li>Pre-auth claim intimation user has access to UCP portal and successfully logged in with the appropriate role and permissions to register a new claim.</li>
+	<li>A new pre-auth cashless claim intimation have been initiated, and the user has navigated to the "Billing Details" section.</li>
+	<li>Policy and member details are available and validated from previous steps in the claim intimation journey.</li>
+	<li>Master lists for "Expense Type", "Room Type", "Bill Level 1", "Bill Level 2", "Bill Level 3", and "Bill Category" have loaded and available.</li>
+</ul>
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>User Actions:</b></td>
+                <td id="customfield_10638-161027-value" class="value" bgcolor="#ffffff" width="80%">      <p>As a pre-auth claim intimation user,</p>
+
+<p><span class="image-wrap" style=""><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeYWeRK72plXqNxYkNMkJbbN4dbU0_w92Y_ovpRfjjefwRPAtdNnWpvIfM9-E0WxJW4PQYCDb7iyw-_NIu7B-YbZFfh8vyzM-QkZbT6TOLzqbTyD4T9m-krDWTklHG5Y1Nh96cJgA?key=HL3ojGYr59m1BC3lHbuxlg" height="210" width="1180" style="border: 0px solid black" /></span></p>
+
+
+
+<ul>
+	<li>I should be able to enter “Patient ID” in billing details if it is available. It is nonmandatory at pre-auth intimation stage but would be mandatory at discharge stage.</li>
+	<li><b>Add Deductible Details:</b> Currently, this will be a <font color="#4c9aff"><b>placeholde</b></font>r🔖 . This button should be displayed only when deductible applicable for the respective policy. On click of this, a new window should open up wherein user should be able to add deductible details with option to tag documents <b>(Additional details will be added later)</b>.</li>
+	<li><b>Add Corporate Buffer Details:</b> Currently, this will be a <font color="#4c9aff"><b>placeholde</b></font>r🔖. This button should be displayed only when corporate buffer is available for the respective group policy.On click of this, a new window should open up wherein user should be able to add corporate buffer details with option to tag documents <b>(Additional details will be added later)</b>.</li>
+	<li>There should be two sections in Billing Details as
+	<ol>
+		<li>Estimated Billing</li>
+		<li>Detailed Billing</li>
+	</ol>
+	</li>
+	<li>By default, Estimated Billing should be selected and user should be able to enter below details. If user wants to do “Detailed Billing”, user should be able to select “Detailed Billing” and proceed with entering detailed billing <b>(Detailed billing will be covered in Discharge Flow)</b>.</li>
+</ul>
+
+
+<p><span class="image-wrap" style=""><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXd67M2qmqlPd9wwgyaEnjTT5TLwzhLmCQXVykVlRupFY_EIMhVoo5fS7UjCgbGf-KuXU9vVax-IJZtlOl_O_979Ubd2NW1urKno_K_tfkTKZKfttgXQn59Ck7tvFsp5RwGYgD7t3Q?key=9hC2Ooobf0vsdR4WlhzZTw" height="265" width="1280" style="border: 0px solid black" /></span></p>
+
+<p>Note : <font color="#ff5630"> <b>Tariff discount will deduct first and then tariff amount will get deducted as discussed in Mumbai session.</b> </font></p>
+
+<p><font color="#006644"><b>Updated the story and the screenshot.</b></font><font color="#ff5630"> </font></p>
+
+<ul>
+	<li><b>Expense Type:</b> User should be able to select expense type from the below list.
+	<ul>
+		<li>Ambulance Charges</li>
+		<li>ICU Charges</li>
+		<li>Implant Charges</li>
+		<li>Investigation Charges</li>
+		<li>Medicine &amp; Consumables</li>
+		<li>Miscellaneous Charges</li>
+		<li>OT Charges</li>
+		<li>Organ Donor Expenses <font color="#ff5630"><b>(If we are selecting organ donor Exp in bill level 1 then at medico level they have option to add beneficiary name and further communication and other processing will evolve accordingly).</b> </font><font color="#006644"><b>Added a note below.</b></font></li>
+		<li>Pharmacy Charges</li>
+		<li>Professional Fees</li>
+		<li>Room &amp; Nursing Charges</li>
+		<li>Other Expenses</li>
+		<li>Procedure Charges</li>
+	</ul>
+	</li>
+	<li><font color="#006644">If “Organ Donor Expenses” is selected, then at Medico stage user should be having option to add beneficiary/donor name, further communication, and other billing details, etc. Currently, this will be a</font> <font color="#4c9aff"><b>placeholde</b></font>r🔖 .</li>
+	<li><font color="#006644"><b>Billed Room Type:</b></font><font color="#006644"> Based on the selected N/W hospital, the room types available for the respective N/W hospital should be fetched from NSP admin and displayed as a drop down. NM User should be able to select any one of them as required. Example: ICU, Private Room, Semi-Private Room, etc. If daycare is selected as room type, then “Daycare” checkbox would be mandatory and the length of stay should not be more than 24 hours.</font></li>
+	<li><font color="#006644"><b>Approved Room Type:</b></font><font color="#006644"> Based on the selected N/W hospital, the room types available for the respective N/W hospital should be fetched from NSP admin and displayed as a drop down. Medico user should be able to select any one of them as required. Example: ICU, Private Room, Semi-Private Room, etc. If daycare is selected as room type, then “Daycare” checkbox would be mandatory and the length of stay should not be more than 24 hours.</font></li>
+	<li><b>Units:</b> User should be able to enter the number of units to be charged for the respective expense type.</li>
+	<li><b>Amount Per Unit:</b> User should be able to enter charge of each unit of the respective expense type. If “Claimed Amount” and “Units” are entered then the “Amount Per Unit” should be auto calculated as “Claimed Amount” divided by “Units”.</li>
+	<li><b>Claimed Amount:</b> User should be able to enter claimed amount for the respective expense type. If “Units” and “Amount Per Unit” are entered then this should be auto-calculated as “Units” multiplied by “Amount Per Unit”.</li>
+	<li><font color="#006644"><b>MOU Discount Amount:</b></font><font color="#006644"> This should be auto-calculated as “Claimed Amount” * Tariff Discount Percentage where Tariff Discount Percentage should be fetched from NSP module based on the discount percentage available for the respective tariff based on the approved room type. Otherwise, this should be shown as zero. The column header should be a hyperlink to tariff discount details of the respective N/W hospital. Validation: MOU discount is applicable only for “Room &amp; Nursing Charges” expense type.</font></li>
+	<li><b>Tariff Amount (Per Unit):</b> This should be enabled at Medico stage on selection of value for “Approved Room Type”. At NM stage, this will be a placeholder. This should be auto fetched from NSP module (per unit basis) if the tariff amount is available for the respective expense type based on the approved room type. Otherwise, this should be shown as zero. The column header should be a hyperlink to tariff details of the respective N/W hospital. <b>Validation:</b> Tariff Amount is applicable only for “Room &amp; Nursing Charges” expense type.</li>
+	<li><b>Tariff Deduction Amount:</b> This should be auto-calculated as (“Claimed Amount” - (minus) “MOU Discount Amount”) - (minus) ((“Tariff Amount (Per Unit)” * “Units”)  - (“Tariff Amount (Per Unit)” * “Units” * “Tariff Discount Percentage”) where Tariff Discount Percentage should be fetched from NSP module based on the discount percentage available for the respective expense type based on the approved room type. Otherwise, this should be shown as zero. <b>Validation:</b> Tariff Deduction Amount is applicable only for “Room &amp; Nursing Charges” expense type.</li>
+	<li><b>Other Deduction Amount:</b> User should be able to enter other deduction amount (if any) for the respective expense type.</li>
+	<li><font color="#006644"><b>Other Discount Amount:</b></font><font color="#006644"> User should be able to enter other discount amount (if any) for the respective expense type.</font></li>
+	<li><b>Payable Amount:</b> This should be auto-calculated as “Claimed Amount” - (minus) “MOU Discount Amount” - (minus) “Tariff Deduction Amount”  - (minus) “Other Deduction Amount” - (minus) “Other Discount Amount” .</li>
+	<li><b>Remarks (Other Deduction / Any other):</b> User should be able to enter the remarks, if any. Remarks will be mandatory in case if user enter any value in the “Other Deduction Amount” field for the respective expense type.</li>
+	<li><b>Delete Button</b>: On click of "Delete" button, respective row should be deleted from the "Estimated Billing Details" table.</li>
+	<li><b>Add Button</b>: On click of "Add" button, a new row should be added to the "Estimated Billing Details" table. Also, system should allow adding new rows by tabbing out of any cell in the current row.</li>
+	<li>The system should automatically calculate and display "Totals" for “Unit”, “Amount Per Unit”, “Claimed Amount”, “Tariff Amount (Per Unit)”, “Tariff Deduction Amount”, “Tariff Discount Amount”, “Other Deduction Amount”, “Other Discount Amount”, and “Payable Amount” at the bottom of the table.</li>
+</ul>
+
+
+<p><span class="image-wrap" style=""><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfkPnZK_VXVSEUN_23riedV7-h87qsE4dFASe-fxxRnXM8ftHx23igwfjfoJABCRt9jP9DA4_-RRm6xzXO4rcP-WjQiaeKYIxv17moHVf1ZzIIbanrG9CrWEIAqN7QXl_N2mw0v?key=nIY5oe2v04C0fNe5IaZTug" height="196" width="1283" style="border: 0px solid black" /></span></p>
+
+<ul>
+	<li><b>Add Package Details (Optional):</b>
+	<ul>
+		<li>User should be able to add package details, if required, by clicking "Add Package Details" button.</li>
+		<li>On click of "Add Package Details" button, a new section for "Package Details" should be displayed.</li>
+		<li><b>Bill Levels:</b> User should be able to select "Bill Level 1" (which will have “Medical” and “Surgical” as two options) , "Bill Level 2", and "Bill Level 3" from master lists <b>(HE to provide master list)</b>.</li>
+		<li><font color="#006644"><b>Billed Room Type:</b></font><font color="#006644"> Based on the selected N/W hospital, the room types available for the respective N/W hospital should be fetched from NSP admin and displayed as a drop down. NM User should be able to select any one of them as required. Example: ICU, Private Room, Semi-Private Room, etc. If daycare is selected as room type, then “Daycare” box would be mandatory and the length of stay should not be more than 24 hours.</font></li>
+		<li><font color="#006644"><b>Approved Room Type:</b></font><font color="#006644"> Based on the selected N/W hospital, the room types available for the respective N/W hospital should be fetched from NSP admin and displayed as a drop down. Medico user should be able to select any one of them as required. Example: ICU, Private Room, Semi-Private Room, etc. If daycare is selected as room type, then “Daycare” box would be mandatory and the length of stay should not be more than 24 hours.</font></li>
+		<li><b>Bill Date:</b> The user should be able to enter the bill date manually from the bill provided by the hospital/customer or select from date picker dropdown.</li>
+		<li><b>Bill Number:</b> The user should be able to enter the bill number manually from the bill provided by the hospital/customer. <b>Validation:</b> An error message should be displayed if there is an existing bill with below identifiers combination. This validation should be done against all the types of claims and not only restricted to cashless claim, i.e. need to be validated against reimbursement claims, reimbursement supplementary claims, cashless supplementary claims, and Pre/Post hospitalization claims. The error message should be configurable and it should be “Bill number xxxxxxx (full bill number) has been claimed under previous claim number XXXXXXXXX for an amount of Rs. xxxxxx. Please recheck the bill number”.
+		<ol>
+			<li>Hospital Name</li>
+			<li>Bill Number</li>
+			<li>Bill Date</li>
+			<li>Policy Number</li>
+			<li>Insured i.e HDFC ERGO ID/ HEGIC Card No.</li>
+		</ol>
+		</li>
+		<li><b>Unit:</b> User should be able to enter the number of units to be charged for the respective package.</li>
+		<li><b>Amount Per Unit:</b> User should be able to enter charge of each package. If “Claimed Amount” and “Units” are entered then the “Amount Per Unit” should be auto calculated as “Claimed Amount” divided by “Units”.</li>
+		<li><b>Claimed Amount:</b> User should be able to enter claimed amount for the respective package. If “Units” and “Amount Per Unit” are entered then this should be auto-calculated as “Units” multiplied by “Amount Per Unit”.</li>
+		<li><font color="#006644"><b>MOU Discount Amount:</b></font><font color="#006644"> This should be auto-calculated as “Claimed Amount” * Tariff Discount Percentage where Tariff Discount Percentage should be fetched from NSP module based on the discount percentage available for the respective package based on the approved room type. Otherwise, this should be shown as zero. The column header should be a hyperlink to tariff discount details of the respective N/W hospital.</font></li>
+		<li><b>Tariff Amount (Per Unit):</b> This should be enabled at Medico stage on selection of value for “Approved Room Type”. At NM stage, this will be a placeholder. This should be auto fetched from NSP module (per unit basis) if the tariff amount is available for the respective package based on the approved room type. Otherwise, this should be shown as zero. The column header should be a hyperlink to tariff details of the respective N/W hospital.</li>
+		<li><b>Tariff Deduction Amount:</b> This should be auto-calculated as (“Claimed Amount” - (minus) “MOU Discount Amount”) - (minus) ((“Tariff Amount (Per Unit)” * “Units”)  - (“Tariff Amount (Per Unit)” * “Units” * “Tariff Discount Percentage”) where Tariff Discount Percentage should be fetched from NSP module based on the discount percentage available for the respective package based on the approved room type. Otherwise, this should be shown as zero.</li>
+		<li><b>Other Deduction Amount:</b> User should be able to enter other deduction amount (if any) for the respective expense type.</li>
+		<li><b>Other Discount Amount:</b> User should be able to enter other discount amount (if any) for the respective expense type.</li>
+		<li><b>Payable Amount:</b> This should be auto-calculated as “Claimed Amount” - (minus) “MOU Discount Amount” - (minus) “Tariff Deduction Amount” - (minus) “Other Deduction Amount” - (minus) “Other Discount Amount”.</li>
+		<li><b>Remarks (Other Deduction / Any other):</b> User should be able to enter the remarks, if any. Remarks will be mandatory in case if user enters any value in the “Other Deduction Amount” field.</li>
+		<li><b>Special Notes by NSP</b>: User should be able to view any special notes made by NSP team, if available.</li>
+		<li><b>Delete Button</b>: On click of "Delete" button, respective row should be deleted from the "Package Details" table.</li>
+		<li><b>Add Button</b>: On click of "Add" button, a new row should be added to the "Package Details" table. Also, system should allow adding new rows by tabbing out of any cell in the current row.</li>
+		<li>The system should automatically calculate and display "Totals" for “Unit”, “Amount Per Unit”, “Claimed Amount”, “MOU Discount Amount”, "Tariff Amount (Per Unit)", “Tariff Deduction Amount”, “Other Deduction Amount”, “Other Discount Amount”, and “Payable Amount” at the bottom of the table.</li>
+		<li><b>Total Estimated Bill Charges:</b> This should be auto-calculated as sum of “Total Payable Amount” from estimated billing section and “Total Payable Amount” from package billing section.</li>
+	</ul>
+	</li>
+</ul>
+
+
+<p><span class="image-wrap" style=""><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfmX0Cu919Up_Yc2NTM0b4pWqReGjI1Fw6tX6INTsuBJX920BqSOnjiWLx3FXPq0Eh_u9KjKiDKMbfdl-b3JUFeBMdMOU0d7Gz3YMFmohkJOEWxWFrI1NRRlEN0Kqv4lwHtZBXiAg?key=nIY5oe2v04C0fNe5IaZTug" height="87" width="1112" style="border: 0px solid black" /></span></p>
+
+<ul>
+	<li><b>Pharmacy Charges:</b> User should be able to update pharmacy charges, if available, as per <a href="https://heintra.atlassian.net/browse/HCP-28" title="smart-link" class="external-link" rel="nofollow noreferrer">https://heintra.atlassian.net/browse/HCP-28</a></li>
+</ul>
+
+
+
+
+<p><span class="image-wrap" style=""><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdLUF1eYRD_DgBKJejenvXHNQC_USyM0Gbuz185lBhJTOvA0pOR_-2oDJzPU6mE4oeFHqtXss5o1VK8tjyAof_XnQK9Qgf0VisMu6gyZqdGj-JmL80e8W27zxtiJf7IPsnfejDgKA?key=nIY5oe2v04C0fNe5IaZTug" height="145" width="692" style="border: 0px solid black" /></span></p>
+
+
+
+<ul>
+	<li>After entering all the billing details, a summary section should be displayed as per below listed fields.
+	<ul>
+		<li>Below listed fields should be shown on hovering over this section.
+		<ul>
+			<li><b>Overall GST:</b> This should be auto-fetched as final GST applicable on the total claimed pre-auth amount.</li>
+			<li><b>Policy Aggregate Deductible Amount:</b> This should be auto-fetched based on the policy level Aggregate Deductible Value.</li>
+			<li><b>Exhausted Aggregate Deductible Amount:</b> This should be auto-calculated as sum of all the previous claims approved amount(s) for the respective policy within the current policy year (irrespective of the member) along with sum of all the deductible amount entered (if any deductible amount entered manually). If sum of all the previous claims approved amount(s) for the respective policy within the current policy year (irrespective of the member) along with sum of all the deductible amount entered (if any deductible amount entered manually) is greater than “Policy Aggregate Deductible Amount”, then the “Exhausted Aggregate Deductible Amount” should be considered as “Policy Aggregate Deductible Amount”.</li>
+			<li><b>Balance Aggregate Deductible Amount:</b> This should be auto-calculated as “Policy Aggregate Deductible Amount” - “Exhausted Aggregate Deductible Amount”.</li>
+			<li><b>Policy Deductible Amount:</b> This is applicable only if policy level deductible is available and auto-fetched based on the policy level deductible value.</li>
+			<li><b>Sublimit Deduction (if any):</b> This is applicable only in case if sub-limit is applicable for the claimed ICD code(s). The value should be auto-calculated as “Total Claimed Pre-Auth Amount” - (minus) Sublimit Amount as per the ICD code for the respective claim.</li>
+			<li><b>Over and Above Balance SI Deduction:</b> This is only applicable only when “Total Payable Pre-Auth Amount” is greater than “Balance SI”. The calculation should be done as “Total Claimed Pre-Auth Amount” - (minus) Balance SI.</li>
+			<li><font color="#006644"><b>EMI Recovery:</b></font><font color="#006644"> EMI Recovery is applicable only in case of EMI payment policy and should show balance EMI amount due for the respective policy in the current policy year</font>.</li>
+		</ul>
+		</li>
+		<li>Below listed fields should be shown as visible fields in this section.
+		<ul>
+			<li><b>Total Claimed Pre-Auth Amount:</b> This should be auto-calculated as sum of “Total Payable Estimated Bill Amount”, “Total Payable Package Amount”, and “Total Payable Pharmacy Amount”.</li>
+			<li><font color="#006644"><b>Special Discount on Discharge:</b></font><font color="#006644"> User should be able to enter discount amount manually, if any. User will enter special discount in case if there is a discount provided at overall claim level. At this stage, the payable amount should be “Total Claimed Pre-Auth Amount” + (plus) “Overall GST” - (minus) Special Discount on Discharge.</font></li>
+			<li><font color="#006644"><b>Co-payment Amount:</b></font><font color="#006644"> This should be auto calculated on the basis of policy attributes related to copay. Calculation should be as (“Total Claimed Pre-Auth Amount” + (plus) “Overall GST” - (minus) Special Discount on Discharge - (minus) “Balance Aggregate Deductible Amount”) * (multiplied by) Copay % at policy/product/claim level. At this stage, the payable amount should be ((“Total Claimed Pre-Auth Amount” + (plus) “Overall GST” - (minus) Special Discount on Discharge - (minus) “Balance Aggregate Deductible Amount”) * (multiplied by) Copay % at policy/product/claim level) - (minus) Co-payment Amount. </font><font color="#ff5630"><b>We will use agreed sequencings for payability calculation .</b></font></li>
+			<li><b>Total Approved Pre-Auth Amount (Including GST):</b> This should be auto-calculated as ((“Total Claimed Pre-Auth Amount” + (plus) “Overall GST” - (minus) Special Discount on Discharge - (minus) “Balance Aggregate Deductible Amount”) * (multiplied by) Copay % at policy/product/claim level) - (minus) Co-payment Amount - (minus) “Sublimit Deduction (if any)” - (minus) “Over and Above Balance SI Deduction” - (minus) “EMI Recovery (if applicable)”.</li>
+			<li><b>Final Approved Amount in words:</b> This should display the “Total Approved Pre-Auth Amount (Including GST)” in words.</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li>User should have option to “Back”, “Save”, and “Submit” which has been detailed out in <a href="https://heintra.atlassian.net/browse/HCP-29" title="smart-link" class="external-link" rel="nofollow noreferrer">https://heintra.atlassian.net/browse/HCP-29</a> .</li>
+</ul>
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Data Specifications &amp; Validation Rules:</b></td>
+                <td id="customfield_10639-161027-value" class="value" bgcolor="#ffffff" width="80%">      <h3><a name="BillingPageFields%3A"></a><b>Billing Page Fields:</b></h3>
+
+<p><b>Note:</b> If the value of any field is less than zero after auto calculation, then it should be reset to zero.</p>
+
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<th class='confluenceTh'><b>Field Name</b></th>
+<th class='confluenceTh'><b>Mandatory</b></th>
+<th class='confluenceTh'><b>Input Type</b></th>
+<th class='confluenceTh'><b>Validation Rules</b></th>
+<th class='confluenceTh'><b>Business Logic / Auto-calculated</b></th>
+<th class='confluenceTh'><b>Remarks</b></th>
+</tr>
+<tr>
+<td class='confluenceTd'>Patient ID</td>
+<td class='confluenceTd'>No (Pre-auth)<br/>
+Yes (Discharge)</td>
+<td class='confluenceTd'>Alphanumeric</td>
+<td class='confluenceTd'>Max 20 characters</td>
+<td class='confluenceTd'>-</td>
+<td class='confluenceTd'>Optional at pre-auth</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Estimated Billing Tab</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Radio Button</td>
+<td class='confluenceTd'>Must select either “Estimated” or “Detailed”</td>
+<td class='confluenceTd'>Default selected: "Estimated Billing"</td>
+<td class='confluenceTd'>Switches between billing views</td>
+</tr>
+</tbody></table>
+</div>
+
+
+<h3><a name="EstimatedBillingTableFields%3A"></a><b>Estimated Billing Table Fields:</b></h3>
+
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<th class='confluenceTh'><b>Field Name</b></th>
+<th class='confluenceTh'><b>Mandatory</b></th>
+<th class='confluenceTh'><b>Input Type</b></th>
+<th class='confluenceTh'><b>Validation Rules</b></th>
+<th class='confluenceTh'><b>Business Logic / Auto-calculated</b></th>
+<th class='confluenceTh'><b>Remarks</b></th>
+</tr>
+<tr>
+<td class='confluenceTd'>Expense Type</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Dropdown</td>
+<td class='confluenceTd'>Must select from master list</td>
+<td class='confluenceTd'>Predefined list of 13 expense types</td>
+<td class='confluenceTd'>List must be configurable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Billed Room Type</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Dropdown</td>
+<td class='confluenceTd'>Must be from NSP Admin data</td>
+<td class='confluenceTd'>Room types from selected N/W hospital</td>
+<td class='confluenceTd'>&nbsp;</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Approved Room Type</td>
+<td class='confluenceTd'>Yes (Medico)</td>
+<td class='confluenceTd'>Dropdown</td>
+<td class='confluenceTd'>Must be from NSP Admin data</td>
+<td class='confluenceTd'>Room types from selected N/W hospital</td>
+<td class='confluenceTd'>Enabled only for Medico</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Unit</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Number (&gt;=0)</td>
+<td class='confluenceTd'>Must be numeric</td>
+<td class='confluenceTd'>Used in multiple auto-calculations</td>
+<td class='confluenceTd'>Manual Entry</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Amount Per Unit</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Number (&gt;=0)</td>
+<td class='confluenceTd'>Must be numeric</td>
+<td class='confluenceTd'>Auto calculated as per user actions section</td>
+<td class='confluenceTd'>Manual entry as well as auto calculation</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Claimed Amount</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Number (&gt;=0)</td>
+<td class='confluenceTd'>Must be numeric</td>
+<td class='confluenceTd'>Auto calculated as per user actions section</td>
+<td class='confluenceTd'>Manual entry as well as auto calculation</td>
+</tr>
+<tr>
+<td class='confluenceTd'>MOU Discount Amount</td>
+<td class='confluenceTd'>Auto</td>
+<td class='confluenceTd'>Number (&gt;=0)</td>
+<td class='confluenceTd'>Must be numeric</td>
+<td class='confluenceTd'>Auto calculated as per user actions section</td>
+<td class='confluenceTd'>Hyperlink available</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Tariff Amount (Per Unit)</td>
+<td class='confluenceTd'>No (NM)<br/>
+Yes (Medico)</td>
+<td class='confluenceTd'>Number (&gt;=0)</td>
+<td class='confluenceTd'>Auto-fetched if available from NSP module</td>
+<td class='confluenceTd'>Placeholder for NM<br/>
+Auto-fetched at Medico based on Approved Room</td>
+<td class='confluenceTd'>Hyperlink to tariff details</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Tariff Deduction Amount</td>
+<td class='confluenceTd'>Auto</td>
+<td class='confluenceTd'>Number (&gt;=0)</td>
+<td class='confluenceTd'>Auto-Calculated</td>
+<td class='confluenceTd'>Auto calculated as per user actions section</td>
+<td class='confluenceTd'>&nbsp;</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Other Deduction Amount</td>
+<td class='confluenceTd'>No</td>
+<td class='confluenceTd'>Number (&gt;=0)</td>
+<td class='confluenceTd'>Must be numeric</td>
+<td class='confluenceTd'>Manual entry</td>
+<td class='confluenceTd'>Remarks mandatory if entered</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Other Discount Amount</td>
+<td class='confluenceTd'>No</td>
+<td class='confluenceTd'>Number (&gt;=0)</td>
+<td class='confluenceTd'>Must be numeric</td>
+<td class='confluenceTd'>Manual entry</td>
+<td class='confluenceTd'>&nbsp;</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Payable Amount</td>
+<td class='confluenceTd'>Auto</td>
+<td class='confluenceTd'>Number</td>
+<td class='confluenceTd'>Auto-Calculated</td>
+<td class='confluenceTd'>Auto calculated as per user actions section</td>
+<td class='confluenceTd'>&nbsp;</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Remarks (Other Deduction / Any other)</td>
+<td class='confluenceTd'>Conditional</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Mandatory if “Other Deduction Amount” &gt; 0</td>
+<td class='confluenceTd'>-</td>
+<td class='confluenceTd'>Remarks mandatory if other deduction amount entered</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Add/Delete Buttons</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Button</td>
+<td class='confluenceTd'>On click: add/delete row</td>
+<td class='confluenceTd'>System auto adds row on tab out</td>
+<td class='confluenceTd'>&nbsp;</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Totals Row</td>
+<td class='confluenceTd'>Auto</td>
+<td class='confluenceTd'>Summary Row</td>
+<td class='confluenceTd'>-</td>
+<td class='confluenceTd'>Auto-sums for key numeric fields</td>
+<td class='confluenceTd'>Visible at bottom of table</td>
+</tr>
+</tbody></table>
+</div>
+
+
+<h3><a name="PackageDetailsTable%3A"></a><b>Package Details Table:</b></h3>
+
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<th class='confluenceTh'><b>Field Name</b></th>
+<th class='confluenceTh'><b>Mandatory</b></th>
+<th class='confluenceTh'><b>Input Type</b></th>
+<th class='confluenceTh'><b>Validation Rules</b></th>
+<th class='confluenceTh'><b>Business Logic / Auto-calculated</b></th>
+<th class='confluenceTh'><b>Remarks</b></th>
+</tr>
+<tr>
+<td class='confluenceTd'>Bill Level 1-3</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Dropdown</td>
+<td class='confluenceTd'>Must select from master list</td>
+<td class='confluenceTd'>Bill Level 1 has options Medical/Surgical</td>
+<td class='confluenceTd'>To be provided by HE</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Billed Room Type</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Dropdown</td>
+<td class='confluenceTd'>Must be from NSP Admin data</td>
+<td class='confluenceTd'>Room types from selected N/W hospital</td>
+<td class='confluenceTd'>&nbsp;</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Approved Room Type</td>
+<td class='confluenceTd'>Yes (Medico)</td>
+<td class='confluenceTd'>Dropdown</td>
+<td class='confluenceTd'>Must be from NSP Admin data</td>
+<td class='confluenceTd'>Room types from selected N/W hospital</td>
+<td class='confluenceTd'>Enabled only for Medico</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Bill Number</td>
+<td class='confluenceTd'>Optional</td>
+<td class='confluenceTd'>Alphanumeric</td>
+<td class='confluenceTd'>Duplicate check against all claim types</td>
+<td class='confluenceTd'>Show error if duplicate</td>
+<td class='confluenceTd'>Configurable error message</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Bill Date</td>
+<td class='confluenceTd'>Optional</td>
+<td class='confluenceTd'>Date</td>
+<td class='confluenceTd'>Should not be future date</td>
+<td class='confluenceTd'>Manual/date picker entry</td>
+<td class='confluenceTd'>&nbsp;</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Unit</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Number (&gt;=0)</td>
+<td class='confluenceTd'>Must be numeric</td>
+<td class='confluenceTd'>Used in multiple auto-calculations</td>
+<td class='confluenceTd'>Manual Entry</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Amount Per Unit</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Number (&gt;=0)</td>
+<td class='confluenceTd'>Must be numeric</td>
+<td class='confluenceTd'>Auto calculated as per user actions section</td>
+<td class='confluenceTd'>Manual entry as well as auto calculation</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Claimed Amount</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Number (&gt;=0)</td>
+<td class='confluenceTd'>Must be numeric</td>
+<td class='confluenceTd'>Auto calculated as per user actions section</td>
+<td class='confluenceTd'>Manual entry as well as auto calculation</td>
+</tr>
+<tr>
+<td class='confluenceTd'>MOU Discount Amount</td>
+<td class='confluenceTd'>Auto</td>
+<td class='confluenceTd'>Number (&gt;=0)</td>
+<td class='confluenceTd'>Must be numeric</td>
+<td class='confluenceTd'>Auto calculated as per user actions section</td>
+<td class='confluenceTd'>Hyperlink available</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Tariff Amount (Per Unit)</td>
+<td class='confluenceTd'>Auto</td>
+<td class='confluenceTd'>Number</td>
+<td class='confluenceTd'>Placeholder for NM, auto at Medico</td>
+<td class='confluenceTd'>From NSP</td>
+<td class='confluenceTd'>Hyperlink available</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Tariff Deduction Amount</td>
+<td class='confluenceTd'>Auto</td>
+<td class='confluenceTd'>Number</td>
+<td class='confluenceTd'>Auto calculated</td>
+<td class='confluenceTd'>Auto calculated as per user actions section</td>
+<td class='confluenceTd'>&nbsp;</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Other Deduction Amount</td>
+<td class='confluenceTd'>No</td>
+<td class='confluenceTd'>Number</td>
+<td class='confluenceTd'>Same validation as above</td>
+<td class='confluenceTd'>Manual</td>
+<td class='confluenceTd'>Remarks mandatory if filled</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Other Discount Amount</td>
+<td class='confluenceTd'>No</td>
+<td class='confluenceTd'>Number</td>
+<td class='confluenceTd'>Manual input</td>
+<td class='confluenceTd'>Manual</td>
+<td class='confluenceTd'>&nbsp;</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Payable Amount</td>
+<td class='confluenceTd'>Auto</td>
+<td class='confluenceTd'>Number</td>
+<td class='confluenceTd'>Final calculated field</td>
+<td class='confluenceTd'>Auto calculated as per user actions section</td>
+<td class='confluenceTd'>&nbsp;</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Remarks (Other Deduction / Any other)</td>
+<td class='confluenceTd'>Conditional</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Required if Other Deduction entered</td>
+<td class='confluenceTd'>Manual input</td>
+<td class='confluenceTd'>&nbsp;</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Special Notes by NSP</td>
+<td class='confluenceTd'>No</td>
+<td class='confluenceTd'>Display Only</td>
+<td class='confluenceTd'>View only</td>
+<td class='confluenceTd'>From NSP</td>
+<td class='confluenceTd'>&nbsp;</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Add/Delete Button</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Button</td>
+<td class='confluenceTd'>Add/delete row behavior same as Estimated Billing</td>
+<td class='confluenceTd'>Auto total at bottom</td>
+<td class='confluenceTd'>&nbsp;</td>
+</tr>
+</tbody></table>
+</div>
+
+
+<h3><a name="SummarySection%28AfterBillingDetails%29"></a><b>Summary Section (After Billing Details)</b></h3>
+
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<th class='confluenceTh'><b>Field Name</b></th>
+<th class='confluenceTh'><b>Mandatory</b></th>
+<th class='confluenceTh'><b>Input Type</b></th>
+<th class='confluenceTh'><b>Validation Rules</b></th>
+<th class='confluenceTh'><b>Business Logic / Auto-Calculated</b></th>
+<th class='confluenceTh'><b>Remarks</b></th>
+</tr>
+<tr>
+<td class='confluenceTd'>Overall GST</td>
+<td class='confluenceTd'>Auto</td>
+<td class='confluenceTd'>Number</td>
+<td class='confluenceTd'>Fetched</td>
+<td class='confluenceTd'>Final GST applicable on total claimed pre-auth amount</td>
+<td class='confluenceTd'>Show on hover</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Policy Aggregate Deductible Amount</td>
+<td class='confluenceTd'>Auto</td>
+<td class='confluenceTd'>Number</td>
+<td class='confluenceTd'>Fetched</td>
+<td class='confluenceTd'>From policy info</td>
+<td class='confluenceTd'>Show on hover</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Exhausted Aggregate Deductible Amt</td>
+<td class='confluenceTd'>Auto</td>
+<td class='confluenceTd'>Number</td>
+<td class='confluenceTd'>Must be numeric</td>
+<td class='confluenceTd'>Auto calculated as per user actions section</td>
+<td class='confluenceTd'>Cannot exceed aggregate deductible amount. Show on hover</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Balance Aggregate Deductible Amount</td>
+<td class='confluenceTd'>Auto</td>
+<td class='confluenceTd'>Number</td>
+<td class='confluenceTd'>Must be numeric</td>
+<td class='confluenceTd'>Auto calculated as per user actions section</td>
+<td class='confluenceTd'>Show on hover</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Policy Deductible Amount</td>
+<td class='confluenceTd'>Auto</td>
+<td class='confluenceTd'>Number</td>
+<td class='confluenceTd'>From policy info</td>
+<td class='confluenceTd'>Applies only if deductible exists</td>
+<td class='confluenceTd'>Show on hover</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Sublimit Deduction (if any)</td>
+<td class='confluenceTd'>Auto</td>
+<td class='confluenceTd'>Number</td>
+<td class='confluenceTd'>Based on ICD code sublimit</td>
+<td class='confluenceTd'>Auto calculated as per user actions section</td>
+<td class='confluenceTd'>Show on hover</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Over &amp; Above Balance SI Deduction</td>
+<td class='confluenceTd'>Auto</td>
+<td class='confluenceTd'>Number</td>
+<td class='confluenceTd'>Triggered when Claimed Amount &gt; Balance SI</td>
+<td class='confluenceTd'>Auto calculated as per user actions section</td>
+<td class='confluenceTd'>Show on hover</td>
+</tr>
+<tr>
+<td class='confluenceTd'>EMI Recovery</td>
+<td class='confluenceTd'>Auto</td>
+<td class='confluenceTd'>Number</td>
+<td class='confluenceTd'>From policy</td>
+<td class='confluenceTd'>Applies only if EMI-based payment</td>
+<td class='confluenceTd'>Show on hover</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Total Claimed Pre-Auth Amount</td>
+<td class='confluenceTd'>Auto</td>
+<td class='confluenceTd'>Number</td>
+<td class='confluenceTd'>-</td>
+<td class='confluenceTd'>Auto calculated as per user actions section</td>
+<td class='confluenceTd'>&nbsp;</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Special Discount on Discharge</td>
+<td class='confluenceTd'>No</td>
+<td class='confluenceTd'>Number</td>
+<td class='confluenceTd'>Manual</td>
+<td class='confluenceTd'>Discount at claim level</td>
+<td class='confluenceTd'>&nbsp;</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Co-payment Amount</td>
+<td class='confluenceTd'>Auto</td>
+<td class='confluenceTd'>Number</td>
+<td class='confluenceTd'>Based on copay %</td>
+<td class='confluenceTd'>Auto calculated as per user actions section</td>
+<td class='confluenceTd'>&nbsp;</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Total Approved Pre-Auth (Incl. GST)</td>
+<td class='confluenceTd'>Auto</td>
+<td class='confluenceTd'>Number</td>
+<td class='confluenceTd'>Final approval amount</td>
+<td class='confluenceTd'>Auto calculated as per user actions section</td>
+<td class='confluenceTd'>&nbsp;</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Final Approved Amount in Words</td>
+<td class='confluenceTd'>Auto</td>
+<td class='confluenceTd'>Text (Display)</td>
+<td class='confluenceTd'>Derived from number</td>
+<td class='confluenceTd'>Amount in words</td>
+<td class='confluenceTd'>&nbsp;</td>
+</tr>
+</tbody></table>
+</div>
+
+
+<h3><a name="Buttons%26ActionControls%3A"></a><b>Buttons &amp; Action Controls:</b></h3>
+
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<th class='confluenceTh'><b>Control Name</b></th>
+<th class='confluenceTh'><b>Condition / Behavior</b></th>
+</tr>
+<tr>
+<td class='confluenceTd'>Add Deductible Details</td>
+<td class='confluenceTd'>Show only if policy has deductible and user should be add details if required</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Add Corporate Buffer Details</td>
+<td class='confluenceTd'>Show only if corporate buffer exists</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Add Package Details</td>
+<td class='confluenceTd'>Optional, opens package details section</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Add/Delete Row (tables)</td>
+<td class='confluenceTd'>Available for each billing table row</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Auto-calculation triggers</td>
+<td class='confluenceTd'>On tab out / input change / add row</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Totals Calculation</td>
+<td class='confluenceTd'>Always visible at bottom of billing tables</td>
+</tr>
+</tbody></table>
+</div>
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Acceptance Criteria:</b></td>
+                <td id="customfield_10044-161027-value" class="value" bgcolor="#ffffff" width="80%">      &nbsp;&nbsp;&nbsp;&nbsp;• When the &quot;Billing Details&quot; section is loaded, &quot;Estimated Billing&quot; checkbox is pre-selected and &quot;Detailed Billing&quot; checkbox is unselected. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• When the user attempts to select &quot;Detailed Billing&quot;, then &quot;Estimated Billing&quot; automatically becomes unselected, and the system prepares for detailed billing input (disabling estimated fields). (Note: Detailed Billing functionality will be covered separately). Placeholder for now. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• Patient ID: User can manually enter alphanumeric characters. If this field is left blank at the pre-auth intimation stage, no validation error occurs upon saving or navigating.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ User should be able to select an expense type from the provided master list (Ambulance Charges, ICU Charges, Implant Charges, Investigation Charges, Medicine &amp; Consumables, Miscellaneous Charges, OT Charges, Organ Donor Expenses, Pharmacy Charges, Professional Fees, Room &amp; Nursing Charges, Other Expenses, and Procedure Charges).<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ Billed and Approved Room types should be fetched from NSP admin specific to the selected N/W hospital and user should be able to select the room type as needed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ User should be able to enter numeric values ((≥0, up to 2 decimal places) in &quot;Units&quot;, &quot;Amount Per Unit&quot;, and &quot;Claimed Amount&quot; fields. No negative values are allowed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ Amount Per Unit should be auto-calculated as Claimed Amount / Units (up to 2 decimal places) if claimed amount and unit are entered.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ Claimed Amount should be auto-calculated as Units x Amount per Unit (up to 2 decimal places) if Amount per Unit and unit are entered.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ If a valid combination of &quot;Expense Type&quot;, and &quot;Room Type&quot; is selected, then &quot;Tariff Amount&quot; should be auto-fetched from NSP admin and displayed as a read-only numeric value (up to 2 decimal places). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ User should be able to enter numeric values ((≥0, up to 2 decimal places) in &quot;Other Deduction Amount&quot; and &quot;Other Discount Amount&quot; fields. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ All other fields should be auto calculated as per User Actions section.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ Expenses Total row should dynamically update in real-time as data is entered or modified in any row.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ Expenses Total row should display the sum of Units, Amount per Unit, Claimed Amount, MOU Discount, Tariff Amount (Per Unit), Tariff Deduction Amount, Other Deduction Amount, Other Discount Amount, and Payable Amount for all rows in the table. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+Package Details:<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ On click of &quot;Add Package Details&quot; button, the &quot;Package Details&quot; section should be visible. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ When the &quot;Package Details&quot; section is visible, clicking the button again should not hide it (or perform any redundant action).  <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ User should be able to select values from the master list from &quot;Bill Level 1&quot;, &quot;Bill Level 2&quot;, and &quot;Bill Level 3&quot; dropdowns.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ Billed and Approved Room types should be fetched from NSP admin specific to the selected N/W hospital and user should be able to select the room type as needed.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ User should be able to enter Amount per Unit (≥0, up to 2 decimal places). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ If a valid combination of &quot;Package&quot;, &quot;Bill Levels&quot;, and &quot;Room Type&quot; is selected, then &quot;Tariff Amount&quot; should be auto-fetched from NSP admin and displayed as a read-only numeric value (up to 2 decimal places).<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ User should be able to enter Other Deduction Amount and Other Discount Amount (≥0, up to 2 decimal places). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ If &quot;Other Deduction Amount&quot; is entered with a value greater than 0, then &quot;Deduction Remarks&quot; field becomes mandatory and user should be able to enter remarks. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ All other fields should be calculated as per User Actions section.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ The &quot;Package Total&quot; row dynamically updates in real-time as data is entered or modified in any &quot;Package Details&quot; row. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ The &quot;Package Total&quot; row should display the sum of Unit, Amount per Unit, Claimed Amount, MOU Discount Amount, Tariff Amount (Per Unit), Tariff Deduction Amount, Other Deduction Amount, Other Discount Amount, and Payable Amount for all rows in the table. <br/>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ If data is entered or modified in &quot;Estimated Billing Charges&quot; and/or &quot;Package Details&quot;, then &quot;Total Estimated Bill Charges&quot; is auto-calculated as Sum of &quot;Approved Amount Total&quot; from Estimated Billing Charges + Sum of &quot;Approved Amount Total&quot; from Package Details and is read-only. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ &quot;Total Pre-Auth Approved Amount&quot; is auto-calculated as Sum of &quot;Approved Amount Total&quot; from Estimated Billing Charges + Sum of &quot;Approved Amount Total&quot; from Package Details + Total Pharmacy Charges Approved Amount and is read-only. (Pharmacy charges are covered under separate user story) U.S 1.10 <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ User should be able to enter &quot;Co-payment Amount&quot; (≥0, up to 2 decimal places). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ If &quot;Total Pre-Auth Approved Amount&quot; and &quot;Co-payment Amount&quot; are available, then &quot;Total Pre-Auth Payable (Including GST)&quot; is auto-calculated as Total Pre-Auth Approved Amount - Co-payment Amount (up to 2 decimal places) and is read-only. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;◦ &quot;Zonal Co-payment Percentage&quot;, &quot;Edit co-pay&quot;, and &quot;Total Payable in words (Amount in Text)&quot; fields are displayed as placeholders and are not interactive or automatically calculated at this stage. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• If &quot;Add Deductible Details&quot; button is clicked, then a new window/modal opens, allowing the user to add deductible details with an option to tag documents.  This is placeholder for now.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• If &quot;Add Corporate Buffer Details&quot; button is clicked, then a new window/modal opens, allowing the user to add corporate buffer details with an option to tag documents. This is placeholder for now.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• All calculations and totals (row-level, table-level, and overall) update in real-time as the user enters or modifies data in any relevant field. <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• The system enforces a configurable maximum number of rows for both &quot;Estimated Billing Charges&quot; and &quot;Package Details&quot; tables (e.g., 50 rows per table). <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• If the user leaves the &quot;Estimated Billing Details&quot; section and returns, all previously entered and valid data is pre-filled and calculations are re-displayed correctly.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;• All significant user actions within the &quot;Estimated Billing Details&quot; section (e.g., adding rows, changing values, clicking buttons) are logged, regardless of validation success or failure.
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Definition of Done:</b></td>
+                <td id="customfield_10048-161027-value" class="value" bgcolor="#ffffff" width="80%">      User should be able to select any type of billing method as per details from hospital/treatment and enter all the details for next user before claim submission.
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Edge Cases:</b></td>
+                <td id="customfield_10640-161027-value" class="value" bgcolor="#ffffff" width="80%">      <ul>
+	<li>If NSP API did not respond on tariff rates, then user should be able to click on a link to direct the user to NSP / DMS / Sharepoint folder for viewing the existing MOU of the hospital so that the user should be able to see the tariff rates/discounts etc. and enter the detail manually to proceed with claim intimation.</li>
+	<li>Portal session times out while filling form: system saves state temporarily, allows restore post-log in the cache/temporary memory.</li>
+</ul>
+
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>As a pre-auth claim intimation user, I should be able to navigate to the claim registration page and enter  estimated billing information during the pre-authorization cashless claim intimation process. I should be able to specify various hospital charges (e.g., room, consultation, surgery) and, optionally, package details.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-155289"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:de15db23-60be-4328-b2ce-06822b90f9a5"
+                id="word_commented_712020:de15db23-60be-4328-b2ce-06822b90f9a5"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ade15db23-60be-4328-b2ce-06822b90f9a5">
+                    Mansi Latwal
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">29/May/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-155289"><td bgcolor="#ffffff">
+            <ol>
+	<li>🔖 <b>(PLACEHOLDER)</b> Detailed Billing Section: To be further discussed in detail</li>
+	<li><b>Remarks (Acceptance criteria Package details point):</b>  But the system should allow the user to unable it if clicked on Add package section by mistake. Even if clicked on Add pacakage it should be mandatory to add the Package details</li>
+	<li>Pharmacy charges are covered under separate user story) U.S 1.10</li>
+	<li>Have added my remarks with <font color="#ffc400">Orange color font </font>in between the user story description. Please refer and close.</li>
+	<li>How is the system going to save tab details/ details of any section for that matter BEFORE claim number generation? Is there going to be a reference number? if yes, where will this reference number will be displayed (a new initial bucket should be create) If there is any other tech approach please discuss. <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5" class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" data-account-id="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" accountid="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" rel="noreferrer">Rama Swamy Mallarapu</a> <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A06b67419-13af-427c-b2c0-f22631cefefd" class="user-hover" rel="712020:06b67419-13af-427c-b2c0-f22631cefefd" data-account-id="712020:06b67419-13af-427c-b2c0-f22631cefefd" accountid="712020:06b67419-13af-427c-b2c0-f22631cefefd" rel="noreferrer">Ajay Khajuria</a> - Need to be discussed and mentioned in detail.</li>
+</ol>
+
+        </td></tr>
+                <tr id="comment-header-155514"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:4f800449-a18b-4476-ba73-82f48d715cd2"
+                id="word_commented_712020:4f800449-a18b-4476-ba73-82f48d715cd2"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4f800449-a18b-4476-ba73-82f48d715cd2">
+                    ajay Kumar Rai
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">30/May/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-155514"><td bgcolor="#ffffff">
+            <ul>
+	<li>existing room type could be changed to billed room type which will be as per hospital documents and is mandatory at non medico's end. there will be another column in estimate billing as approved room type which will be as per room categories available in tariff master of that hospital and is mandatory at medico end only. rules wrt to not to pay beyond accepted rates will run on selection of approved room type and this will also reflect on preauth approval letter as room type approved for that member. </li>
+</ul>
+
+
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'><b>Billed room typed</b></td>
+<td class='confluenceTd'><b>Approved room type</b></td>
+</tr>
+</tbody></table>
+</div>
+
+
+<ul>
+	<li>There will be 2 column for discount , one tariff discount and another discount over and above tariff (if given by hospital)</li>
+	<li>billed room type also have a day care as one parameter on which 24 hours logic also work.</li>
+	<li>Discount as per tariff will apply on all the estimate billing head as per tariff master. other than room , tariff deduction will not apply on other expense head of estimate billing like consultant, investigation etc. </li>
+	<li>We need both room type in package billing sec as well.</li>
+	<li>Tariff discount field need to add , where tariff discount will get auto calculated as per NSP mou discount.</li>
+	<li><b>Co-payment Amount:</b> User should be able to enter amount manually. <b>This should auto calculated on the basis of policy attributes related to copay .</b></li>
+</ul>
+
+
+<ul>
+	<li>Zonal Co-payment Percentage <b>(This should auto calculated field based on policy attributes and not editable</b> )</li>
+	<li>EMI recovery amount should flow from policy issuance system and system will have provision for EMI recovery .</li>
+	<li>There are three possible scenarios .</li>
+	<li>a] Payable amount is greater than emi amount - claim decision - system will allow to approve claim after EMI recovery .</li>
+	<li>b] Payable amount is equal to EMI , - claim decision   - Claim approved but not payable .</li>
+	<li>c] Payable amount is less than EMI amount - claim decision - Claim rejected and query will allow along with send back but approval will not allow.</li>
+	<li><b>Proportionate deduction</b> place holder discussion require in detail . We need to add standard line in communication for this calculation .</li>
+	<li><b>Special discount</b> field place holder is require which will display in complete claim journey from initial to cashless settlement in all roles.</li>
+</ul>
+
+
+<p><a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=63c7b62cd579d7c68754dbec" class="user-hover" rel="63c7b62cd579d7c68754dbec" data-account-id="63c7b62cd579d7c68754dbec" accountid="63c7b62cd579d7c68754dbec" rel="noreferrer">basant kumar</a> <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A06b67419-13af-427c-b2c0-f22631cefefd" class="user-hover" rel="712020:06b67419-13af-427c-b2c0-f22631cefefd" data-account-id="712020:06b67419-13af-427c-b2c0-f22631cefefd" accountid="712020:06b67419-13af-427c-b2c0-f22631cefefd" rel="noreferrer">Ajay Khajuria</a> <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5" class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" data-account-id="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" accountid="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" rel="noreferrer">Rama Swamy Mallarapu</a> <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ade15db23-60be-4328-b2ce-06822b90f9a5" class="user-hover" rel="712020:de15db23-60be-4328-b2ce-06822b90f9a5" data-account-id="712020:de15db23-60be-4328-b2ce-06822b90f9a5" accountid="712020:de15db23-60be-4328-b2ce-06822b90f9a5" rel="noreferrer">Mansi Latwal</a> </p>
+        </td></tr>
+                <tr id="comment-header-155798"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                id="word_commented_712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5">
+                    Rama Swamy Mallarapu
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">03/Jun/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-155798"><td bgcolor="#ffffff">
+            <p><a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ade15db23-60be-4328-b2ce-06822b90f9a5" class="user-hover" rel="712020:de15db23-60be-4328-b2ce-06822b90f9a5" data-account-id="712020:de15db23-60be-4328-b2ce-06822b90f9a5" accountid="712020:de15db23-60be-4328-b2ce-06822b90f9a5" rel="noreferrer">Mansi Latwal</a> These points have been addressed and user story updated accordingly</p>
+        </td></tr>
+                <tr id="comment-header-156744"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                id="word_commented_712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5">
+                    Rama Swamy Mallarapu
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">09/Jun/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-156744"><td bgcolor="#ffffff">
+            <p>Updated the story as per the feedback points and discussions on calculations happened on June 3-5. Below listed points will be covered at Medico stage billing as these applicable at Medico Stage.</p>
+
+<ul>
+	<li>EMI recovery amount should flow from policy issuance system and system will have provision for EMI recovery .</li>
+	<li>There are three possible scenarios .</li>
+	<li>a] Payable amount is greater than emi amount - claim decision - system will allow to approve claim after EMI recovery .</li>
+	<li>b] Payable amount is equal to EMI , - claim decision   - Claim approved but not payable .</li>
+	<li>c] Payable amount is less than EMI amount - claim decision - Claim rejected and query will allow along with send back but approval will not allow.</li>
+	<li><b>Proportionate deduction</b> place holder discussion require in detail . We need to add standard line in communication for this calculation .</li>
+</ul>
+
+        </td></tr>
+                <tr id="comment-header-156839"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:4f800449-a18b-4476-ba73-82f48d715cd2"
+                id="word_commented_712020:4f800449-a18b-4476-ba73-82f48d715cd2"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4f800449-a18b-4476-ba73-82f48d715cd2">
+                    ajay Kumar Rai
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">10/Jun/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-156839"><td bgcolor="#ffffff">
+            <p><a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5" class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" data-account-id="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" accountid="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" rel="noreferrer">Rama Swamy Mallarapu</a> <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ade15db23-60be-4328-b2ce-06822b90f9a5" class="user-hover" rel="712020:de15db23-60be-4328-b2ce-06822b90f9a5" data-account-id="712020:de15db23-60be-4328-b2ce-06822b90f9a5" accountid="712020:de15db23-60be-4328-b2ce-06822b90f9a5" rel="noreferrer">Mansi Latwal</a> <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A06b67419-13af-427c-b2c0-f22631cefefd" class="user-hover" rel="712020:06b67419-13af-427c-b2c0-f22631cefefd" data-account-id="712020:06b67419-13af-427c-b2c0-f22631cefefd" accountid="712020:06b67419-13af-427c-b2c0-f22631cefefd" rel="noreferrer">Ajay Khajuria</a> <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=63367a269b32cfef9327afa0" class="user-hover" rel="63367a269b32cfef9327afa0" data-account-id="63367a269b32cfef9327afa0" accountid="63367a269b32cfef9327afa0" rel="noreferrer">Amit Bhagat</a> </p>
+
+<p>This user story looking fine with us for preauth initial . For discharged excel calculation will validate and confirm . </p>
+        </td></tr>
+                <tr id="comment-header-156918"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:4f800449-a18b-4476-ba73-82f48d715cd2"
+                id="word_commented_712020:4f800449-a18b-4476-ba73-82f48d715cd2"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4f800449-a18b-4476-ba73-82f48d715cd2">
+                    ajay Kumar Rai
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">10/Jun/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-156918"><td bgcolor="#ffffff">
+            <ul>
+	<li>Organ Donor Expenses<font color="#ff5630"><b>(If we are selecting organ donor Exp in bill level 1 then at medico level they have option to add beneficiary name and further communication and other processing will evolve accordingly,</b></font></li>
+</ul>
+
+        </td></tr>
+            </table>
+Generated at Wed Jun 25 12:39:38 UTC 2025 by Sahana.Marathe using Jira 1001.0.0-SNAPSHOT#100285-rev:e2e3f38099261bb500217a742ea82f5528ab8db0.
+
+</body>
+</html>

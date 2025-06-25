@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#HCP-22] 1.5 Registration of new pre-auth claim intimation/Basic Info - Latest Claims Details with option to raise claims</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://heintra.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://heintra.atlassian.net/browse/HCP-19">Cashless Pre-Auth Initial Intimation flow: Non-Medico</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://heintra.atlassian.net/browse/HCP-19">HCP-19</a>)</span>
+                <h3 class="formtitle"><img src="https://heintra.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [HCP-22]&nbsp;<a href="https://heintra.atlassian.net/browse/HCP-22">1.5 Registration of new pre-auth claim intimation/Basic Info - Latest Claims Details with option to raise claims</a>
+            <span class="subText">
+               Created: 21/May/25                   &nbsp;Updated: 12/Jun/25
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Review</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://heintra.atlassian.net/secure/BrowseProject.jspa?id=10662">Health Claims Platform</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://heintra.atlassian.net/browse/HCP-19">Cashless Pre-Auth Initial Intimation flow: Non-Medico</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                id="word_reporter_712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5">
+                    Rama Swamy Mallarapu
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:5d67ad0d-6360-46a2-aa5e-fe4c190e903e"
+                id="word_assignee_712020:5d67ad0d-6360-46a2-aa5e-fe4c190e903e"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A5d67ad0d-6360-46a2-aa5e-fe4c190e903e">
+                    Ajay Jagadish
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-160938-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            1 week, 2 days, 16 minutes
+                    </td>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Time Spent:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Original Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            1 week, 2 days, 16 minutes
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+            <tr><td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sub-tasks:</b></td>
+    <td bgcolor="#ffffff" valign="top">
+        <table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tr bgcolor="#f0f0f0">
+                <td>
+                    <b>Key</b><br/>
+                </td>
+                <td>
+                    <b>Summary</b><br/>
+                </td>
+                <td>
+                    <b>Type</b><br/>
+                </td>
+                <td>
+                    <b>Status</b><br/>
+                </td>
+                <td>
+                    <b>Assignee</b><br/>
+                </td>
+            </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-67">HCP-67</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-67">FE - UI, validations and responsiveness</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Manjusha K K  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-68">HCP-68</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-68">FE - Mock data integration and unit t...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Manjusha K K  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-72">HCP-72</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-72">BE - Create API To Retrieve Latest 5 ...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        Dev Complete
+                    </td>
+                    <td>
+                                                     Prajwal Shetty  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-73">HCP-73</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-73">BE - Create API To Retrieve Claims St...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     bhagyashree  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-255">HCP-255</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-255">QA | HCP-22  | Testing Activities </a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Sahana.Marathe  &nbsp;
+                                            </td>
+                </tr>
+                    </table>
+    </td>
+</tr>
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-160938-value" class="value" bgcolor="#ffffff" width="80%">Product Sprint 1, Product Sprint 2, Product Sprint 3</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Team:</b></td>
+                <td id="customfield_10001-160938-value" class="value" bgcolor="#ffffff" width="80%"><div class="shorten" id="customfield_10001-field">
+    <span></span>
+</div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Board Name:</b></td>
+                <td id="customfield_10632-160938-value" class="value" bgcolor="#ffffff" width="80%">    POD1
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Issue Type:</b></td>
+                <td id="customfield_10634-160938-value" class="value" bgcolor="#ffffff" width="80%">    Functional
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Pre-requisites:</b></td>
+                <td id="customfield_10637-160938-value" class="value" bgcolor="#ffffff" width="80%">      <ul>
+	<li>Pre-auth Claim Intimation page has valid search results and pre-auth claim intimation user has initiated a new pre-auth claim intimation on one of the members.</li>
+	<li>Pre-auth Claim Intimation user has access to the claim registration page to proceed with new pre-auth claim intimation by navigating to Basic Info - Latest Claims Details section.</li>
+</ul>
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>User Actions:</b></td>
+                <td id="customfield_10638-160938-value" class="value" bgcolor="#ffffff" width="80%">      <p><b>As a pre-auth claim intimation user,</b></p>
+
+<ol>
+	<li>I should be able to view the latest 5 main claims sorted by date of admission if there are previous main claims for the respective member.</li>
+	<li>Main claims from the current policy for the respective member irrespective of their status should be fetched and displayed here sorted by date of admission in descending order.</li>
+	<li>I should be presented with an error message as “No previous claims present for the member” if there are no previous claims for the respective member.</li>
+	<li>I should be presented with a table with below listed fields if there are previous main claims for the respective member. These details should be auto-fetched and displayed.
+	<ol>
+		<li>Claim Number</li>
+		<li>Claim Type</li>
+		<li>Member Name</li>
+		<li>Date of Intimation</li>
+		<li>Date of Admission</li>
+		<li>Date of Discharge</li>
+		<li>Hospital Name</li>
+		<li>Claimed Amount</li>
+		<li>Approved Amount</li>
+		<li>Diagnosis - In case of multiple diagnosis, concatenate all of them and show them separated by a comma.</li>
+		<li>Claim Status</li>
+		<li>Remarks (Should display if there are any special notes like reason for rejection in case of rejected claim, reason for partial payment in case of partial payment, etc.)</li>
+	</ol>
+	</li>
+</ol>
+
+
+<ol>
+	<li>I should have the option to raise ancillary claims for the eligible claims as per below based on the claim status (<b>Need to get list of claim statuses from HE and corresponding action allowed for each of the status</b>). For Example: 
+	<ol>
+		<li>If the claim status is “Settled” then I should have option to
+		<ol>
+			<li>Repeated Claim</li>
+			<li>Supplementary claim</li>
+			<li>E-Pharmacy</li>
+			<li>Reopen</li>
+		</ol>
+		</li>
+		<li>If the claim status is “In Progress” then I should have option to
+		<ol>
+			<li>Enhancement</li>
+			<li>Discharge</li>
+		</ol>
+		</li>
+	</ol>
+	</li>
+</ol>
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Data Specifications &amp; Validation Rules:</b></td>
+                <td id="customfield_10639-160938-value" class="value" bgcolor="#ffffff" width="80%">      <div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'><b>Field Name</b></td>
+<td class='confluenceTd'><b>Data Type</b></td>
+<td class='confluenceTd'><b>Validation Rules / Format</b></td>
+<td class='confluenceTd'><b>Auto-fetched</b></td>
+<td class='confluenceTd'><b>Notes / Restrictions</b></td>
+</tr>
+<tr>
+<td class='confluenceTd'>Claim Number</td>
+<td class='confluenceTd'>Alphanumeric</td>
+<td class='confluenceTd'>Unique, Max 16 characters</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Unique per claim</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Claim Type</td>
+<td class='confluenceTd'>String</td>
+<td class='confluenceTd'>Pre-Auth / Reimbursement / etc.</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Must be one of the types from the list of claim types</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Member Name</td>
+<td class='confluenceTd'>String</td>
+<td class='confluenceTd'>Alphabets, space, hyphen allowed; length 2–100 characters</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>As per issuance system</td>
+</tr>
+<tr>
+<td class='confluenceTd'>DOI (Date of Intimation)</td>
+<td class='confluenceTd'>Date</td>
+<td class='confluenceTd'>Format: DD/MM/YYYY</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>As per existing claim details</td>
+</tr>
+<tr>
+<td class='confluenceTd'>DOA (Date of Admission)</td>
+<td class='confluenceTd'>Date</td>
+<td class='confluenceTd'>Format: DD/MM/YYYY</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>As per existing claim details</td>
+</tr>
+<tr>
+<td class='confluenceTd'>DOD (Date of Discharge)</td>
+<td class='confluenceTd'>Date</td>
+<td class='confluenceTd'>Format: DD/MM/YYYY</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>As per existing claim details</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Claimed Amount</td>
+<td class='confluenceTd'>Numeric</td>
+<td class='confluenceTd'>&gt;= X.00</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>As per existing claim details</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Approved Amount</td>
+<td class='confluenceTd'>Numeric</td>
+<td class='confluenceTd'>&gt;= X.00, ≤ Claimed Amount</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>As per existing claim details</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Diagnosis</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Max “x” chars</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>As per existing claim details</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Claim Status</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Preset values</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>As per existing claim details</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Remarks</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Max 500 chars</td>
+<td class='confluenceTd'>Optional</td>
+<td class='confluenceTd'>As per existing claim details</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Intimate Claim Action Button</td>
+<td class='confluenceTd'>Action Link</td>
+<td class='confluenceTd'>N/A</td>
+<td class='confluenceTd'>NA</td>
+<td class='confluenceTd'>Action button to initiate a claim.<br/>
+"Intimate Claim" (link)<br/>
+-<b>List of allowed claims to be shared by HE</b></td>
+</tr>
+</tbody></table>
+</div>
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Acceptance Criteria:</b></td>
+                <td id="customfield_10044-160938-value" class="value" bgcolor="#ffffff" width="80%">      Navigation: As a pre-auth claim intimation user I should be able to access the claim registration page.<br/>
+<br/>
+Previous Claims Display:<br/>
+<br/>
+As a pre-auth claim intimation user I expect the system to display the latest 5 main claims in the claim registration page under the previous claims section when there are previous main claims for the selected member (from the current policy of the respective member).<br/>
+<br/>
+As a pre-auth claim intimation user I expect the system to sort the claims by date of admission descending order (most recent first) in the claim registration page under the previous claims section.<br/>
+<br/>
+As a pre-auth claim intimation user I expect the system to display the configurable error message: &quot;No previous claims available for the member.&quot;&#xA0; when there are no previous claims for the respective member.<br/>
+<br/>
+As a pre-auth claim intimation user I expect the system to display the below listed fields in a table when there are previous main claims for the respective member:<br/>
+<br/>
+Claim Number<br/>
+<br/>
+Claim Type<br/>
+<br/>
+Member Name<br/>
+<br/>
+Date of Intimation<br/>
+<br/>
+Date of Admission<br/>
+<br/>
+Date of Discharge<br/>
+<br/>
+Claimed Amount<br/>
+<br/>
+Approved Amount<br/>
+<br/>
+Diagnosis<br/>
+<br/>
+Claim Status<br/>
+<br/>
+Remarks<br/>
+<br/>
+Intimate Claim Action Button<br/>
+<br/>
+Intimate Claim Action Button (Need to get list of claim statuses from HE and corresponding action allowed for each of the status). For Example:<br/>
+<br/>
+As a pre-auth claim intimation user I expect the system to provide options to raise the following ancillary claims when the previous claim status is &quot;Settled&quot;:<br/>
+<br/>
+Repeated Claim<br/>
+<br/>
+Supplementary Claim<br/>
+<br/>
+E-Pharmacy<br/>
+<br/>
+Reopen<br/>
+<br/>
+As a pre-auth claim intimation user I expect the system to provide options to raise the following ancillary claims when the previous claim status is &quot;In Progress&quot;:<br/>
+<br/>
+Enhancement<br/>
+<br/>
+Discharge
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Definition of Done:</b></td>
+                <td id="customfield_10048-160938-value" class="value" bgcolor="#ffffff" width="80%">      User should be able to view “Basic Details Page &gt;&gt; Previous Claims” (only if previous claims are available) sections with all relevant details on pre-auth claim intimation.
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Edge Cases:</b></td>
+                <td id="customfield_10640-160938-value" class="value" bgcolor="#ffffff" width="80%">      <ul>
+	<li>Missing Claim Data: If some claim data (e.g., DOD, Approved Amount) is missing for a previous claim the system should handle null values and display "N/A".</li>
+	<li>Special Characters in Remarks: System should display the fetched remarks without any restriction.</li>
+	<li>Special characters to be allowed are . , &lt; &gt;  / \ ? @ - _ in all remarks or free text fields.</li>
+	<li>New Claim Intimation: If another user has a claim in "In Progress" for the same member, the current user should be able to create a new claim but the system should stop claim intimation based on the date entered in DOL/DOA or while clicking on submit button. The system should not allow duplicate claim registration.</li>
+</ul>
+
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>As a pre-auth claim intimation user, I want to be able to navigate to the new pre-auth claim intimation page and view member details, policy details along with the latest 5 claims for the respective member.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+Generated at Wed Jun 25 12:38:21 UTC 2025 by Sahana.Marathe using Jira 1001.0.0-SNAPSHOT#100285-rev:e2e3f38099261bb500217a742ea82f5528ab8db0.
+
+</body>
+</html>

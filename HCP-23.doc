@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#HCP-23] 1.6 Pre auth claim - Admission details</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://heintra.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://heintra.atlassian.net/browse/HCP-19">Cashless Pre-Auth Initial Intimation flow: Non-Medico</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://heintra.atlassian.net/browse/HCP-19">HCP-19</a>)</span>
+                <h3 class="formtitle"><img src="https://heintra.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [HCP-23]&nbsp;<a href="https://heintra.atlassian.net/browse/HCP-23">1.6 Pre auth claim - Admission details</a>
+            <span class="subText">
+               Created: 21/May/25                   &nbsp;Updated: 25/Jun/25
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Review</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://heintra.atlassian.net/secure/BrowseProject.jspa?id=10662">Health Claims Platform</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://heintra.atlassian.net/browse/HCP-19">Cashless Pre-Auth Initial Intimation flow: Non-Medico</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                id="word_reporter_712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5">
+                    Rama Swamy Mallarapu
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                id="word_assignee_712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5">
+                    Rama Swamy Mallarapu
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-160999-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            4 days
+                    </td>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            0 minutes
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Time Spent:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            1 week, 2 days, 7 hours, 18 minutes
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            2 hours
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Original Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            1 week, 3 days
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                                                <tr>
+            <td>
+                is blocked by
+            </td>
+            <td>
+                <a href="https://heintra.atlassian.net/browse/HCP-156">
+                     HCP-156                 </a>
+            </td>
+            <td>
+                .
+            </td>
+            <td>
+                To Do
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+            <tr><td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sub-tasks:</b></td>
+    <td bgcolor="#ffffff" valign="top">
+        <table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tr bgcolor="#f0f0f0">
+                <td>
+                    <b>Key</b><br/>
+                </td>
+                <td>
+                    <b>Summary</b><br/>
+                </td>
+                <td>
+                    <b>Type</b><br/>
+                </td>
+                <td>
+                    <b>Status</b><br/>
+                </td>
+                <td>
+                    <b>Assignee</b><br/>
+                </td>
+            </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-122">HCP-122</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-122">FE - UI, validations and responsiveness</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        QA complete
+                    </td>
+                    <td>
+                                                     Anuktha V  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-123">HCP-123</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-123">FE - Mock data integration and unit t...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        In QA
+                    </td>
+                    <td>
+                                                     Anuktha V  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-143">HCP-143</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-143">BE - Create API To Retrieve Overlappe...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        Dev Complete
+                    </td>
+                    <td>
+                                                     Digvijay Jaiswar  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-145">HCP-145</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-145">BE - Create API to Retrieve ICD Codes</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        Dev Complete
+                    </td>
+                    <td>
+                                                     Sachin.Rai2  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-146">HCP-146</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-146">BE - Create API to Retrieve Admission...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        Dev Complete
+                    </td>
+                    <td>
+                                                     Prajwal Shetty  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-147">HCP-147</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-147">BE - Create API To Verify Pehchaan</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        Dev Complete
+                    </td>
+                    <td>
+                                                     Raju thandela  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-265">HCP-265</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-265">QA | HCP-23  | Testing Activities </a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Sahana.Marathe  &nbsp;
+                                            </td>
+                </tr>
+                    </table>
+    </td>
+</tr>
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-160999-value" class="value" bgcolor="#ffffff" width="80%">Product Sprint 2, Product Sprint 3</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Board Name:</b></td>
+                <td id="customfield_10632-160999-value" class="value" bgcolor="#ffffff" width="80%">    POD1
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Issue Type:</b></td>
+                <td id="customfield_10634-160999-value" class="value" bgcolor="#ffffff" width="80%">    Functional
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Pre-requisites:</b></td>
+                <td id="customfield_10637-160999-value" class="value" bgcolor="#ffffff" width="80%">      <ul>
+	<li>Pre-Auth Claim Intimation User has access to UCP portal.</li>
+	<li>Pre-auth claim intimation page has valid search results and pre-auth claim intimation user has initiated a new claim registration on one of the members.</li>
+	<li>Pre-auth Claim Intimation users have illness and diagnosis details mentioned on the medical records or claim forms.</li>
+</ul>
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>User Actions:</b></td>
+                <td id="customfield_10638-160999-value" class="value" bgcolor="#ffffff" width="80%">      <p><b>As a Medico User,</b></p>
+
+<ul>
+	<li>I should be able to enter below details under Admission Details section.
+	<ul>
+		<li>Date of Admission - <font color="#006644"><b>auto-fetched as the DOI/DOA entered in the search screen and if required user should be able to update it</b></font>.</li>
+		<li>Time of Admission.</li>
+		<li>Date of Discharge (<b>Business</b> <b>Rule</b> - In case if DOD is not available, then the system should pick DOA +30 days as DOD in back-end logic and front end should show blank for users).</li>
+		<li>Time of Discharge.</li>
+	</ul>
+	</li>
+	<li>If there are any existing claims with overlapping hospitalization period system should show a popup message containing below details upon entering DOA, Time of Admission, DOD, and Time of Discharge. Since DOD and time of discharge are optional at intimation stage we should assume DOA +30 days to do this validation in the backend if DOD and time of discharge are not entered.
+	<ul>
+		<li>Claim number</li>
+		<li>Claim DOA</li>
+		<li>Claim DOD if any</li>
+	</ul>
+	</li>
+	<li><b>Business Rule:</b> If the ICD code(s) in the previous claim is having matching/overlapping dates of current claim then the user should be displayed with a popup window wherein the user should be able to override or not based on the requirement. The override option should be provided to user only when the ICD code(s) in the previous claim are part of the below listed range of ICD codes (This list should be configurable such that user should be able to add any more codes in future if required).
+	<ul>
+		<li>C00 to D49</li>
+		<li>N17.0 to N17.9</li>
+		<li>N18.0 to N18.9</li>
+	</ul>
+	</li>
+	<li>If there are no existing claims with overlapping hospitalization period, system should not show the popup message upon entering DOA, Time of Admission, DOD, and Time of Discharge. Since DOD and time of discharge are optional at intimation stage we should assume DOA +30 days to do this validation in the backend if DOD and time of discharge are not entered.</li>
+	<li>Popup should have below listed fields:
+	<ul>
+		<li>Override (Yes / No dropdown values).</li>
+		<li>Override Remarks</li>
+	</ul>
+	</li>
+	<li>If the user selects “Yes” from Override field dropdown, then “Override Remarks” should be enabled and should be mandatory.
+	<ul>
+		<li>User should be able to update override remarks in “Override Remarks” field.</li>
+		<li>On click of “Continue” user should be able to continue with next steps.</li>
+	</ul>
+	</li>
+	<li>If the user selects “No” from Override field dropdown, then “Override Remarks” should be disabled and on click of “Continue” user should be navigated back to the Admission Details page.</li>
+	<li>If there are any existing claims with overlapping hospitalization period but the ICD codes are not part of configured list of ICD codes, then user should be presented with “Duplicate Claim” popup error message and on click of “Continue” user should be navigated back to the Admission Details page such the user should be able to make any changes to the admission details if required.</li>
+	<li><font color="#ff5630"><b>If override done from non-medico , Override remark should be visible to medico and QC.</b></font><font color="#006644"> <b>Yes. Covered in Medico user stories.</b></font><font color="#ff5630"> </font></li>
+	<li>Type of Admission: User should be able to select any one option from the below listed dropdown values.
+	<ul>
+		<li>Emergency</li>
+		<li>Planned</li>
+		<li>Enhancement</li>
+		<li>Early Discharge</li>
+		<li>Discharge</li>
+		<li>Death - For Type of admission "Death" claim processing flow will be the same as discharge. (Flag to be maintained in system &amp; also same to pass to ops to work on endorsement or renewals in future).</li>
+		<li>Home Health Care</li>
+		<li><font color="#ff5630"><b>E- Pharmacy (We will discuss the flow further)</b> </font><b>(</b><font color="#4c9aff"><b>placeholde</b></font>r🔖 <font color="#006644"><b>HE to provide the logic)</b></font>.</li>
+		<li><font color="#ff5630"><b>E-Consultation (We will discuss the flow further)</b> </font><b>(</b><font color="#4c9aff"><b>placeholde</b></font>r🔖 <font color="#006644"><b>HE to provide the logic)</b></font></li>
+		<li><font color="#ff5630"><b>E- Diagnostic (We will discuss the flow further)</b> </font><b>(</b><font color="#4c9aff"><b>placeholde</b></font>r🔖 <font color="#006644"><b>HE to provide the logic)</b></font></li>
+	</ul>
+	</li>
+</ul>
+
+
+<p><font color="#006644"><del>Possible combinations to be allowed for dropdown value:</del></font></p>
+
+<p><font color="#006644"><del>A. Emergency only</del></font><br/>
+<font color="#006644"><del>B. Planned only</del></font><br/>
+<font color="#006644"><del>C. Enhancement only</del></font><br/>
+<font color="#006644"><del>D. Early Discharge only</del></font><br/>
+<font color="#006644"><del>E. Discharge only</del></font><br/>
+<font color="#006644"><del>F. Death only + Discharge Combo</del></font><br/>
+<font color="#006644"><del>G. Home Health Care only</del></font></p>
+
+<p><font color="#ff5630"><b>Only single selection should allow, if user is selecting Death, then all validation should run as per discharge only.</b> </font><font color="#006644"><b>Yes</b></font></p>
+
+<ul>
+	<li>On selection of “Death”, the respective claim should be prioritized as per the prioritization rules and a communication should be triggered to the policy issuance team to exclude the respective member from the policy/renewal notice/etc. In case of Death, flagging should be maintained for further claim processing rules.</li>
+	<li>If the type of admission is selected as discharge, early discharge or death, Date of Discharge and time of discharge should be mandatory.</li>
+</ul>
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Data Specifications &amp; Validation Rules:</b></td>
+                <td id="customfield_10639-160999-value" class="value" bgcolor="#ffffff" width="80%">      <div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'><b>Field Name</b></td>
+<td class='confluenceTd'><b>Data Type</b></td>
+<td class='confluenceTd'><b>Validation Rules / Format</b></td>
+<td class='confluenceTd'><b>Auto-fetched</b></td>
+<td class='confluenceTd'><b>Notes / Restrictions</b></td>
+</tr>
+<tr>
+<td class='confluenceTd'>Date of Admission</td>
+<td class='confluenceTd'>Date Range</td>
+<td class='confluenceTd'>Date should be within policy period.</td>
+<td class='confluenceTd'>No</td>
+<td class='confluenceTd'><ul>
+	<li>Mandatory data for claim intimation - Non medico user</li>
+	<li><font color="#006644"><b>Auto-fetched as the DOI/DOA entered in the search screen and if required user should be able to update it</b></font>.</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Time of Admission</td>
+<td class='confluenceTd'>Time</td>
+<td class='confluenceTd'>Format: HH:MM:SS (24 Hr format)</td>
+<td class='confluenceTd'>No</td>
+<td class='confluenceTd'>Mandatory data for claim intimation - Non medico user</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Expected Date of Discharge</td>
+<td class='confluenceTd'>Date Range</td>
+<td class='confluenceTd'>Date should be within policy period.</td>
+<td class='confluenceTd'>No</td>
+<td class='confluenceTd'>Non mandatory for claim registration - Non medico user</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Time of Discharge</td>
+<td class='confluenceTd'>Time</td>
+<td class='confluenceTd'>Format: HH:MM:SS (24 Hr format)</td>
+<td class='confluenceTd'>No</td>
+<td class='confluenceTd'>Non mandatory for claim registration - Non medico user</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Override</td>
+<td class='confluenceTd'>Dropdown</td>
+<td class='confluenceTd'>Yes or No</td>
+<td class='confluenceTd'>No</td>
+<td class='confluenceTd'>In case multiple treatments are ongoing, user should be able to override DOA and DOD overlapping length of stay validation by selecting this option.<br/>
+Users should be able to override this only for a specific list of ailments (C00-D49, N17 to N18).</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Remarks</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Free text, comma-separated</td>
+<td class='confluenceTd'>Mandatory</td>
+<td class='confluenceTd'>Remarks should be mandatory to enter if “Yes” is selected for Override. Field length should be max up to 500 Characters. Also these remarks should be considered as Internal processing remarks and these remarks should be visible to other processing stage i.e. Medico, auditor.</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Type of Admission</td>
+<td class='confluenceTd'>Dropdown</td>
+<td class='confluenceTd'>Selection by user</td>
+<td class='confluenceTd'>No</td>
+<td class='confluenceTd'>The below listed fields should be provided as dropdown values and user should have option to select any one of them. Dropdown values should be Emergency, Planned, Enhancement, Early Discharge, Death, and Home Health Care.</td>
+</tr>
+</tbody></table>
+</div>
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Acceptance Criteria:</b></td>
+                <td id="customfield_10044-160999-value" class="value" bgcolor="#ffffff" width="80%">      - Validate that date of admission (mandatory) is auto-fetched as the DOI/DOA entered in the search screen and if required user is be able to update it.<br/>
+- Validate that the user is able to enter time of admission (mandatory), date of discharge, and time of discharge.<br/>
+- Validate that override popup is displayed, in case if there is existing claim with overlapping hospitalization period with configured list of ICD codes in the previous claim.<br/>
+- Validate that the user is able to select Yes or No based on the need for override option.<br/>
+- Validate that &quot;Remarks&quot; field is enabled on selection of Yes for override option and is mandatory.<br/>
+- Validate that the user is able to enter remarks.<br/>
+- Validate that the user is able to proceed further on click of &quot;Continue&quot; button.<br/>
+<br/>
+- Validate that &quot;Remarks&quot; field is disabled on selection of No for override option and user is navigated to Admission Details page. <br/>
+<br/>
+- Validate that override popup is not displayed, in case if there is existing claim with overlapping hospitalization period but ICD code in the previous claim is not from the configured list of ICD codes. In this scenario, user should be presented with &quot;Duplicate Claim&quot; alert message.<br/>
+- Validate that override popup is not displayed, in case if there is existing claim but with different hospitalization period and user is able to proceed to next step.<br/>
+<br/>
+- Validate that user is able to select any one of the below listed options from the dropdown for Type of Admission.<br/>
+&nbsp;&nbsp;&nbsp;- Emergency<br/>
+&nbsp;&nbsp;&nbsp;- Planned<br/>
+&nbsp;&nbsp;&nbsp;- Enhancement<br/>
+&nbsp;&nbsp;&nbsp;- Early Discharge<br/>
+&nbsp;&nbsp;&nbsp;- Discharge<br/>
+&nbsp;&nbsp;&nbsp;- Death - For Type of admission &quot;Death&quot; claim processing flow will be the same as discharge. (Flag to be maintained in system &amp; also same to pass to ops to work on endorsement or renewals in future).<br/>
+&nbsp;&nbsp;&nbsp;- Home Health Care <br/>
+&nbsp;&nbsp;&nbsp;- E- Pharmacy (We will discuss the flow further) (placeholder HE to provide the logic).<br/>
+&nbsp;&nbsp;&nbsp;- E-Consultation (We will discuss the flow further) (placeholder HE to provide the logic)<br/>
+&nbsp;&nbsp;&nbsp;- E- Diagnostic (We will discuss the flow further) (placeholder HE to provide the logic)<br/>
+<br/>
+- Only single selection should allow, if user is selecting Death, then all validation should run as per discharge only.<br/>
+- On selection of “Death”, the respective claim should be prioritized as per the prioritization rules and a communication should be triggered to the policy issuance team to exclude the respective member from the policy/renewal notice/etc. In case of Death, flagging should be maintained for further claim processing rules.<br/>
+- If the type of admission is selected as discharge, early discharge or death, Date of Discharge and time of discharge should be mandatory.
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Definition of Done:</b></td>
+                <td id="customfield_10048-160999-value" class="value" bgcolor="#ffffff" width="80%">      As a Pre-Auth Claim Intimation User, I should be able to add hospital admission details.
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Edge Cases:</b></td>
+                <td id="customfield_10640-160999-value" class="value" bgcolor="#ffffff" width="80%">      <ul>
+	<li>There is no trigger on the date of admission for which, duplicate claim can trigger in the system.</li>
+	<li>Post admission date / admission time, the system should pop up duplicate claim validation to avoid any new claim with the same entry.</li>
+	<li>ICD code master to be updated as per latest UW updates or latest illness codes is not present.</li>
+</ul>
+
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>As a pre-auth claim intimation user, I should be able to navigate to the claim registration page and record / Capture information related to hospital admission and hospital details.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-158427"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                id="word_commented_712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5">
+                    Rama Swamy Mallarapu
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">17/Jun/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-158427"><td bgcolor="#ffffff">
+            <p><a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4f800449-a18b-4476-ba73-82f48d715cd2" class="user-hover" rel="712020:4f800449-a18b-4476-ba73-82f48d715cd2" data-account-id="712020:4f800449-a18b-4476-ba73-82f48d715cd2" accountid="712020:4f800449-a18b-4476-ba73-82f48d715cd2" rel="noreferrer">ajay Kumar Rai</a> based on the demo feedback, user story has been updated. Please review and provide sign off</p>
+        </td></tr>
+                <tr id="comment-header-158668"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:4f800449-a18b-4476-ba73-82f48d715cd2"
+                id="word_commented_712020:4f800449-a18b-4476-ba73-82f48d715cd2"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4f800449-a18b-4476-ba73-82f48d715cd2">
+                    ajay Kumar Rai
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">18/Jun/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-158668"><td bgcolor="#ffffff">
+            <p><a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5" class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" data-account-id="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" accountid="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" rel="noreferrer">Rama Swamy Mallarapu</a> <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A06b67419-13af-427c-b2c0-f22631cefefd" class="user-hover" rel="712020:06b67419-13af-427c-b2c0-f22631cefefd" data-account-id="712020:06b67419-13af-427c-b2c0-f22631cefefd" accountid="712020:06b67419-13af-427c-b2c0-f22631cefefd" rel="noreferrer">Ajay Khajuria</a> <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ade15db23-60be-4328-b2ce-06822b90f9a5" class="user-hover" rel="712020:de15db23-60be-4328-b2ce-06822b90f9a5" data-account-id="712020:de15db23-60be-4328-b2ce-06822b90f9a5" accountid="712020:de15db23-60be-4328-b2ce-06822b90f9a5" rel="noreferrer">Mansi Latwal</a> <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Afc21e879-267a-45d8-8037-a31265ef2098" class="user-hover" rel="712020:fc21e879-267a-45d8-8037-a31265ef2098" data-account-id="712020:fc21e879-267a-45d8-8037-a31265ef2098" accountid="712020:fc21e879-267a-45d8-8037-a31265ef2098" rel="noreferrer">Nagendra Singh Rajawat</a> </p>
+
+<p>Please find inline comment for few points. Remain is okay </p>
+        </td></tr>
+                <tr id="comment-header-158762"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                id="word_commented_712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5">
+                    Rama Swamy Mallarapu
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">19/Jun/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-158762"><td bgcolor="#ffffff">
+            <p><a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4f800449-a18b-4476-ba73-82f48d715cd2" class="user-hover" rel="712020:4f800449-a18b-4476-ba73-82f48d715cd2" data-account-id="712020:4f800449-a18b-4476-ba73-82f48d715cd2" accountid="712020:4f800449-a18b-4476-ba73-82f48d715cd2" rel="noreferrer">ajay Kumar Rai</a> I have updated the story. Please provide sign off</p>
+        </td></tr>
+                <tr id="comment-header-159498"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:4f800449-a18b-4476-ba73-82f48d715cd2"
+                id="word_commented_712020:4f800449-a18b-4476-ba73-82f48d715cd2"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4f800449-a18b-4476-ba73-82f48d715cd2">
+                    ajay Kumar Rai
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">24/Jun/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-159498"><td bgcolor="#ffffff">
+            <p>We are okay with it <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A06b67419-13af-427c-b2c0-f22631cefefd" class="user-hover" rel="712020:06b67419-13af-427c-b2c0-f22631cefefd" data-account-id="712020:06b67419-13af-427c-b2c0-f22631cefefd" accountid="712020:06b67419-13af-427c-b2c0-f22631cefefd" rel="noreferrer">Ajay Khajuria</a> <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ade15db23-60be-4328-b2ce-06822b90f9a5" class="user-hover" rel="712020:de15db23-60be-4328-b2ce-06822b90f9a5" data-account-id="712020:de15db23-60be-4328-b2ce-06822b90f9a5" accountid="712020:de15db23-60be-4328-b2ce-06822b90f9a5" rel="noreferrer">Mansi Latwal</a> <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Afc21e879-267a-45d8-8037-a31265ef2098" class="user-hover" rel="712020:fc21e879-267a-45d8-8037-a31265ef2098" data-account-id="712020:fc21e879-267a-45d8-8037-a31265ef2098" accountid="712020:fc21e879-267a-45d8-8037-a31265ef2098" rel="noreferrer">Nagendra Singh Rajawat</a> <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5" class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" data-account-id="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" accountid="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" rel="noreferrer">Rama Swamy Mallarapu</a> <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=63367a269b32cfef9327afa0" class="user-hover" rel="63367a269b32cfef9327afa0" data-account-id="63367a269b32cfef9327afa0" accountid="63367a269b32cfef9327afa0" rel="noreferrer">Amit Bhagat</a> </p>
+
+<p>Please plan a discussion so that we detail this requirement , we will share the expected workflow .</p>
+
+<ul>
+	<li><font color="#ff5630"><b>E- Pharmacy (We will discuss the flow further)</b> </font><b>(</b><font color="#4c9aff"><b>placeholde</b></font>r🔖 <font color="#006644"><b>HE to provide the logic)</b></font>.</li>
+	<li><font color="#ff5630"><b>E-Consultation (We will discuss the flow further)</b> </font><b>(</b><font color="#4c9aff"><b>placeholde</b></font>r🔖 <font color="#006644"><b>HE to provide the logic)</b></font></li>
+	<li><font color="#ff5630"><b>E- Diagnostic (We will discuss the flow further)</b> </font><b>(</b><font color="#4c9aff"><b>placeholde</b></font>r🔖 <font color="#006644"><b>HE to provide the logic)</b></font></li>
+</ul>
+
+        </td></tr>
+            </table>
+Generated at Wed Jun 25 12:39:16 UTC 2025 by Sahana.Marathe using Jira 1001.0.0-SNAPSHOT#100285-rev:e2e3f38099261bb500217a742ea82f5528ab8db0.
+
+</body>
+</html>

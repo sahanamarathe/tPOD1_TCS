@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#HCP-24] 1.7 Search and select N/W Hospital - Existing NSP Admin integration</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://heintra.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://heintra.atlassian.net/browse/HCP-19">Cashless Pre-Auth Initial Intimation flow: Non-Medico</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://heintra.atlassian.net/browse/HCP-19">HCP-19</a>)</span>
+                <h3 class="formtitle"><img src="https://heintra.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [HCP-24]&nbsp;<a href="https://heintra.atlassian.net/browse/HCP-24">1.7 Search and select N/W Hospital - Existing NSP Admin integration</a>
+            <span class="subText">
+               Created: 21/May/25                   &nbsp;Updated: 19/Jun/25
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Review</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://heintra.atlassian.net/secure/BrowseProject.jspa?id=10662">Health Claims Platform</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://heintra.atlassian.net/browse/HCP-19">Cashless Pre-Auth Initial Intimation flow: Non-Medico</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                id="word_reporter_712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5">
+                    Rama Swamy Mallarapu
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:dd7c90b6-da9f-4742-9781-88cd0eb9a5f2"
+                id="word_assignee_712020:dd7c90b6-da9f-4742-9781-88cd0eb9a5f2"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Add7c90b6-da9f-4742-9781-88cd0eb9a5f2">
+                    Roshan Vittal Suvarnkar
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-161004-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            1 week
+                    </td>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Time Spent:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Original Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            1 week
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+            <tr><td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sub-tasks:</b></td>
+    <td bgcolor="#ffffff" valign="top">
+        <table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tr bgcolor="#f0f0f0">
+                <td>
+                    <b>Key</b><br/>
+                </td>
+                <td>
+                    <b>Summary</b><br/>
+                </td>
+                <td>
+                    <b>Type</b><br/>
+                </td>
+                <td>
+                    <b>Status</b><br/>
+                </td>
+                <td>
+                    <b>Assignee</b><br/>
+                </td>
+            </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-75">HCP-75</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-75">BE: Create API to fetch list of states</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Roshan Vittal Suvarnkar  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-76">HCP-76</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-76">BE: Create API to add a new state</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Roshan Vittal Suvarnkar  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-77">HCP-77</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-77">BE: Create API to update a state</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Roshan Vittal Suvarnkar  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-78">HCP-78</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-78">Create API to get state details by ID</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Roshan Vittal Suvarnkar  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-79">HCP-79</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-79">BE: Create API to delete a state</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Roshan Vittal Suvarnkar  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-80">HCP-80</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-80">BE: Create API to fetch list of cities</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Roshan Vittal Suvarnkar  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-81">HCP-81</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-81">BE: Create API to add a new city</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Roshan Vittal Suvarnkar  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-82">HCP-82</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-82">BE: Create API to update a city</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Roshan Vittal Suvarnkar  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-83">HCP-83</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-83">BE: Create API to fetch city by ID</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Roshan Vittal Suvarnkar  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-84">HCP-84</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-84">BE: Create API to delete a city</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Roshan Vittal Suvarnkar  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-85">HCP-85</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-85">BE: Create API to fetch list of pincodes</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Roshan Vittal Suvarnkar  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-86">HCP-86</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-86">BE: Create API to add a new pincode</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Roshan Vittal Suvarnkar  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-87">HCP-87</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-87">BE: Create API to update a pincode</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Roshan Vittal Suvarnkar  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-88">HCP-88</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-88">BE: Create API to fetch pincode by ID</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Roshan Vittal Suvarnkar  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-89">HCP-89</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-89">BE: Create API to delete a pincode</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Roshan Vittal Suvarnkar  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-91">HCP-91</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-91">BE: Create API to fetch hospital list</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Prathviraj Suryakant Thokal  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-124">HCP-124</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-124">FE - UI, validations and responsiveness</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Manjusha K K  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-125">HCP-125</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-125">FE - Mock data integration and unit t...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Manjusha K K  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-266">HCP-266</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-266">QA | HCP-24  | Testing Activities</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Sahana.Marathe  &nbsp;
+                                            </td>
+                </tr>
+                    </table>
+    </td>
+</tr>
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-161004-value" class="value" bgcolor="#ffffff" width="80%">Product Sprint 2, Product Sprint 3</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Board Name:</b></td>
+                <td id="customfield_10632-161004-value" class="value" bgcolor="#ffffff" width="80%">    POD3
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Pre-requisites:</b></td>
+                <td id="customfield_10637-161004-value" class="value" bgcolor="#ffffff" width="80%">      <ul>
+	<li>Pre-Auth Claim Intimation User has access to UCP portal.</li>
+	<li>Pre-auth claim intimation page has valid search results and pre-auth claim intimation user has initiated a new claim registration on one of the members.</li>
+	<li>Pre-auth Claim Intimation users have hospital details on bills via email.</li>
+</ul>
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>User Actions:</b></td>
+                <td id="customfield_10638-161004-value" class="value" bgcolor="#ffffff" width="80%">      <p>As an User on the Unified claim portal Pre Auth claim registration page,</p>
+
+<ul>
+	<li>User will search for hospital with any one of the entry in “<b>Hospital search field”</b>,</li>
+</ul>
+
+
+<ol>
+	<li>Hospital Name </li>
+	<li>NSP ID or HFR ID</li>
+	<li>Email ID of hospital</li>
+</ol>
+
+
+<ul>
+	<li>I should search for <b>"Hospital Name"</b> &amp; should be able to select the correct hospital by fuzzy search (3-5 characters) with multiple search options including name of the Hospital, State, City, and Pin code. Rest of the details should get auto populated (Integration required) from NSP. </li>
+</ul>
+
+
+<ol>
+	<li><b>Name of Hospital (Manual Entry)</b></li>
+	<li><b>State (Manual Entry / Mandatory)</b></li>
+	<li><b>City (Manual Entry / Mandatory)</b></li>
+	<li><b>Pin code (Manual Entry / Mandatory)</b></li>
+</ol>
+
+
+<ul>
+	<li>I should search for <b>"NSP ID or HFR ID"</b> &amp; should be able to enter the NSP ID or HFR ID and based on the entered NSP ID or HFR ID other details like name of the Hospital,State,City, Pin code, and rest of the details should get auto populated (Integration Required) from NSP.</li>
+</ul>
+
+
+<ol>
+	<li><b>NSP / HFR ID - Manual Entry</b> </li>
+</ol>
+
+
+<ul>
+	<li>I should search of <b>"Email ID of the Hospital"</b> &amp; should be able to enter the Email ID of the Hospital and based on the entered Email ID of the Hospital other details like name of the Hospital, State, City, Pin code, and rest of the details should get auto populated (Integration required) from NSP.</li>
+</ul>
+
+
+<ol>
+	<li><b>Hospital Email ID (Manual Entry)</b> </li>
+</ol>
+
+
+<p><b>Hospital Empanelment Status</b> - </p>
+
+<ul>
+	<li>I should see the below status fetch basis the above selected data, API trigger from NSP DB</li>
+</ul>
+
+
+<p><b>Auto-populated from network hospital master,</b></p>
+
+<ul>
+	<li>In Pre-auth cashless, only empanelled hospitals eligible for cashless should be displayed.</li>
+	<li>Empanelled hospitals can have status as below, (<b>NSP status to be confirmed from HE)</b>
+	<ul>
+		<li>Active: Pre-auth Claim registration is allowed.</li>
+		<li>Temporary Blocked Hospitals: Pre auth is not allowed.</li>
+		<li>Permanently Blocked Hospitals (Duplicate): Pre auth is not allowed.</li>
+		<li>Suspected Hospital - Pre auth is allowed but all the claims are sent for investigation</li>
+		<li>Excluded Hospital: Pre auth is not allowed.</li>
+		<li>Hospital under modification at NSP end: Pre auth is not allowed.</li>
+	</ul>
+	</li>
+	<li><b>Rule -</b> 
+	<ul>
+		<li>If a pre-auth request was approved but NSP code was blocked post pre-auth request approval in such a case system will even allow discharge approval as well.</li>
+	</ul>
+	</li>
+	<li>I should view the <b>“Hospital Category”</b> which will be fetched from the back end based on the Hospital name,</li>
+	<li>Primary</li>
+	<li>Secondary  </li>
+	<li>Tertiary </li>
+</ul>
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Data Specifications &amp; Validation Rules:</b></td>
+                <td id="customfield_10639-161004-value" class="value" bgcolor="#ffffff" width="80%">      <div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'><b>Field Name</b></td>
+<td class='confluenceTd'><b>Data Type</b></td>
+<td class='confluenceTd'><b>Validation Rules / Format</b></td>
+<td class='confluenceTd'><b>Auto-fetched</b></td>
+<td class='confluenceTd'><b>Notes / Restrictions</b></td>
+</tr>
+<tr>
+<td class='confluenceTd'>Hospital Name</td>
+<td class='confluenceTd'>Character</td>
+<td class='confluenceTd'>Character</td>
+<td class='confluenceTd'>No</td>
+<td class='confluenceTd'>Validation -<br/>
+Mandatory data for claim intimation - Non medico user. Hospital Search should be Parameterised based instead of Radio button selection save on extra click. One of the parameters should be mandatory. in Case of Hospital Name State, City * Pin Code should be mandatory. The system should have a smart search option in case the user enters the Hospital name. In case if direct PIN code entered the system should auto fetch applicable state and applicable City should get listed if in case one to many mappings.</td>
+</tr>
+<tr>
+<td class='confluenceTd'>NSP ID / HFR ID</td>
+<td class='confluenceTd'>Alphanumeric</td>
+<td class='confluenceTd'>It will trigger API (Fetch) details from NSP DB</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Mandatory for claim registration - Non medico user</td>
+</tr>
+<tr>
+<td class='confluenceTd'>State</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>User Entry</td>
+<td class='confluenceTd'>No</td>
+<td class='confluenceTd'>Mandatory in terms of hospital search</td>
+</tr>
+<tr>
+<td class='confluenceTd'>City</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>User entry</td>
+<td class='confluenceTd'>No</td>
+<td class='confluenceTd'>Mandatory in terms of hospital search</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Pin code</td>
+<td class='confluenceTd'>Digit</td>
+<td class='confluenceTd'>Standard format, 6 digit numeric, which will fetch data like state, city from pin code master.</td>
+<td class='confluenceTd'>No</td>
+<td class='confluenceTd'>Mandatory in terms of hospital search</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Hospital Category</td>
+<td class='confluenceTd'>Drop down</td>
+<td class='confluenceTd'>User will select from drop down</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Master driven data - Hospital Category should get auto fetched and displayed on from the end based on the selected hospital.</td>
+</tr>
+</tbody></table>
+</div>
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Acceptance Criteria:</b></td>
+                <td id="customfield_10044-161004-value" class="value" bgcolor="#ffffff" width="80%">      Users will search for a Hospital details with below three options to search for a hospital from DB.<br/>
+<br/>
+Hospital name - (In case Hospital name state, city, pincode will be in search criteria)<br/>
+<br/>
+NSP / HFR ID<br/>
+<br/>
+Hospital Email ID<br/>
+<br/>
+<br/>
+<br/>
+Users will view the hospital details / records once data matches as below,<br/>
+<br/>
+Hospital name<br/>
+<br/>
+Hospital address<br/>
+<br/>
+Hospital location<br/>
+<br/>
+Hospital registration number<br/>
+<br/>
+Hospital state<br/>
+<br/>
+Type of hospital&#xA0;<br/>
+<br/>
+Hospital city<br/>
+<br/>
+Pin code<br/>
+<br/>
+Email ID<br/>
+<br/>
+Hospital PAN no<br/>
+<br/>
+Hospital contact number<br/>
+<br/>
+Hospital proprietor Name&#xA0;<br/>
+<br/>
+<br/>
+<br/>
+Post hospital selection, the system will pop up a message in every case with hospital empanellment status in the system to the user.<br/>
+<br/>
+Bases the below 1 empanelled status, system will allow user to create claim in system,<br/>
+<br/>
+Active: Pre-auth Claim is allowed.<br/>
+<br/>
+Based the below empaneled status, cash less claim is not allowed to submit,<br/>
+<br/>
+Temporary Blocked Hospitals: Pre-auth is not allowed<br/>
+<br/>
+Permanently Blocked Hospitals (Duplicate): Pre-auth is not allowed.<br/>
+<br/>
+Excluded Hospital: Pre-auth is not allowed.<br/>
+<br/>
+Hospital under modification at NSP end: Pre-auth is allowed but kept on hold till NSP changes are completed.<br/>
+<br/>
+Users will get Hospital Category fetch from the back end basis the hospital search result.
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Definition of Done:</b></td>
+                <td id="customfield_10048-161004-value" class="value" bgcolor="#ffffff" width="80%">      User should be able to select active or suspicious N/W hospital to proceed with pre-auth claim intimation.
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Edge Cases:</b></td>
+                <td id="customfield_10640-161004-value" class="value" bgcolor="#ffffff" width="80%">      <ul>
+	<li>The system doesn't flow hospital empanelled status post hospital selection.</li>
+	<li>API returns a blank response on NSP ID search.</li>
+	<li>Email ID of hospital does not give any result or gives more than 1 result.</li>
+	<li>Post entering hospital name, State, city &amp; pin code. Nothing matches, the system should show no details found.</li>
+</ul>
+
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>As a pre-auth claim intimation user, I should be able to navigate to the claim registration page and record / Capture information related to hospital through search window.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-156046"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:c259451f-7bea-4a06-9948-079a03020367"
+                id="word_commented_712020:c259451f-7bea-4a06-9948-079a03020367"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ac259451f-7bea-4a06-9948-079a03020367">
+                    Sahana.Marathe
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">04/Jun/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-156046"><td bgcolor="#ffffff">
+            <p>This User story will be part of POD 3 - sprint 2 . Note : Only for QA reference adding comment.  <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ac39b86b5-6dcc-4a3b-b53d-019843c52287" class="user-hover" rel="712020:c39b86b5-6dcc-4a3b-b53d-019843c52287" data-account-id="712020:c39b86b5-6dcc-4a3b-b53d-019843c52287" accountid="712020:c39b86b5-6dcc-4a3b-b53d-019843c52287" rel="noreferrer">Sumitra Subrahmanya</a>  <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Aba7c8eba-ee82-4f77-91fe-9fe5f9a2552a" class="user-hover" rel="712020:ba7c8eba-ee82-4f77-91fe-9fe5f9a2552a" data-account-id="712020:ba7c8eba-ee82-4f77-91fe-9fe5f9a2552a" accountid="712020:ba7c8eba-ee82-4f77-91fe-9fe5f9a2552a" rel="noreferrer">Nishmitha.B</a> <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A6594c74e-4500-4766-ae12-87eca4defc64" class="user-hover" rel="712020:6594c74e-4500-4766-ae12-87eca4defc64" data-account-id="712020:6594c74e-4500-4766-ae12-87eca4defc64" accountid="712020:6594c74e-4500-4766-ae12-87eca4defc64" rel="noreferrer">Sowrab Salian</a>  <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A060de837-5043-4f95-8a79-49a5ac21ad8e" class="user-hover" rel="712020:060de837-5043-4f95-8a79-49a5ac21ad8e" data-account-id="712020:060de837-5043-4f95-8a79-49a5ac21ad8e" accountid="712020:060de837-5043-4f95-8a79-49a5ac21ad8e" rel="noreferrer">Sai Prasanna</a>  </p>
+        </td></tr>
+            </table>
+Generated at Wed Jun 25 12:39:23 UTC 2025 by Sahana.Marathe using Jira 1001.0.0-SNAPSHOT#100285-rev:e2e3f38099261bb500217a742ea82f5528ab8db0.
+
+</body>
+</html>

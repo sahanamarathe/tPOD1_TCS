@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#HCP-21] 1.4 Registration of new pre-auth claim intimation/Basic Info - Policy Details</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://heintra.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://heintra.atlassian.net/browse/HCP-19">Cashless Pre-Auth Initial Intimation flow: Non-Medico</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://heintra.atlassian.net/browse/HCP-19">HCP-19</a>)</span>
+                <h3 class="formtitle"><img src="https://heintra.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [HCP-21]&nbsp;<a href="https://heintra.atlassian.net/browse/HCP-21">1.4 Registration of new pre-auth claim intimation/Basic Info - Policy Details</a>
+            <span class="subText">
+               Created: 21/May/25                   &nbsp;Updated: 25/Jun/25
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Review</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://heintra.atlassian.net/secure/BrowseProject.jspa?id=10662">Health Claims Platform</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://heintra.atlassian.net/browse/HCP-19">Cashless Pre-Auth Initial Intimation flow: Non-Medico</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                id="word_reporter_712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5">
+                    Rama Swamy Mallarapu
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:5d67ad0d-6360-46a2-aa5e-fe4c190e903e"
+                id="word_assignee_712020:5d67ad0d-6360-46a2-aa5e-fe4c190e903e"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A5d67ad0d-6360-46a2-aa5e-fe4c190e903e">
+                    Ajay Jagadish
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-160936-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            3 days, 2 hours
+                    </td>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            0 minutes
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Time Spent:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            2 days
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            2 hours
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Original Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            4 days, 4 hours
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+            <tr><td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sub-tasks:</b></td>
+    <td bgcolor="#ffffff" valign="top">
+        <table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tr bgcolor="#f0f0f0">
+                <td>
+                    <b>Key</b><br/>
+                </td>
+                <td>
+                    <b>Summary</b><br/>
+                </td>
+                <td>
+                    <b>Type</b><br/>
+                </td>
+                <td>
+                    <b>Status</b><br/>
+                </td>
+                <td>
+                    <b>Assignee</b><br/>
+                </td>
+            </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-66">HCP-66</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-66">FE - Mock data integration and unit t...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        Dev Complete
+                    </td>
+                    <td>
+                                                     Ajay Jagadish  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-74">HCP-74</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-74">BE - Create API To Retrieve Policy De...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Digvijay Jaiswar  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-65">HCP-65</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-65">FE - UI, validations and responsiveness</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        QA complete
+                    </td>
+                    <td>
+                                                     Anuktha V  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-254">HCP-254</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-254">QA | HCP -21  | Testing Activities </a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        In Progress
+                    </td>
+                    <td>
+                                                     Sowrab Salian  &nbsp;
+                                            </td>
+                </tr>
+                    </table>
+    </td>
+</tr>
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-160936-value" class="value" bgcolor="#ffffff" width="80%">Product Sprint 1, Product Sprint 2, Product Sprint 3</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Team:</b></td>
+                <td id="customfield_10001-160936-value" class="value" bgcolor="#ffffff" width="80%"><div class="shorten" id="customfield_10001-field">
+    <span></span>
+</div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Board Name:</b></td>
+                <td id="customfield_10632-160936-value" class="value" bgcolor="#ffffff" width="80%">    POD1
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Issue Type:</b></td>
+                <td id="customfield_10634-160936-value" class="value" bgcolor="#ffffff" width="80%">    Functional
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Pre-requisites:</b></td>
+                <td id="customfield_10637-160936-value" class="value" bgcolor="#ffffff" width="80%">      <ul>
+	<li>Pre-auth Claim Intimation user should have access to the claim registration page to proceed with new pre-auth claim intimation by navigating to Basic Info - Member Details page.</li>
+	<li>Pre-auth Claim Intimation user should have access to the claim registration page to proceed with new pre-auth claim intimation by navigating to Basic Info - Policy Details Section.</li>
+</ul>
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>User Actions:</b></td>
+                <td id="customfield_10638-160936-value" class="value" bgcolor="#ffffff" width="80%">      <p><b>As a pre-auth claim intimation user,</b></p>
+
+<ol>
+	<li>I should be able to view below listed policy details for the respective member’s policy for whom the claim intimation needs to be raised in the “Policy Details” section. These details should be auto-fetched and displayed.</li>
+	<li>Policy Number - <font color="#006644"><b>Nudge to be shown with policy status</b> </font></li>
+	<li>Product Name</li>
+	<li>Ported Policy - Yes / No</li>
+	<li>1st Policy Inception Date</li>
+	<li>Current Policy Start Date</li>
+	<li>Current Policy End Date</li>
+	<li>Cover Name <b>(This should be displayed for all the covers for the respective member under the policy)</b>.</li>
+	<li>Cover Start Date (if coverage is expired, system should highlight the same) <b>(This should be displayed for all the covers for the respective member under the policy).</b></li>
+	<li>Cover End Date (if coverage is expired, system should highlight the same) <b>(This should be displayed for all the covers for the respective member under the policy)</b></li>
+	<li>Sub-limits (if any) - <b>Restrict to Medico user</b></li>
+	<li>Exclusions (if any) - <b>Restrict to Medico user</b></li>
+	<li>Waiting Period (if any) - <b>Restrict to Medico user</b></li>
+	<li>PED (if any) - <b>Restrict to Medico user</b></li>
+	<li>UW Remarks (if any at the time of issuance) - <b>Restrict to Medico user</b></li>
+	<li>Masked Mobile Number</li>
+	<li><font color="#006644"><b>City - Auto fetched based on policyholder communication address</b></font></li>
+	<li><font color="#006644"><b>State - Auto fetched based on policyholder communication address</b></font></li>
+	<li>Claimant Name - The user should be able to enter manually.</li>
+	<li>Claimant Address - The user should be able to enter manually.</li>
+	<li>Alternate Mobile Number - The user should be able to enter manually. This field should be mandatory if the mobile number of the policyholder is not fetched. If the mobile number of the policyholder is available then this should not match the masked mobile number of the policyholder.</li>
+	<li>Alternate Email ID - The user should be able to enter manually.</li>
+	<li>Pre-Auth Source (Either IHX/Email) - The user should be able to select manually. <font color="#006644"><del>If the request is from the IHX portal, it should be auto populated as IHX.</del></font></li>
+	<li>Pre-Auth Source Email ID - The user should be able to enter manually. <font color="#006644"><del>If the request is from IHX portal, it should be auto populated as per the email ID from IHX.</del></font></li>
+	<li>IHX Reference ID - The user should be able to enter manually. <font color="#006644"><del>If the request is from IHX portal, it should be auto populated as IHX reference ID.</del></font></li>
+	<li>If the policy is a group policy, then I should be able to view below listed policy details for the respective member’s policy for whom the claim intimation needs to be raised in the “Group Policy Details” section only for group policies. These details should be auto-fetched and displayed.</li>
+</ol>
+
+
+<ul>
+	<li>Group/Company Name of Employee</li>
+	<li>Employee Code</li>
+	<li>Employee Grade</li>
+	<li>Member Addition Date</li>
+	<li>Employee Org. Joining Date</li>
+</ul>
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Data Specifications &amp; Validation Rules:</b></td>
+                <td id="customfield_10639-160936-value" class="value" bgcolor="#ffffff" width="80%">      <h3><a name=""></a></h3>
+
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'><b>Field Name</b></td>
+<td class='confluenceTd'><b>Data Type</b></td>
+<td class='confluenceTd'><b>Validation Rules / Format</b></td>
+<td class='confluenceTd'><b>Auto-fetched</b></td>
+<td class='confluenceTd'><b>Notes / Restrictions</b></td>
+</tr>
+<tr>
+<td class='confluenceTd'>Policy Number</td>
+<td class='confluenceTd'>Alphanumeric</td>
+<td class='confluenceTd'>Up to 19 chars</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Cannot be blank; unique per policy.<br/>
+Non Editable.</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Product Name</td>
+<td class='confluenceTd'>String</td>
+<td class='confluenceTd'>Alphabets, space, hyphen allowed; length 2–100 characters</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Must match product name as per policy</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Ported Policy</td>
+<td class='confluenceTd'>Boolean</td>
+<td class='confluenceTd'>Radio buttons: Yes / No</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Based on the policy type Yes or No should be auto selected.</td>
+</tr>
+<tr>
+<td class='confluenceTd'>1st Policy Inception Date</td>
+<td class='confluenceTd'>Date</td>
+<td class='confluenceTd'>Format: DD/MM/YYYY</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'><ul>
+	<li>Must match the inception date of the 1st policy in case the policy has been for multiple years.</li>
+	<li>In case if the policy is in the first year, then this should be the same as the policy inception date.</li>
+	<li>Cannot be in future</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Current Policy Start Date</td>
+<td class='confluenceTd'>Date</td>
+<td class='confluenceTd'>Format: DD/MM/YYYY</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'><ul>
+	<li>Must match the inception date of the current policy.</li>
+	<li>Cannot be in future</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Current Policy End Date</td>
+<td class='confluenceTd'>Date</td>
+<td class='confluenceTd'>Format: DD/MM/YYYY</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'><ul>
+	<li>Must match the expiry date of the current policy.</li>
+	<li>Cannot be in future</li>
+	<li>End Date should be greater than Start Date</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Cover Name (1-N)</td>
+<td class='confluenceTd'>String</td>
+<td class='confluenceTd'>Max “100” characters, alphabets &amp; spaces only</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Must match cover name(s) (1-N covers) as per policy</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Cover Start Date (1-N)</td>
+<td class='confluenceTd'>Date</td>
+<td class='confluenceTd'>Format: DD/MM/YYYY</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'><ul>
+	<li>Must match the inception date of the cover.</li>
+	<li>Cannot be in future</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Cover End Date (1-N)</td>
+<td class='confluenceTd'>Date</td>
+<td class='confluenceTd'>Format: DD/MM/YYYY</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'><ul>
+	<li>Must match the expiry date of the cover.</li>
+	<li>Cannot be in future</li>
+	<li>End Date should be greater than Start Date</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Sub-limits</td>
+<td class='confluenceTd'>List</td>
+<td class='confluenceTd'>Should be a link which should show sub limits based on the product setup</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'><ul>
+	<li>Should show sub-limits for each cover based on the product setup.</li>
+	<li>Restrict to Medico user</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Exclusions</td>
+<td class='confluenceTd'>List</td>
+<td class='confluenceTd'>Should be a link which should show exclusions based on the policy level data</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'><ul>
+	<li>Should show exclusions based on the policy level data.</li>
+	<li>Restrict to Medico user</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Waiting Period</td>
+<td class='confluenceTd'>Integer (Years)</td>
+<td class='confluenceTd'>&gt;= 0</td>
+<td class='confluenceTd'>Conditional</td>
+<td class='confluenceTd'><ul>
+	<li>Should show waiting periods for covers (ICD) based on the policy level data.</li>
+	<li>Restrict to Medico user</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class='confluenceTd'>PED (Pre-existing Disease)</td>
+<td class='confluenceTd'>Text (List)</td>
+<td class='confluenceTd'>Free text, comma-separated</td>
+<td class='confluenceTd'>Conditional</td>
+<td class='confluenceTd'><ul>
+	<li>Should show PED based on the policy level data.</li>
+	<li>Restrict to Medico user</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class='confluenceTd'>UW Remarks</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Max 500 chars</td>
+<td class='confluenceTd'>Conditional</td>
+<td class='confluenceTd'>Only for Medico users</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Masked Mobile Number</td>
+<td class='confluenceTd'>String</td>
+<td class='confluenceTd'>10 digits, mask random digits (e.g., XXXXX1234)</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Shown for identification, not editable or storable in unmasked form</td>
+</tr>
+<tr>
+<td class='confluenceTd'><font color="#006644"><b>City</b></font></td>
+<td class='confluenceTd'><font color="#006644"><b>Text</b></font></td>
+<td class='confluenceTd'><font color="#006644"><b>Auto-fetched from policy</b></font></td>
+<td class='confluenceTd'><font color="#006644"><b>Yes</b></font></td>
+<td class='confluenceTd'><font color="#006644"><b>Must match policy holder city as per policy communication address</b></font></td>
+</tr>
+<tr>
+<td class='confluenceTd'><font color="#006644"><b>State</b></font></td>
+<td class='confluenceTd'><font color="#006644"><b>Text</b></font></td>
+<td class='confluenceTd'><font color="#006644"><b>Auto-fetched from policy</b></font></td>
+<td class='confluenceTd'><font color="#006644"><b>Yes</b></font></td>
+<td class='confluenceTd'><font color="#006644"><b>Must match policy holder state as per policy communication address</b></font></td>
+</tr>
+<tr>
+<td class='confluenceTd'>Claimant Name</td>
+<td class='confluenceTd'>String</td>
+<td class='confluenceTd'>Alphabets, space, hyphen allowed; length 2–100 characters</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>No digits or special characters (except hyphen/space); mandatory field</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Claimant Address</td>
+<td class='confluenceTd'>String</td>
+<td class='confluenceTd'>Free text; max 250 characters</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Standard special characters to be allowed</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Alternate Mobile Number</td>
+<td class='confluenceTd'>String</td>
+<td class='confluenceTd'>10-digit Indian mobile number; must not start with 0; numeric only</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Mandatory if mobile number of the policyholder is not fetched; should not match masked or primary number</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Alternate Email ID</td>
+<td class='confluenceTd'>String</td>
+<td class='confluenceTd'>Valid email format; max 100 characters</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Optional; @ and .com validation</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Pre-Auth Source </td>
+<td class='confluenceTd'>String</td>
+<td class='confluenceTd'>Radio button according to source (Mail /IHX/ Portal)</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'><font color="#006644"><b>Should be selected according to source (Mail /IHX Portal)</b></font></td>
+</tr>
+<tr>
+<td class='confluenceTd'>Pre-Auth Source email ID</td>
+<td class='confluenceTd'>String</td>
+<td class='confluenceTd'>Valid email format; max 100 characters</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Optional; @ and .com validation</td>
+</tr>
+<tr>
+<td class='confluenceTd'>IHX Reference ID</td>
+<td class='confluenceTd'>String</td>
+<td class='confluenceTd'>Alphanumeric; fixed or variable length (e.g., 10–20 chars); unique</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'><font color="#006644"><b>Should be entered according to email received from IHX</b></font></td>
+</tr>
+</tbody></table>
+</div>
+
+
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'><b>Field Name</b></td>
+<td class='confluenceTd'><b>Data Type</b></td>
+<td class='confluenceTd'><b>Validation Rules / Format</b></td>
+<td class='confluenceTd'><b>Auto-fetched</b></td>
+<td class='confluenceTd'><b>Notes / Restrictions</b></td>
+</tr>
+<tr>
+<td class='confluenceTd'>Group/Company Name of Employee</td>
+<td class='confluenceTd'>String</td>
+<td class='confluenceTd'>Alphabets, space, hyphen allowed; length 2–100 characters</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Must match Group/Company Name of Employee as per policy.</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Employee Code</td>
+<td class='confluenceTd'>String</td>
+<td class='confluenceTd'>Alphabets, space, hyphen allowed; length 2–10 characters</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Must match employee code as per policy.</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Employee Grade</td>
+<td class='confluenceTd'>String</td>
+<td class='confluenceTd'>Alphabets, space, hyphen allowed; length 2–10 characters</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Must match employee grade as per policy.</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Member Addition Date</td>
+<td class='confluenceTd'>Date</td>
+<td class='confluenceTd'>Format: DD/MM/YYYY</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'><ul>
+	<li>Must match the member addition date at group policy level.</li>
+	<li>Cannot be in future</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Employee Org. Joining Date</td>
+<td class='confluenceTd'>Date</td>
+<td class='confluenceTd'>Format: DD/MM/YYYY</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'><ul>
+	<li>Must match the member organization joining date at group policy level.</li>
+	<li>Cannot be in future</li>
+</ul>
+</td>
+</tr>
+</tbody></table>
+</div>
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Acceptance Criteria:</b></td>
+                <td id="customfield_10044-160936-value" class="value" bgcolor="#ffffff" width="80%">      Navigation: As a pre-auth claim intimation user I should be able to access the claim registration page.<br/>
+<br/>
+Policy Details Display:<br/>
+<br/>
+As a pre-auth claim intimation user I expect the system retrieves and displays the following information:<br/>
+<br/>
+Policy Number<br/>
+Product Name<br/>
+Ported Policy - Yes / No - If not available at policy level, the user should be able to select manually.<br/>
+1st Policy Inception Date<br/>
+Current Policy Start Date<br/>
+Current Policy End Date<br/>
+Cover Name (This should be displayed for all the covers for the respective member under the policy).<br/>
+Cover Start Date (if coverage is expired, system should highlight the same) (This should be displayed for all the covers for the respective member under the policy)<br/>
+Cover End Date (if coverage is expired, system should highlight the same) (This should be displayed for all the covers for the respective member under the policy)<br/>
+Sub-limits (if any) - Restrict to Medico user<br/>
+Exclusions (if any) - Restrict to Medico user<br/>
+Waiting Period (if any) - Restrict to Medico user<br/>
+PED (if any) - Restrict to Medico user<br/>
+UW Remarks (if any at the time of issuance) - Restrict to Medico user<br/>
+Masked Mobile Number<br/>
+City<br/>
+State<br/>
+Claimant Name - The user should be able to enter manually.<br/>
+Claimant Address - The user should be able to enter manually.<br/>
+Alternate Mobile Number - The user should be able to enter manually.<br/>
+Alternate Email ID - The user should be able to enter manually.<br/>
+Pre-Auth Source (Either IHX/Email) - The user should be able to select manually.<br/>
+Pre-Auth Source Email ID - The user should be able to enter manually.<br/>
+IHX Reference ID - The user should be able to enter manually. <br/>
+<br/>
+Group Policy Details Display:<br/>
+As a pre-auth claim intimation user I expect the system retrieves and displays the following information:<br/>
+Group/Company Name of Employee<br/>
+Employee Code<br/>
+Employee Grade<br/>
+Member Addition Date<br/>
+Employee Org. Joining Date
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Definition of Done:</b></td>
+                <td id="customfield_10048-160936-value" class="value" bgcolor="#ffffff" width="80%">      User should be able to view “Basic Details Page &gt;&gt; Policy Details” and “Basic Details Page &gt;&gt; Group Policy Details” (only for group policies) sections with all relevant details on pre-auth claim intimation.
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Edge Cases:</b></td>
+                <td id="customfield_10640-160936-value" class="value" bgcolor="#ffffff" width="80%">      <p><b>Missing Policy Details:</b> </p>
+
+<ol>
+	<li>If some policy details are missing in the policy database then the system should handle null values and display "N/A".</li>
+	<li>If the product name is very long then the system should use truncation, wrapping, or scrolling.</li>
+</ol>
+
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>As a pre-auth claim intimation user, I want to be able to navigate to the new pre-auth claim intimation page and view member details, policy details along with the latest 5 claims for the respective member.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-158723"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:8db0e59e-c12a-4ffe-9246-c5697f8842a8"
+                id="word_commented_712020:8db0e59e-c12a-4ffe-9246-c5697f8842a8"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A8db0e59e-c12a-4ffe-9246-c5697f8842a8">
+                    Ajay Shenoy
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">18/Jun/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-158723"><td bgcolor="#ffffff">
+            <p><a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5" class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" data-account-id="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" accountid="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" rel="noreferrer">Rama Swamy Mallarapu</a> From where fields PreAuth Source, PreAuth EmailId and IHX reference id is expected to be shown prefilled in the Policy Details screen?</p>
+
+<p>From where these are supposed to be shown when we do not have these stored anywhere ?</p>
+        </td></tr>
+                <tr id="comment-header-159847"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                id="word_commented_712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5">
+                    Rama Swamy Mallarapu
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">25/Jun/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-159847"><td bgcolor="#ffffff">
+            <p><a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4f800449-a18b-4476-ba73-82f48d715cd2" class="user-hover" rel="712020:4f800449-a18b-4476-ba73-82f48d715cd2" data-account-id="712020:4f800449-a18b-4476-ba73-82f48d715cd2" accountid="712020:4f800449-a18b-4476-ba73-82f48d715cd2" rel="noreferrer">ajay Kumar Rai</a> update the story</p>
+        </td></tr>
+            </table>
+Generated at Wed Jun 25 12:37:51 UTC 2025 by Sahana.Marathe using Jira 1001.0.0-SNAPSHOT#100285-rev:e2e3f38099261bb500217a742ea82f5528ab8db0.
+
+</body>
+</html>
