@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#HCP-20] 1.3 Registration of new pre-auth claim intimation/Basic Info - Member Details</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://heintra.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://heintra.atlassian.net/browse/HCP-19">Cashless Pre-Auth Initial Intimation flow: Non-Medico</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://heintra.atlassian.net/browse/HCP-19">HCP-19</a>)</span>
+                <h3 class="formtitle"><img src="https://heintra.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [HCP-20]&nbsp;<a href="https://heintra.atlassian.net/browse/HCP-20">1.3 Registration of new pre-auth claim intimation/Basic Info - Member Details</a>
+            <span class="subText">
+               Created: 21/May/25                   &nbsp;Updated: 23/Jun/25
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Review</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://heintra.atlassian.net/secure/BrowseProject.jspa?id=10662">Health Claims Platform</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://heintra.atlassian.net/browse/HCP-19">Cashless Pre-Auth Initial Intimation flow: Non-Medico</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                id="word_reporter_712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5">
+                    Rama Swamy Mallarapu
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:5d67ad0d-6360-46a2-aa5e-fe4c190e903e"
+                id="word_assignee_712020:5d67ad0d-6360-46a2-aa5e-fe4c190e903e"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A5d67ad0d-6360-46a2-aa5e-fe4c190e903e">
+                    Ajay Jagadish
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-160887-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            1 week, 2 hours, 16 minutes
+                    </td>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            0 minutes
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Time Spent:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            4 days
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            1 day
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Original Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            1 week, 2 days, 4 hours
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+            <tr><td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sub-tasks:</b></td>
+    <td bgcolor="#ffffff" valign="top">
+        <table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tr bgcolor="#f0f0f0">
+                <td>
+                    <b>Key</b><br/>
+                </td>
+                <td>
+                    <b>Summary</b><br/>
+                </td>
+                <td>
+                    <b>Type</b><br/>
+                </td>
+                <td>
+                    <b>Status</b><br/>
+                </td>
+                <td>
+                    <b>Assignee</b><br/>
+                </td>
+            </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-63">HCP-63</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-63">FE - UI, validations and responsiveness</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        Dev Complete
+                    </td>
+                    <td>
+                                                     Ajay Jagadish  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-64">HCP-64</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-64">FE - Mock data integration and unit t...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        Dev Complete
+                    </td>
+                    <td>
+                                                     Ajay Jagadish  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-71">HCP-71</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-71">BE - Create API To Retrieve Member De...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        QA complete
+                    </td>
+                    <td>
+                                                     Digvijay Jaiswar  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-92">HCP-92</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-92">BE - Create API to search policy</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Roshan Vittal Suvarnkar  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-93">HCP-93</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-93">BE - Create API to get policy details</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Suraj Kumar  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-253">HCP-253</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-253">QA | HCP -20  | Testing Activities </a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Sahana.Marathe  &nbsp;
+                                            </td>
+                </tr>
+                    </table>
+    </td>
+</tr>
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-160887-value" class="value" bgcolor="#ffffff" width="80%">Product Sprint 1, Product Sprint 2, Product Sprint 3</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Board Name:</b></td>
+                <td id="customfield_10632-160887-value" class="value" bgcolor="#ffffff" width="80%">    POD1
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Pre-requisites:</b></td>
+                <td id="customfield_10637-160887-value" class="value" bgcolor="#ffffff" width="80%">      <ul>
+	<li>Pre-auth Claim Intimation page has valid search results and pre-auth claim intimation user has initiated a new pre-auth claim intimation on one of the members.</li>
+	<li>Pre-auth Claim Intimation user should have access to the claim registration page to proceed with new pre-auth claim intimation by navigating to Basic Info - Member Details page.</li>
+</ul>
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>User Actions:</b></td>
+                <td id="customfield_10638-160887-value" class="value" bgcolor="#ffffff" width="80%">      <p><b>As a pre-auth claim intimation user,</b></p>
+
+<ol>
+	<li>I should be able to navigate to the new pre-auth claim intimation page/Basic Info - Member Details section.</li>
+	<li>I should be able to view below listed basic details for the respective member for whom the claim intimation needs to be raised in the “Member Details” section. These details should be auto-fetched and displayed.
+	<ol>
+		<li>Member/Employee Name</li>
+		<li>Policyholder Name</li>
+		<li>DOB</li>
+		<li>Gender</li>
+		<li>Relationship with the Policyholder</li>
+		<li>HEGIC Card Number <b>- Only for corporate policies</b></li>
+		<li>Employee ID - <b>Only for group policies</b></li>
+		<li>HDFC Ergo ID - <b>Only for retail policies (Member ID)</b></li>
+		<li>Pehchaan Number <b>(Integration point)</b> - If not available at policy level, the user should be able to enter Pehchaan number and validate if it is valid ID by checking with an existing integration. If the Pehchaan number is validated, then a green checkbox should be displayed adjacent to the field. If the Pehchaan integration is down or if the user is unable to validate Pehchaan the user should have option to skip the Pehchaan validation and proceed with claim intimation.</li>
+		<li>ABHA ID <b>(Integration point - placeholder)</b> - If not available at policy level, the user should be able to enter manually. </li>
+		<li>ABHA Address <b>(Integration point - placeholder)</b> - If not available at policy level, the user should be able to enter manually. This will be a document reference to a particular document for the respective ABHA ID and it typically follows a format like "yourname@abdm" (e.g., rahulk@abdm). This username is used to identify a person within the Ayushman Bharat Digital Mission (ABDM) network and is linked to their ABHA number.</li>
+	</ol>
+	</li>
+	<li><b>Validation:</b> I expect the length and format of all the fields retrieved from policy issuance system using policy fetch or any other integration to be of the same length and format in the claims system that have been defined in the policy issuance system.</li>
+</ol>
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Data Specifications &amp; Validation Rules:</b></td>
+                <td id="customfield_10639-160887-value" class="value" bgcolor="#ffffff" width="80%">      <h3><a name=""></a></h3>
+
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'><b>Field Name</b></td>
+<td class='confluenceTd'><b>Data Type</b></td>
+<td class='confluenceTd'><b>Validation Rules / Format</b></td>
+<td class='confluenceTd'><b>Auto-fetched</b></td>
+<td class='confluenceTd'><b>Notes / Restrictions</b></td>
+</tr>
+<tr>
+<td class='confluenceTd'>Member/Employee Name</td>
+<td class='confluenceTd'>String</td>
+<td class='confluenceTd'>Max “100” characters, alphabets &amp; spaces only</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Must match insured member/employee name</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Policyholder Name</td>
+<td class='confluenceTd'>String</td>
+<td class='confluenceTd'>Max “100” characters, alphabets &amp; spaces only</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Must match policyholder name</td>
+</tr>
+<tr>
+<td class='confluenceTd'>DOB</td>
+<td class='confluenceTd'>Date</td>
+<td class='confluenceTd'>Format: DD/MM/YYYY</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Must match insured member/employee DOB</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Gender</td>
+<td class='confluenceTd'>String</td>
+<td class='confluenceTd'>Male / Female /Third Gender</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Must match insured member/employee gender</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Relationship with the Policyholder</td>
+<td class='confluenceTd'>String</td>
+<td class='confluenceTd'>Must be valid relationship</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Must match allowed relationships</td>
+</tr>
+<tr>
+<td class='confluenceTd'>HEGIC Card Number</td>
+<td class='confluenceTd'>String</td>
+<td class='confluenceTd'>Max “x” characters, alphanumerics &amp; spaces only</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Must match insured member/employee HEGIC Card Number</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Employee ID</td>
+<td class='confluenceTd'>Alphanumeric</td>
+<td class='confluenceTd'>3–20 characters, Corporate only. Example: EMP987, INF123456</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Unique employee ID under corporate policies</td>
+</tr>
+<tr>
+<td class='confluenceTd'>HDFC Ergo ID</td>
+<td class='confluenceTd'>String</td>
+<td class='confluenceTd'>Max “x” characters, alphanumerics &amp; spaces only</td>
+<td class='confluenceTd'>Yes</td>
+<td class='confluenceTd'>Must match insured member/employee HDFC Ergo ID</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Pehchaan Number</td>
+<td class='confluenceTd'>String</td>
+<td class='confluenceTd'>Max “x” characters, alphanumerics &amp; spaces only <b>as per HDFC format</b></td>
+<td class='confluenceTd'>Yes/Manual</td>
+<td class='confluenceTd'>Must match insured member/employee Pehchan Number. If the Pehchaan integration is down or if the user is unable to validate Pehchaan the user should have option to skip the Pehchaan validation and proceed with claim intimation.</td>
+</tr>
+<tr>
+<td class='confluenceTd'>ABHA ID</td>
+<td class='confluenceTd'>String</td>
+<td class='confluenceTd'>Max “14” characters, alphanumerics &amp; spaces only</td>
+<td class='confluenceTd'>Yes/Manual</td>
+<td class='confluenceTd'>Must match insured member/employee ABHA ID</td>
+</tr>
+<tr>
+<td class='confluenceTd'>ABHA Address</td>
+<td class='confluenceTd'>String</td>
+<td class='confluenceTd'>Document reference to a particular document for the respective ABHA ID.</td>
+<td class='confluenceTd'>Yes/Manual</td>
+<td class='confluenceTd'>Must be a document reference. Placeholder for future use.</td>
+</tr>
+</tbody></table>
+</div>
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Acceptance Criteria:</b></td>
+                <td id="customfield_10044-160887-value" class="value" bgcolor="#ffffff" width="80%">      Navigation: As a pre-auth claim intimation user I should be able to access the pre-auth claim intimation page.<br/>
+<br/>
+Member Details Display:<br/>
+<br/>
+As a pre-auth claim intimation user, I expect the system retrieves and displays the following information:<br/>
+<br/>
+Member/Employee Name<br/>
+<br/>
+Policyholder Name<br/>
+<br/>
+DOB<br/>
+<br/>
+Gender<br/>
+<br/>
+Relationship with the Policyholder<br/>
+<br/>
+HEGIC Card Number<br/>
+<br/>
+Employee ID<br/>
+<br/>
+HDFC Ergo ID<br/>
+<br/>
+Pehchaan Number - If not available at policy level, the user should be able to enter Pehchaan number and validate if it is valid ID by checking with an existing integration. If the Pehchaan number is validated, then a green checkbox should be displayed adjacent to the field. If the Pehchaan integration is down or if the user is unable to validate Pehchaan the user should have option to skip the Pehchaan validation and proceed with claim intimation.<br/>
+<br/>
+ABHA ID - If not available at policy level, the user should be able to enter manually.<br/>
+<br/>
+ABHA Address - If not available at policy level, the user should be able to enter manually. This will be a document reference to a particular document for the respective ABHA ID. It typically follows a format like &quot;<a href='mailto:yourname@abdm'>yourname@abdm</a>&quot; (e.g., <a href='mailto:rahulk@abdm'>rahulk@abdm</a>). This username is used to identify a person within the Ayushman Bharat Digital Mission (ABDM) network and is linked to their ABHA number.<br/>
+<br/>
+As a pre-auth claim intimation user, I expect the system displays the member details accurately matching the information in the policy database.
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Definition of Done:</b></td>
+                <td id="customfield_10048-160887-value" class="value" bgcolor="#ffffff" width="80%">      User should be able to view the “Basic Details Page &gt;&gt; Member Details” section with all relevant member details on pre-auth claim intimation.
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Edge Cases:</b></td>
+                <td id="customfield_10640-160887-value" class="value" bgcolor="#ffffff" width="80%">      <p><b>Missing Member Details:</b></p>
+
+<ol>
+	<li>If some member details (e.g., Gender, PED) are missing in the policy database then the system should handle null values and display "N/A".</li>
+	<li>If the member name is very long then the system should use truncation, wrapping, or scrolling.</li>
+</ol>
+
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>As a pre-auth claim intimation user, I want to be able to navigate to the new pre-auth claim intimation page and view member details, policy details along with the latest 5 claims for the respective member.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+Generated at Wed Jun 25 12:30:58 UTC 2025 by Sahana.Marathe using Jira 1001.0.0-SNAPSHOT#100285-rev:e2e3f38099261bb500217a742ea82f5528ab8db0.
+
+</body>
+</html>
