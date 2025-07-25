@@ -1,0 +1,1520 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#HCP-32] 1.12 Generic Search Functionality across users</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://heintra.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <b><a id="parent_issue_summary" href="https://heintra.atlassian.net/browse/HCP-31">NSTP - Medico Pre auth (incl nudges)</a></b>
+                <span style="font-size: 9px">(<a id="parent_issue_key" href="https://heintra.atlassian.net/browse/HCP-31">HCP-31</a>)</span>
+                <h3 class="formtitle"><img src="https://heintra.atlassian.net/images/icons/link_out_bot.gif" width="16" height="16" />
+                        [HCP-32]&nbsp;<a href="https://heintra.atlassian.net/browse/HCP-32">1.12 Generic Search Functionality across users</a>
+            <span class="subText">
+               Created: 26/May/25                   &nbsp;Updated: 23/Jul/25
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">In Development</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://heintra.atlassian.net/secure/BrowseProject.jspa?id=10662">Health Claims Platform</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    
+            <td width="20%"><b>Parent:</b></td>
+        <td width="80%"><a href="https://heintra.atlassian.net/browse/HCP-31">NSTP - Medico Pre auth (incl nudges)</a></td>
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Highest
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                id="word_reporter_712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5">
+                    Rama Swamy Mallarapu
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="712020:5cebfdbc-b5dd-4e64-b130-3ffffc713686"
+                id="word_assignee_712020:5cebfdbc-b5dd-4e64-b130-3ffffc713686"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A5cebfdbc-b5dd-4e64-b130-3ffffc713686">
+                    Digvijay Jaiswar
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-161718-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            2 weeks, 2 days, 8 minutes
+                    </td>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Time Spent:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Σ Original Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap>
+                            2 weeks, 3 days
+                    </td>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap>
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Blocks</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                blocks
+            </td>
+            <td>
+                <a href="https://heintra.atlassian.net/browse/HCP-450">
+                     HCP-450                 </a>
+            </td>
+            <td>
+                1.36 Enhancement: Medico adds/updates...
+            </td>
+            <td>
+                ready for development
+            </td>
+        </tr>
+                                                                    </table>
+            </td>
+        </tr>
+    
+
+
+            <tr><td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sub-tasks:</b></td>
+    <td bgcolor="#ffffff" valign="top">
+        <table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            <tr bgcolor="#f0f0f0">
+                <td>
+                    <b>Key</b><br/>
+                </td>
+                <td>
+                    <b>Summary</b><br/>
+                </td>
+                <td>
+                    <b>Type</b><br/>
+                </td>
+                <td>
+                    <b>Status</b><br/>
+                </td>
+                <td>
+                    <b>Assignee</b><br/>
+                </td>
+            </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-303">HCP-303</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-303">QA | HCP-32 | Testing Activities</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        In Progress
+                    </td>
+                    <td>
+                                                     Sowrab Salian  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-489">HCP-489</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-489">UI - 1.12 Generic Search Functionalit...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        In Progress
+                    </td>
+                    <td>
+                                                     Pavan PS  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-490">HCP-490</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-490">LLD - 1.12 Generic Search Functionali...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        In Progress
+                    </td>
+                    <td>
+                                                     Digvijay Jaiswar  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-563">HCP-563</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-563">BE - Create API To Search By Customer...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        Dev Complete
+                    </td>
+                    <td>
+                                                     Sachin.Rai2  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-564">HCP-564</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-564">BE - Create API to Search by Claim No...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        To Do
+                    </td>
+                    <td>
+                                                     Prajwal Shetty  &nbsp;
+                                            </td>
+                </tr>
+                            <tr>
+                    <td>
+                        <a href="https://heintra.atlassian.net/browse/HCP-615">HCP-615</a>
+                    </td>
+                    <td valign="top" width="25%">
+                        <a href="https://heintra.atlassian.net/browse/HCP-615">BE - Create API To Search By NSP(Exis...</a>
+                    </td>
+                    <td>
+                        Sub-task
+                    </td>
+                    <td>
+                        In Progress
+                    </td>
+                    <td>
+                                                     Raju thandela  &nbsp;
+                                            </td>
+                </tr>
+                    </table>
+    </td>
+</tr>
+    
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10020-161718-value" class="value" bgcolor="#ffffff" width="80%">Product Sprint- Sprint 5</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Team:</b></td>
+                <td id="customfield_10001-161718-value" class="value" bgcolor="#ffffff" width="80%"><div class="shorten" id="customfield_10001-field">
+    <span></span>
+</div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Board Name:</b></td>
+                <td id="customfield_10632-161718-value" class="value" bgcolor="#ffffff" width="80%">    POD1
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Issue Type:</b></td>
+                <td id="customfield_10634-161718-value" class="value" bgcolor="#ffffff" width="80%">    Functional
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Pre-requisites:</b></td>
+                <td id="customfield_10637-161718-value" class="value" bgcolor="#ffffff" width="80%">      <ul>
+	<li>User must be logged into the health claims platform with access to homepage with an option to search by using Generic Search feature.</li>
+</ul>
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>User Actions:</b></td>
+                <td id="customfield_10638-161718-value" class="value" bgcolor="#ffffff" width="80%">      <p>As a Pre-Auth Claim Intimation User, </p>
+
+<ol>
+	<li>Once I access Home Page, I should have option for Generic Claim Search.</li>
+	<li>On click of Generic Claim Search option, the search page should open up with 4 types of search by options as
+	<ol>
+		<li>Customer Search</li>
+		<li>Claim Search.</li>
+		<li>NSP Search</li>
+		<li>Interaction Search</li>
+	</ol>
+	</li>
+</ol>
+
+
+<p><b>Search By Sections:</b></p>
+
+<p><b>Customer Search:</b> On selection of “Customer Search”, user should be able to search based on the below search parameters. Search should happen in the <b>policy issuance system</b> based on the search parameters.</p>
+
+<ol>
+	<li><b>Primary Search :</b> I should be able to enter the following fields to proceed with search:
+	<ol>
+		<li>Policy Number/Certificate Number</li>
+		<li>HEGIC Card Number (Member ID)</li>
+		<li>Customer ID</li>
+		<li>ABHA ID</li>
+		<li>Pehchaan ID</li>
+		<li>PAN</li>
+		<li>Passport Number (only for Travel) - (<b>HE to provide identification for travel policy)</b></li>
+		<li>Loan Account Number (Placeholder for now (in case of loan linked policy)</li>
+	</ol>
+	</li>
+	<li><b>Additional Search:</b>
+	<ol>
+		<li>Retail or Corporate Radio buttons: I should have the option to manually select one of the options from Retail or Corporate radio buttons when policy number is not entered and relevant fields should be displayed. <b>Business Rule:</b> If the policy number is entered as primary search, based on the first 4 digits of the policy number, type of the policy (product) should be identified as <b>Retail</b> or <b>Corporate</b> and respective fields should be displayed (assuming first 4 digits represent the product code).</li>
+	</ol>
+	</li>
+</ol>
+
+
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'><b>Trigger</b></td>
+<td class='confluenceTd'><b>Fields</b></td>
+</tr>
+<tr>
+<td class='confluenceTd'>Retail Selected</td>
+<td class='confluenceTd'>Disable: Policyholder Name, Corporate Policy Number, Employee Code<br/>
+Enable: Insured Name, Passport No. (only for travel)</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Corporate Selected</td>
+<td class='confluenceTd'>Enable: Policyholder Name, Corporate Policy Number, Employee Code<br/>
+Disable: Passport No. (unless travel)</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Reset Clicked</td>
+<td class='confluenceTd'>All entered values cleared, including dynamic field changes</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Back Clicked</td>
+<td class='confluenceTd'>Takes back to the user dashboard page</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Search Clicked</td>
+<td class='confluenceTd'>Provides the Search Results based on the search criteria entered</td>
+</tr>
+</tbody></table>
+</div>
+
+
+<ul>
+	<li>I should be able to enter any of the following search parameters to narrow down search results in addition to the primary fields:
+	<ul>
+		<li>Policyholder Name (only for Corporate)</li>
+		<li>Email ID (match with proposer email ID)</li>
+		<li>Mobile Number (match with proposer mobile number)</li>
+		<li>Corporate Policy Number (only for Corporate)</li>
+		<li>Employee ID/Code (only for Corporate)</li>
+		<li>Member Name</li>
+		<li>Member Date of Birth</li>
+		<li>I should be able to search either with primary or additional search fields individually as well as combinations as mentioned above.</li>
+	</ul>
+	</li>
+</ul>
+
+
+<p><b>Claim Search:</b> On selection of “Claim Search”, user should be able to search based on the below search parameters. Search should happen in the <b>claims system</b> based on the search parameters.</p>
+
+<ol>
+	<li><b>Primary Search :</b> I should be able to enter the following fields to proceed with search:
+	<ol>
+		<li>Claim Number</li>
+		<li>Policy Number/Certificate Number</li>
+		<li>HEGIC Card Number (Member ID)</li>
+		<li>Customer ID</li>
+		<li>ABHA ID</li>
+		<li>Pehchaan ID</li>
+		<li>PAN</li>
+		<li>Passport Number (only for Travel) - (<b>HE to provide identification for travel policy)</b></li>
+		<li>Loan Account Number (Placeholder for now (in case of loan linked policy)</li>
+	</ol>
+	</li>
+	<li><b>Additional Search:</b>
+	<ol>
+		<li>Retail or Corporate Radio buttons: I should have the option to manually select one of the options from Retail or Corporate radio buttons when policy number is not entered and relevant fields should be displayed. <b>Business Rule:</b> If the policy number is entered as primary search, based on the first 4 digits of the policy number, type of the policy (product) should be identified as <b>Retail</b> or <b>Corporate</b> and respective fields should be displayed (assuming first 4 digits represent the product code).</li>
+	</ol>
+	</li>
+</ol>
+
+
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'><b>Trigger</b></td>
+<td class='confluenceTd'><b>Fields</b></td>
+</tr>
+<tr>
+<td class='confluenceTd'>Retail Selected</td>
+<td class='confluenceTd'>Disable: Policyholder Name, Corporate Policy Number, Employee Code<br/>
+Enable: Insured Name, Passport No. (only for travel)</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Corporate Selected</td>
+<td class='confluenceTd'>Enable: Policyholder Name, Corporate Policy Number, Employee Code<br/>
+Disable: Passport No. (unless travel)</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Reset Clicked</td>
+<td class='confluenceTd'>All entered values cleared, including dynamic field changes</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Back Clicked</td>
+<td class='confluenceTd'>Takes back to the user dashboard page</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Search Clicked</td>
+<td class='confluenceTd'>Provides the Search Results based on the search criteria entered</td>
+</tr>
+</tbody></table>
+</div>
+
+
+<ul>
+	<li>I should be able to enter any of the following search parameters to narrow down search results in addition to the primary fields:
+	<ul>
+		<li>Policyholder Name (only for Corporate)</li>
+		<li>Email (match with proposer email ID)</li>
+		<li>Mobile Number (match with proposer mobile number)</li>
+		<li>Corporate Policy Number (only for Corporate)</li>
+		<li>Employee ID/Code (only for Corporate)</li>
+		<li>Member Name</li>
+		<li>Member Date of Birth</li>
+		<li>I should be able to search either with primary or additional search fields individually as well as combinations as mentioned above.</li>
+	</ul>
+	</li>
+</ul>
+
+
+<p><b>NSP Search:</b> On selection of “NSP Search”, user should be able to search based on the below search parameters. Search should happen in the <b>NSP Admin</b> module based on the search parameters.</p>
+
+<ol>
+	<li>NSP/HFR ID</li>
+	<li>Hospital (NSP) Name</li>
+	<li>Network Type</li>
+	<li>City</li>
+	<li>State</li>
+</ol>
+
+
+<p><font color="#ff5630"><b>Interactions Search:</b></font><font color="#ff5630"> This will be </font>a <font color="#4c9aff"><b>placeholde</b></font>r🔖 .<font color="#ff5630"> as of now.</font></p>
+
+<ul>
+	<li><b>I should be able to perform actions using the following buttons:</b>
+	<ul>
+		<li><b>Search:</b> to view results based on the search criteria entered.
+		<ul>
+			<li>On click of search, a loader screen should be displayed till the search results are displayed.</li>
+			<li>On click of search, valid search results should be displayed if there are matching search results.</li>
+			<li>On click of search, if the system is taking more than “x” minutes there should be a message “Wait for some time as the system is taking longer than expected time”.</li>
+			<li>On click of search, if there are no matching search results there should be an error message as <em>“No matching records found. Please modify your search criteria.”</em></li>
+		</ul>
+		</li>
+		<li><b>Back</b>: to go back to the user dashboard.</li>
+		<li><b>Reset:</b> to clear all fields and return the form to its default state.</li>
+	</ul>
+	</li>
+</ul>
+
+
+
+
+<p><b>Search Results:</b> Restrict to 20 results and if more than 20 results are fetched, show a message to add additional search parameters to narrow down the search.</p>
+
+<p><b>Customer Search Results:</b> Based on the search parameters entered below listed fields should be displayed from policy issuance system data.</p>
+
+<ol>
+	<li>Policy Number/Certificate Number. This should be a hyperlink to open policy document from policy issuance system (DC/GC Integration) (Fetch Latest endorsed copy)</li>
+	<li>Member Name</li>
+	<li>Relation with Proposer</li>
+	<li>Corporate Name / Policyholder Name (Corporate Name in case of corporate policy)</li>
+	<li>Employee ID</li>
+	<li>Product Name</li>
+	<li>HEGIC Card Number</li>
+	<li>Customer ID</li>
+	<li>Policy Start Date</li>
+	<li>Policy End Date</li>
+	<li>First Policy Inception Date</li>
+	<li>Member Addition Date</li>
+	<li>Member Deletion Date</li>
+	<li>Sum Insured</li>
+	<li>Policy Status</li>
+	<li>Port Status</li>
+	<li>Customer Segment</li>
+	<li>CI Sheet View</li>
+</ol>
+
+
+
+
+<p><b>Claim Search Results:</b> Based on the search parameters entered below listed fields should be displayed from claim system data.</p>
+
+<ol>
+	<li>Claim Number. This should be a hyperlink to claim process sheet (Placeholder for now).</li>
+	<li>Member Name</li>
+	<li>Type of Claim. It could be Cashless or Reimbursement. In case if the claim type is changed from <del>Cashless</del><font color="#ff5630"> </font><font color="#006644"><b>preauth</b></font><font color="#ff5630"> </font><font color="#ff5630"> </font>to RI, we should show both the types of claim with dates as two rows <font color="#ff5630"> <b>Q: which pre_ auth status could be converted to reimbursement?</b></font>Benefit /Coverage. <font color="#006644">Usually this would happen in case of denial of pre-auth intimation request. If a pre-auth intimation request is denied then we might get a request for RI for the same claim. In this scenario, requirement is to use the same claim number (of pre-auth intimation) and change the claim type to RI.</font></li>
+	<li>Policy Number/Certificate Number</li>
+	<li>HEGIC Card Number</li>
+	<li>Corporate Name /Policyholder Name (Corporate name in case of corporate)</li>
+	<li>Employee ID</li>
+	<li>Disease	Ailment as per user. If multiple are there, then all should be shown one beside the other with comma seperated.</li>
+	<li>Intimation Date</li>
+	<li>DOA</li>
+	<li>DOD</li>
+	<li>Claim Status - Internal</li>
+	<li>Claim Status - External</li>
+	<li>Hospital Name	Hospital Address to be displayed on tooltip</li>
+	<li>Claimed Amount</li>
+	<li>Claim Paid Amount</li>
+	<li>CIMA /CHASE Status</li>
+	<li>Claim Diary	Hyperlink to audit trail of processor actions</li>
+	<li>NIDB Reference Number</li>
+	<li>Customer Segment</li>
+</ol>
+
+
+
+
+<p><b>NSP Search Results:</b> Based on the search parameters entered below listed fields should be displayed from NSP admin module.</p>
+
+<ol>
+	<li>NSP ID</li>
+	<li>NSP Name</li>
+	<li>NSP Type</li>
+	<li>NSP Address</li>
+	<li>NSP State</li>
+	<li>NSP City</li>
+	<li>NSP Pincode</li>
+	<li>NSP Status</li>
+	<li>NSP Last Update Date</li>
+	<li>NSP Email ID</li>
+</ol>
+
+
+
+
+<p><b>Interactions Search Results:</b> Placeholder for now. <font color="#ff5630"><b>This we will discuss during Talisma integration and currently</b> </font>a <font color="#4c9aff"><b>placeholde</b></font>r🔖 .</p>
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Data Specifications &amp; Validation Rules:</b></td>
+                <td id="customfield_10639-161718-value" class="value" bgcolor="#ffffff" width="80%">      <p><b>Primary Search Parameters:</b></p>
+
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'><b>Field Name</b></td>
+<td class='confluenceTd'><b>Data Type</b></td>
+<td class='confluenceTd'><b>Mandatory</b></td>
+<td class='confluenceTd'><b>Validation Rules / Format / Examples</b></td>
+<td class='confluenceTd'><b>Notes / Restrictions / Description</b></td>
+</tr>
+<tr>
+<td class='confluenceTd'>Policy Number / Certificate Number</td>
+<td class='confluenceTd'>Alphanumeric</td>
+<td class='confluenceTd'>Optional</td>
+<td class='confluenceTd'>Minimum 16 and maximum 19 digits<br/>
+Example: 2828202640966102</td>
+<td class='confluenceTd'><ul>
+	<li>Identifies Retail/Corporate via prefix<br/>
+<b>Validation:</b> Exact match </li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class='confluenceTd'>HEGIC Card Number (Member ID)</td>
+<td class='confluenceTd'>Alphanumeric</td>
+<td class='confluenceTd'>Optional</td>
+<td class='confluenceTd'>Minimum 6 characters<br/>
+Examples: HEG123456, MEM001789 <b>(Format required)</b></td>
+<td class='confluenceTd'><ul>
+	<li>Unique member ID under the policy</li>
+	<li><b>Validation:</b> Exact match</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Customer ID</td>
+<td class='confluenceTd'>Alphanumeric</td>
+<td class='confluenceTd'>Optional</td>
+<td class='confluenceTd'>As per HDFC format <b>(Format required)</b>.</td>
+<td class='confluenceTd'><ul>
+	<li>Unique customer ID as per HDFC Ergo.</li>
+	<li><b>Validation:</b> Exact match</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class='confluenceTd'>ABHA ID</td>
+<td class='confluenceTd'>Numeric</td>
+<td class='confluenceTd'>Optional</td>
+<td class='confluenceTd'>14-digit numeric value (ABHA format)<br/>
+Example:  70 7463 2446 5247</td>
+<td class='confluenceTd'><ul>
+	<li>Ayushman Bharat Health A/c ID</li>
+	<li><b>Validation:</b> Exact match</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Pehchaan ID</td>
+<td class='confluenceTd'>Alphanumeric</td>
+<td class='confluenceTd'>Optional</td>
+<td class='confluenceTd'>Pehchaan ID: <b>(HE to provide the Format)</b></td>
+<td class='confluenceTd'><ul>
+	<li>Unique ID</li>
+	<li><b>Validation:</b> Exact match</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class='confluenceTd'>PAN</td>
+<td class='confluenceTd'>Alphanumeric</td>
+<td class='confluenceTd'>Optional</td>
+<td class='confluenceTd'>10 characters formatted as first 5 letters, next 4 digits, last 1 letter<br/>
+Example: ABCDE1234F</td>
+<td class='confluenceTd'><ul>
+	<li>Unique ID</li>
+	<li><b>Validation:</b> Exact match</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Passport Number</td>
+<td class='confluenceTd'>Alphanumeric</td>
+<td class='confluenceTd'>Optional</td>
+<td class='confluenceTd'>Applicable only for travel policy. The generic format for an Indian Passport number is 8 alphanumeric characters in which first letter is a uppercase letter (A-Z) followed by seven numeric digits (0-9). Example: P1234567</td>
+<td class='confluenceTd'><ul>
+	<li>Unique ID</li>
+	<li><b>Validation:</b> Exact match</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Loan Account Number</td>
+<td class='confluenceTd'>Alphanumeric</td>
+<td class='confluenceTd'>Optional</td>
+<td class='confluenceTd'>HE to provide the format</td>
+<td class='confluenceTd'>Placeholder for loan-linked policy</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Claim Number</td>
+<td class='confluenceTd'>Alphanumeric</td>
+<td class='confluenceTd'>Optional</td>
+<td class='confluenceTd'>Must match system-defined claim number format <b>(Format required)</b></td>
+<td class='confluenceTd'><ul>
+	<li>Existing or historical claim ID</li>
+	<li><b>Validation:</b> Exact match</li>
+</ul>
+</td>
+</tr>
+</tbody></table>
+</div>
+
+
+<p><b>Additional Search Parameters:</b></p>
+
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'><b>Field Name</b></td>
+<td class='confluenceTd'><b>Data Type</b></td>
+<td class='confluenceTd'><b>Mandatory</b></td>
+<td class='confluenceTd'><b>Validation Rules / Format / Examples</b></td>
+<td class='confluenceTd'><b>Notes / Restrictions / Description</b></td>
+</tr>
+<tr>
+<td class='confluenceTd'>Policyholder Name</td>
+<td class='confluenceTd'>String</td>
+<td class='confluenceTd'>Optional</td>
+<td class='confluenceTd'>Alphabets, space, hyphen allowed; length 2–100 characters</td>
+<td class='confluenceTd'>Full name of the policyholder (corporate policy)</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Email ID</td>
+<td class='confluenceTd'>String</td>
+<td class='confluenceTd'>Optional</td>
+<td class='confluenceTd'>Must follow standard email format<br/>
+<b>Example</b>: <a href="mailto:Someone@example.com" class="external-link" rel="nofollow noreferrer">Someone@example.com</a></td>
+<td class='confluenceTd'>Email address of the policyholder</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Mobile Number</td>
+<td class='confluenceTd'>Numeric</td>
+<td class='confluenceTd'>Optional</td>
+<td class='confluenceTd'>10-digit Indian mobile number; must not start with 0; numeric only</td>
+<td class='confluenceTd'>Mobile number of the policyholder</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Corporate Policy Number</td>
+<td class='confluenceTd'>Alphanumeric</td>
+<td class='confluenceTd'>Optional</td>
+<td class='confluenceTd'>Minimum 16 and maximum 19 digits<br/>
+Example: 2828202640966102</td>
+<td class='confluenceTd'><ul>
+	<li>Only for corporate policies<br/>
+<b>Validation:</b> Exact match </li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Employee ID/Code</td>
+<td class='confluenceTd'>Alphanumeric</td>
+<td class='confluenceTd'>Optional</td>
+<td class='confluenceTd'>3–20 characters<br/>
+Corporate only<br/>
+<b>Example</b>: EMP987, INF123456</td>
+<td class='confluenceTd'>Unique employee ID under corporate policies</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Member Name</td>
+<td class='confluenceTd'>String</td>
+<td class='confluenceTd'>Optional</td>
+<td class='confluenceTd'>Alphabets &amp; spaces only<br/>
+Min 3, Max 100 characters<br/>
+<b>Example</b>: Amit Verma, Priya Sen</td>
+<td class='confluenceTd'><ul>
+	<li>Full name of the insured/employee</li>
+	<li>Nearest name match should be done</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Member Date of Birth</td>
+<td class='confluenceTd'>Date Picker</td>
+<td class='confluenceTd'>Optional</td>
+<td class='confluenceTd'>Format: DD/MM/YYYY<br/>
+<b>Example</b>: 15/08/1988</td>
+<td class='confluenceTd'><b>Validation:</b> Cannot be a future date</td>
+</tr>
+</tbody></table>
+</div>
+
+
+<p><b>NSP Search Parameters:</b></p>
+
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<th class='confluenceTh'><b>Field Name</b></th>
+<th class='confluenceTh'><b>Data Type</b></th>
+<th class='confluenceTh'><b>Mandatory</b></th>
+<th class='confluenceTh'><b>Validation Rules / Format / Examples</b></th>
+<th class='confluenceTh'><b>Notes / Restrictions / Description</b></th>
+</tr>
+<tr>
+<td class='confluenceTd'>NSP/HFR ID</td>
+<td class='confluenceTd'>Alphanumeric</td>
+<td class='confluenceTd'>Optional</td>
+<td class='confluenceTd'>As per HDFC format <b>(Format required)</b>.</td>
+<td class='confluenceTd'><ul>
+	<li>Unique NSP/HFR ID.</li>
+	<li><b>Validation:</b> Exact match</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Hospital Name</td>
+<td class='confluenceTd'>String</td>
+<td class='confluenceTd'>Optional</td>
+<td class='confluenceTd'>Alphanumeric</td>
+<td class='confluenceTd'>Partial matches allowed</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Network Type</td>
+<td class='confluenceTd'>String</td>
+<td class='confluenceTd'>Optional</td>
+<td class='confluenceTd'>Alphanumeric</td>
+<td class='confluenceTd'>&nbsp;</td>
+</tr>
+<tr>
+<td class='confluenceTd'>City</td>
+<td class='confluenceTd'>Dropdown</td>
+<td class='confluenceTd'>Optional</td>
+<td class='confluenceTd'>Lis to cities</td>
+<td class='confluenceTd'>Valid list of cities</td>
+</tr>
+<tr>
+<td class='confluenceTd'>State</td>
+<td class='confluenceTd'>Dropdown</td>
+<td class='confluenceTd'>Optional</td>
+<td class='confluenceTd'>List of states</td>
+<td class='confluenceTd'>Valid list of states</td>
+</tr>
+</tbody></table>
+</div>
+
+
+<h3><a name="CustomerSearchResults%3A"></a><b>Customer Search Results:</b></h3>
+
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<th class='confluenceTh'>Display Field</th>
+<th class='confluenceTh'>Type</th>
+<th class='confluenceTh'>Notes</th>
+</tr>
+<tr>
+<td class='confluenceTd'>Policy Number</td>
+<td class='confluenceTd'>Hyperlink</td>
+<td class='confluenceTd'>Links to policy document (via DC/GC Integration), Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Member Name</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Relation with Proposer</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Corporate Name/Policyholder Name</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Based on Retail/Corporate type, Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Employee ID</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Product Name</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>HEGIC Card Number</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Customer ID</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Policy Start Date</td>
+<td class='confluenceTd'>Date</td>
+<td class='confluenceTd'>Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Policy End Date</td>
+<td class='confluenceTd'>Date</td>
+<td class='confluenceTd'>Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>First Policy Inception Date</td>
+<td class='confluenceTd'>Date</td>
+<td class='confluenceTd'>Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Member Addition/Deletion Date</td>
+<td class='confluenceTd'>Date</td>
+<td class='confluenceTd'>Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Sum Insured</td>
+<td class='confluenceTd'>Currency</td>
+<td class='confluenceTd'>Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Policy Status</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Active/Active-Grace Period, Expired etc., Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Port Status</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Customer Segment</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>CI Sheet View</td>
+<td class='confluenceTd'>Hyperlink</td>
+<td class='confluenceTd'>Placeholder</td>
+</tr>
+</tbody></table>
+</div>
+
+
+<h3><a name="ClaimSearchResults%3A"></a><b>Claim Search Results:</b></h3>
+
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<th class='confluenceTh'>Display Field</th>
+<th class='confluenceTh'>Type</th>
+<th class='confluenceTh'>Notes</th>
+</tr>
+<tr>
+<td class='confluenceTd'>Claim Number</td>
+<td class='confluenceTd'>Hyperlink</td>
+<td class='confluenceTd'>Placeholder to Claim Process Sheet, Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Member Name</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Type of Claim</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Cashless / Reimbursement / Both with dates(if applicable), Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Benefit / Coverage</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Policy Number</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>HEGIC Card Number</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Corporate Name / Policyholder</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Employee ID</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Disease</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Comma-separated if multiple, Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Intimation Date</td>
+<td class='confluenceTd'>Date</td>
+<td class='confluenceTd'>Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>DOA / DOD</td>
+<td class='confluenceTd'>Date</td>
+<td class='confluenceTd'>Date of Admission/Discharge, Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Claim Status - Internal/External</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Hospital Name</td>
+<td class='confluenceTd'>Tooltip</td>
+<td class='confluenceTd'>Address shown in tooltip, Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Claimed / Paid Amount</td>
+<td class='confluenceTd'>Currency</td>
+<td class='confluenceTd'>Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>CIMA / CHASE Status</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Claim Diary</td>
+<td class='confluenceTd'>Hyperlink</td>
+<td class='confluenceTd'>Points to audit log, Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>NIDB Reference Number</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Customer Segment</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Non-editable</td>
+</tr>
+</tbody></table>
+</div>
+
+
+<h3><a name="NSPSearchResults"></a><b>NSP Search Results</b></h3>
+
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<th class='confluenceTh'>Display Field</th>
+<th class='confluenceTh'>Type</th>
+<th class='confluenceTh'>Notes</th>
+</tr>
+<tr>
+<td class='confluenceTd'>NSP ID</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>NSP Name</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>NSP Type</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>NSP Address</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>State / City</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Pincode</td>
+<td class='confluenceTd'>Number</td>
+<td class='confluenceTd'>Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Status</td>
+<td class='confluenceTd'>Text</td>
+<td class='confluenceTd'>Active/Inactive, Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>Last Update Date</td>
+<td class='confluenceTd'>Date</td>
+<td class='confluenceTd'>Non-editable</td>
+</tr>
+<tr>
+<td class='confluenceTd'>NSP Email ID</td>
+<td class='confluenceTd'>Email</td>
+<td class='confluenceTd'>Non-editable</td>
+</tr>
+</tbody></table>
+</div>
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Acceptance Criteria:</b></td>
+                <td id="customfield_10044-161718-value" class="value" bgcolor="#ffffff" width="80%">      &nbsp;- Once the user lands on the Home Page, a visible and accessible option labeled as &quot;Generic Claim Search&quot; should be available.<br/>
+&nbsp;- On click of &quot;Generic Claim Search&quot;,  user should be navigated to the search page with four tabs/sections and &quot;Customer Search&quot; should open by default.<br/>
+1. Customer Search<br/>
+2. Claim Search<br/>
+3. NSP Search<br/>
+4. Interaction Search<br/>
+<br/>
+1. Customer Search:<br/>
+&nbsp;- User should be able to perform search using any one of the primary search fields or additional search fields.<br/>
+&nbsp;- User should be able to search using only additional search fields or a combination of primary and additional fields.<br/>
+&nbsp;- If policy number is entered, the system should auto-detect the product type using the first 4 digits and show/hide relevant Retail/Corporate fields.<br/>
+&nbsp;- If Retail is selected manually, the fields Insured Name and Passport No (only for Travel) should be enabled and Policyholder Name, Corporate Policy Number, and Employee Code should be disabled.<br/>
+&nbsp;- If Corporate is selected, the fields Policyholder Name, Corporate Policy Number, and Employee Code should be enabled, and Passport No should be disabled (unless it&#39;s a travel policy).<br/>
+&nbsp;- On click of Search, results should be fetched from the policy issuance system based on entered criteria.<br/>
+&nbsp;- If no match is found, the message &quot;No matching records found. Please modify your search criteria.&quot; should be shown.<br/>
+&nbsp;- If search takes more than `x` minutes, the system should display a message: &quot;Wait for some time as the system is taking longer than expected time.&quot;<br/>
+&nbsp;- On click of Reset, all the entered search values should be cleared.<br/>
+&nbsp;- On click of Back, user should be returned to the dashboard.<br/>
+<br/>
+Search Results:<br/>
+&nbsp;- Search results should be fetched from policy issuance system.<br/>
+&nbsp;- Search results should display all required fields as specified, including a hyperlink on Policy Number to open the latest endorsed policy document (placeholder as of now).<br/>
+&nbsp;- All dates (e.g., Start Date, End Date) should be shown in DD/MM/YYYY format.<br/>
+&nbsp;- CI Sheet View should be shown as a clickable link (placeholder as of now).<br/>
+<br/>
+2. Claim Search:<br/>
+&nbsp;- Same acceptance criteria as &quot;Customer Search&quot; for field behavior, validation, Retail/Corporate logic, Reset, and Back buttons.<br/>
+&nbsp;- On clicking Search, results should be fetched from the claims system using provided criteria.<br/>
+&nbsp;- In the case of a claim that has changed type (e.g., Cashless to Reimbursement), both claim types should be shown in separate rows with respective details.<br/>
+<br/>
+Search Results:<br/>
+&nbsp;- Search results should be fetched from the claims system.<br/>
+&nbsp;- Search results should show fields like Claim Number (hyperlinked), Member Name, Disease (comma-separated, if more than one), Claim Status, Claimed Amount, Paid Amount, etc.<br/>
+- Hospital Name should display full address on tooltip hover.<br/>
+&nbsp;- Claim Diary should be a clickable link to audit log (placeholder as of now).<br/>
+<br/>
+3. NSP Search:<br/>
+&nbsp;- User should be able to search using any of the NSP search parameters individually or in combination.<br/>
+&nbsp;- Search results should be fetched from the NSP Admin Module based on search input.<br/>
+&nbsp;- Search results should show all specified NSP fields such as NSP ID, Name, Type, Address, State, City, Status, etc.<br/>
+&nbsp;- If no match found, proper message should be shown as &quot;No matching records found&quot;<br/>
+&nbsp;- On click of Reset, all the entered search values should be cleared.<br/>
+&nbsp;- On click of Back, user should be returned to the dashboard.<br/>
+<br/>
+4. Interactions Search: Currently a placeholder.<br/>
+<br/>
+5. General System Behavior:<br/>
+&nbsp;- All form inputs should be validated for correct format (e.g., email, PAN format, Passport Number).<br/>
+&nbsp;- The Search button should be disabled until at least one field (primary or additional) is entered.<br/>
+&nbsp;- All pages should be responsive across standard desktop screen sizes.<br/>
+&nbsp;- If system call fails, a general error message should appear: &quot;An error occurred while processing your request. Please try again.&quot;<br/>
+&nbsp;- Fields should have relevant tooltips or helper text where applicable (e.g., “Enter PAN in format ABCDE1234F”).
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Definition of Done:</b></td>
+                <td id="customfield_10048-161718-value" class="value" bgcolor="#ffffff" width="80%">      User should be able to perform search using different search criteria based on customer details, claim details, NSP details, and Interaction details.
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Edge Cases:</b></td>
+                <td id="customfield_10640-161718-value" class="value" bgcolor="#ffffff" width="80%">      <ul>
+	<li>When user lands on search page and doesn't interact for a long time (session timeout), on next action user should be shown session expired message.</li>
+	<li>If any field does not have data available in the backend, show “-”.</li>
+	<li>If user clicks search without filling any field, then disable button and show message as "Please enter at least one search criteria."</li>
+	<li>If user clicks search repeatedly while loader is active, then duplicate calls should be prevented by disabling the button and showing loader only once.</li>
+</ul>
+
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Start date:</b></td>
+                <td id="customfield_10052-161718-value" class="value" bgcolor="#ffffff" width="80%">          <span title="21/Jul/25"><time datetime="2025-07-21">21/Jul/25</time></span>
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>End date:</b></td>
+                <td id="customfield_10053-161718-value" class="value" bgcolor="#ffffff" width="80%">          <span title="30/Jul/25"><time datetime="2025-07-30">30/Jul/25</time></span>
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Component-A:</b></td>
+                <td id="customfield_10696-161718-value" class="value" bgcolor="#ffffff" width="80%">      PA_PolicySearch
+  </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>As a Health Claims Platform user, I should be able to use Generic Search feature to search for details using different types of search parameters based on customer, Claim, NSP, and Interaction ID.</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-155499"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:4f800449-a18b-4476-ba73-82f48d715cd2"
+                id="word_commented_712020:4f800449-a18b-4476-ba73-82f48d715cd2"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4f800449-a18b-4476-ba73-82f48d715cd2">
+                    ajay Kumar Rai
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">30/May/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-155499"><td bgcolor="#ffffff">
+            <ol>
+	<li>Type of Claim. It could be Cashless or Reimbursement. In case if the claim type is changed from <del>Cashless</del><font color="#ff5630"> </font><font color="#ff5630"><b>preauth</b> </font><font color="#ff5630"> </font>to RI, we should show both the types of claim with dates as two rows <font color="#ff5630"> <b>Q which pre_ auth status could be converted to reimbursement?</b></font></li>
+</ol>
+
+
+<p><b>Interactions Search Results:</b> Placeholder for now. <font color="#ff5630"><b>This we will discuss during Talisma integration</b> </font><a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5" class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" data-account-id="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" accountid="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" rel="noreferrer">Rama Swamy Mallarapu</a> <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ade15db23-60be-4328-b2ce-06822b90f9a5" class="user-hover" rel="712020:de15db23-60be-4328-b2ce-06822b90f9a5" data-account-id="712020:de15db23-60be-4328-b2ce-06822b90f9a5" accountid="712020:de15db23-60be-4328-b2ce-06822b90f9a5" rel="noreferrer">Mansi Latwal</a> <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=63c7b62cd579d7c68754dbec" class="user-hover" rel="63c7b62cd579d7c68754dbec" data-account-id="63c7b62cd579d7c68754dbec" accountid="63c7b62cd579d7c68754dbec" rel="noreferrer">basant kumar</a> </p>
+        </td></tr>
+                <tr id="comment-header-156466"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                id="word_commented_712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5">
+                    Rama Swamy Mallarapu
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">05/Jun/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-156466"><td bgcolor="#ffffff">
+            <p><a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4f800449-a18b-4476-ba73-82f48d715cd2" class="user-hover" rel="712020:4f800449-a18b-4476-ba73-82f48d715cd2" data-account-id="712020:4f800449-a18b-4476-ba73-82f48d715cd2" accountid="712020:4f800449-a18b-4476-ba73-82f48d715cd2" rel="noreferrer">ajay Kumar Rai</a> Update the story as per below comments. Please review and provide sign off</p>
+        </td></tr>
+                <tr id="comment-header-156667"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:4f800449-a18b-4476-ba73-82f48d715cd2"
+                id="word_commented_712020:4f800449-a18b-4476-ba73-82f48d715cd2"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4f800449-a18b-4476-ba73-82f48d715cd2">
+                    ajay Kumar Rai
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">07/Jun/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-156667"><td bgcolor="#ffffff">
+            <p><a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5" class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" data-account-id="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" accountid="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" rel="noreferrer">Rama Swamy Mallarapu</a> Updated field should highlighted to HE , else its difficult to review.  <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=63367a269b32cfef9327afa0" class="user-hover" rel="63367a269b32cfef9327afa0" data-account-id="63367a269b32cfef9327afa0" accountid="63367a269b32cfef9327afa0" rel="noreferrer">Amit Bhagat</a> <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ade15db23-60be-4328-b2ce-06822b90f9a5" class="user-hover" rel="712020:de15db23-60be-4328-b2ce-06822b90f9a5" data-account-id="712020:de15db23-60be-4328-b2ce-06822b90f9a5" accountid="712020:de15db23-60be-4328-b2ce-06822b90f9a5" rel="noreferrer">Mansi Latwal</a> <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A06b67419-13af-427c-b2c0-f22631cefefd" class="user-hover" rel="712020:06b67419-13af-427c-b2c0-f22631cefefd" data-account-id="712020:06b67419-13af-427c-b2c0-f22631cefefd" accountid="712020:06b67419-13af-427c-b2c0-f22631cefefd" rel="noreferrer">Ajay Khajuria</a> </p>
+        </td></tr>
+                <tr id="comment-header-156745"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                id="word_commented_712020:4489006b-0d52-4269-b615-68c5a1ff8fd5"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5">
+                    Rama Swamy Mallarapu
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">09/Jun/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-156745"><td bgcolor="#ffffff">
+            <p><a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4f800449-a18b-4476-ba73-82f48d715cd2" class="user-hover" rel="712020:4f800449-a18b-4476-ba73-82f48d715cd2" data-account-id="712020:4f800449-a18b-4476-ba73-82f48d715cd2" accountid="712020:4f800449-a18b-4476-ba73-82f48d715cd2" rel="noreferrer">ajay Kumar Rai</a> I have highlighted the correction in <font color="#006644">green color</font>.</p>
+        </td></tr>
+                <tr id="comment-header-156843"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:4f800449-a18b-4476-ba73-82f48d715cd2"
+                id="word_commented_712020:4f800449-a18b-4476-ba73-82f48d715cd2"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4f800449-a18b-4476-ba73-82f48d715cd2">
+                    ajay Kumar Rai
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">10/Jun/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-156843"><td bgcolor="#ffffff">
+            <p><a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5" class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" data-account-id="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" accountid="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" rel="noreferrer">Rama Swamy Mallarapu</a> <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A06b67419-13af-427c-b2c0-f22631cefefd" class="user-hover" rel="712020:06b67419-13af-427c-b2c0-f22631cefefd" data-account-id="712020:06b67419-13af-427c-b2c0-f22631cefefd" accountid="712020:06b67419-13af-427c-b2c0-f22631cefefd" rel="noreferrer">Ajay Khajuria</a> <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Ade15db23-60be-4328-b2ce-06822b90f9a5" class="user-hover" rel="712020:de15db23-60be-4328-b2ce-06822b90f9a5" data-account-id="712020:de15db23-60be-4328-b2ce-06822b90f9a5" accountid="712020:de15db23-60be-4328-b2ce-06822b90f9a5" rel="noreferrer">Mansi Latwal</a> <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=63367a269b32cfef9327afa0" class="user-hover" rel="63367a269b32cfef9327afa0" data-account-id="63367a269b32cfef9327afa0" accountid="63367a269b32cfef9327afa0" rel="noreferrer">Amit Bhagat</a> </p>
+
+<p>Shared parameters are matching with user story , Its okay </p>
+        </td></tr>
+                <tr id="comment-header-162815"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:5cebfdbc-b5dd-4e64-b130-3ffffc713686"
+                id="word_commented_712020:5cebfdbc-b5dd-4e64-b130-3ffffc713686"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A5cebfdbc-b5dd-4e64-b130-3ffffc713686">
+                    Digvijay Jaiswar
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">10/Jul/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-162815"><td bgcolor="#ffffff">
+            <p><a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5" class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" data-account-id="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" accountid="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" rel="noreferrer">Rama Swamy Mallarapu</a> Kindly brief us about Claim Diary, NIDB Ref No, Customer Segment, CIMA /CHASE Status.</p>
+        </td></tr>
+                <tr id="comment-header-162816"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:5cebfdbc-b5dd-4e64-b130-3ffffc713686"
+                id="word_commented_712020:5cebfdbc-b5dd-4e64-b130-3ffffc713686"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A5cebfdbc-b5dd-4e64-b130-3ffffc713686">
+                    Digvijay Jaiswar
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">10/Jul/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-162816"><td bgcolor="#ffffff">
+            <p><a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5" class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" data-account-id="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" accountid="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" rel="noreferrer">Rama Swamy Mallarapu</a> <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A5648bc53-9818-4b9c-8803-d3917bfb7bc8" class="user-hover" rel="712020:5648bc53-9818-4b9c-8803-d3917bfb7bc8" data-account-id="712020:5648bc53-9818-4b9c-8803-d3917bfb7bc8" accountid="712020:5648bc53-9818-4b9c-8803-d3917bfb7bc8" rel="noreferrer">Pavan PS</a> Disease (Ailment as per user) is not present in the designs. </p>
+        </td></tr>
+                <tr id="comment-header-163369"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="712020:5cebfdbc-b5dd-4e64-b130-3ffffc713686"
+                id="word_commented_712020:5cebfdbc-b5dd-4e64-b130-3ffffc713686"
+                href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A5cebfdbc-b5dd-4e64-b130-3ffffc713686">
+                    Digvijay Jaiswar
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">14/Jul/25</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-163369"><td bgcolor="#ffffff">
+            <p><a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A4489006b-0d52-4269-b615-68c5a1ff8fd5" class="user-hover" rel="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" data-account-id="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" accountid="712020:4489006b-0d52-4269-b615-68c5a1ff8fd5" rel="noreferrer">Rama Swamy Mallarapu</a> kindly provide the possible values for Network Type.</p>
+
+<p>cc: <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3Acaa4a8eb-f21b-4f2b-9d12-7c420c36ca1c" class="user-hover" rel="712020:caa4a8eb-f21b-4f2b-9d12-7c420c36ca1c" data-account-id="712020:caa4a8eb-f21b-4f2b-9d12-7c420c36ca1c" accountid="712020:caa4a8eb-f21b-4f2b-9d12-7c420c36ca1c" rel="noreferrer">Prathik Chandra</a> <a href="https://heintra.atlassian.net/secure/ViewProfile.jspa?accountId=712020%3A57c1f2f7-7480-41d1-a9d2-b71447a10387" class="user-hover" rel="712020:57c1f2f7-7480-41d1-a9d2-b71447a10387" data-account-id="712020:57c1f2f7-7480-41d1-a9d2-b71447a10387" accountid="712020:57c1f2f7-7480-41d1-a9d2-b71447a10387" rel="noreferrer">Dhanej.Poojari</a> </p>
+        </td></tr>
+            </table>
+Generated at Thu Jul 24 07:08:20 UTC 2025 by Sahana.Marathe using Jira 1001.0.0-SNAPSHOT#100287-rev:41f55e1de4c4cf35ded344d6122e0aad2ff8c8b5.
+
+</body>
+</html>
